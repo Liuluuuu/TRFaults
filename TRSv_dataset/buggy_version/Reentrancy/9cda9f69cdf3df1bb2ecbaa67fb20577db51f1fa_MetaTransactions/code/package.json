@@ -1,0 +1,14 @@
+{
+  "name": "9cda9f69cdf3df1bb2ecbaa67fb20577db51f1fa_metatransactions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@0x/utils": "^6.5.3"
+  }
+}

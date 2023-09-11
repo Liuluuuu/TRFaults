@@ -1,0 +1,474 @@
+{
+  "contractName": "BadUpgradeabilityProxy",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "name": "_implementation",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    },
+    {
+      "payable": true,
+      "stateMutability": "payable",
+      "type": "fallback"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "name": "implementation",
+          "type": "address"
+        }
+      ],
+      "name": "Upgraded",
+      "type": "event"
+    }
+  ],
+  "bytecode": "0x6060604052341561000f57600080fd5b60405160208061024e833981016040528080519060200190919050508060405180807f6f72672e7a657070656c696e6f732e70726f78792e696d706c656d656e74617481526020017f696f6e000000000000000000000000000000000000000000000000000000000081525060230190506040518091039020600019167f7050c9e0f4ca769c69bd3a8ef740bc37934f8e2c036e5a723fd8ee048ed3f8c3600102600019161415156100bd57fe5b6100d9816100e064010000000002610078176401000000009004565b5050610149565b60006100fe82610136640100000000026100b8176401000000009004565b151561010957600080fd5b7f7050c9e0f4ca769c69bd3a8ef740bc37934f8e2c036e5a723fd8ee048ed3f8c360010290508181555050565b600080823b905060008111915050919050565b60f7806101576000396000f3006060604052600a600c565b005b60126020565b601e601a6022565b6053565b565b565b6000807f7050c9e0f4ca769c69bd3a8ef740bc37934f8e2c036e5a723fd8ee048ed3f8c36001029050805491505090565b3660008037600080366000845af43d6000803e80600081146073573d6000f35b3d6000fd5b600060818260b8565b1515608b57600080fd5b7f7050c9e0f4ca769c69bd3a8ef740bc37934f8e2c036e5a723fd8ee048ed3f8c360010290508181555050565b600080823b9050600081119150509190505600a165627a7a7230582098e659cadc77d34b3637f0576b87acadc983c4b5cbb96501fed535ed3b3ca37e0029",
+  "deployedBytecode": "0x6060604052600a600c565b005b60126020565b601e601a6022565b6053565b565b565b6000807f7050c9e0f4ca769c69bd3a8ef740bc37934f8e2c036e5a723fd8ee048ed3f8c36001029050805491505090565b3660008037600080366000845af43d6000803e80600081146073573d6000f35b3d6000fd5b600060818260b8565b1515608b57600080fd5b7f7050c9e0f4ca769c69bd3a8ef740bc37934f8e2c036e5a723fd8ee048ed3f8c360010290508181555050565b600080823b9050600081119150509190505600a165627a7a7230582098e659cadc77d34b3637f0576b87acadc983c4b5cbb96501fed535ed3b3ca37e0029",
+  "sourceMap": "80:219:1:-;;;194:103;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;271:15;1060:48:5;;;;;;;;;;;;;;;;;;;;;;;;1037:71;;;781:66;1037:19;;:71;;;;1030:79;;;;;;1116:35;1135:15;1116:18;;;;;:35;;;:::i;:::-;963:193;194:103:1;80:219;;1839:226:5;1966:12;1916:42;1940:17;1916:23;;;;;:42;;;:::i;:::-;1908:51;;;;;;;;781:66;1981:19;;1966:34;;2037:17;2031:4;2024:31;2016:45;;:::o;438:568:6:-;495:4;507:12;922:4;910:17;902:25;;1000:1;993:4;:8;986:15;;438:568;;;;:::o;80:219:1:-;;;;;;;",
+  "deployedSourceMap": "80:219:1:-;;;454:11:4;:9;:11::i;:::-;80:219:1;1953:90:4;1989:15;:13;:15::i;:::-;2010:28;2020:17;:15;:17::i;:::-;2010:9;:28::i;:::-;1953:90::o;1819:39::-;:::o;1269:156:5:-;1319:12;1339;781:66;1354:19;;1339:34;;1410:4;1404:11;1396:19;;1388:33;;:::o;879:731:4:-;1181:12;1178:1;1175;1162:32;1371:1;1368;1354:12;1351:1;1335:14;1330:3;1317:56;1435:14;1432:1;1429;1414:36;1465:6;1525:1;1520:36;;;;1583:14;1580:1;1573:25;1520:36;1539:14;1536:1;1529:25;1839:226:5;1966:12;1916:42;1940:17;1916:23;:42::i;:::-;1908:51;;;;;;;;781:66;1981:19;;1966:34;;2037:17;2031:4;2024:31;2016:45;;:::o;438:568:6:-;495:4;507:12;922:4;910:17;902:25;;1000:1;993:4;:8;986:15;;438:568;;;;:::o",
+  "source": "pragma solidity ^0.4.21;\n\n\nimport \"../upgradeability/UpgradeabilityProxy.sol\";\n\ncontract BadUpgradeabilityProxy is UpgradeabilityProxy {\n  bytes32 private constant IMPLEMENTATION_SLOT = 0x0;\n\n  function BadUpgradeabilityProxy(address _implementation) UpgradeabilityProxy(_implementation) public {}\n}\n",
+  "sourcePath": "/Users/facu/Documents/Laburo/Zeppelin/ZeppelinOS/zos-lib/contracts/mocks/BadUpgradeabilityProxy.sol",
+  "ast": {
+    "absolutePath": "/Users/facu/Documents/Laburo/Zeppelin/ZeppelinOS/zos-lib/contracts/mocks/BadUpgradeabilityProxy.sol",
+    "exportedSymbols": {
+      "BadUpgradeabilityProxy": [
+        35
+      ]
+    },
+    "id": 36,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 19,
+        "literals": [
+          "solidity",
+          "^",
+          "0.4",
+          ".21"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:24:1"
+      },
+      {
+        "absolutePath": "/Users/facu/Documents/Laburo/Zeppelin/ZeppelinOS/zos-lib/contracts/upgradeability/UpgradeabilityProxy.sol",
+        "file": "../upgradeability/UpgradeabilityProxy.sol",
+        "id": 20,
+        "nodeType": "ImportDirective",
+        "scope": 36,
+        "sourceUnit": 346,
+        "src": "27:51:1",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "baseContracts": [
+          {
+            "arguments": [],
+            "baseName": {
+              "contractScope": null,
+              "id": 21,
+              "name": "UpgradeabilityProxy",
+              "nodeType": "UserDefinedTypeName",
+              "referencedDeclaration": 345,
+              "src": "115:19:1",
+              "typeDescriptions": {
+                "typeIdentifier": "t_contract$_UpgradeabilityProxy_$345",
+                "typeString": "contract UpgradeabilityProxy"
+              }
+            },
+            "id": 22,
+            "nodeType": "InheritanceSpecifier",
+            "src": "115:19:1"
+          }
+        ],
+        "contractDependencies": [
+          270,
+          345
+        ],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 35,
+        "linearizedBaseContracts": [
+          35,
+          345,
+          270
+        ],
+        "name": "BadUpgradeabilityProxy",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "constant": true,
+            "id": 25,
+            "name": "IMPLEMENTATION_SLOT",
+            "nodeType": "VariableDeclaration",
+            "scope": 35,
+            "src": "139:50:1",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_bytes32",
+              "typeString": "bytes32"
+            },
+            "typeName": {
+              "id": 23,
+              "name": "bytes32",
+              "nodeType": "ElementaryTypeName",
+              "src": "139:7:1",
+              "typeDescriptions": {
+                "typeIdentifier": "t_bytes32",
+                "typeString": "bytes32"
+              }
+            },
+            "value": {
+              "argumentTypes": null,
+              "hexValue": "307830",
+              "id": 24,
+              "isConstant": false,
+              "isLValue": false,
+              "isPure": true,
+              "kind": "number",
+              "lValueRequested": false,
+              "nodeType": "Literal",
+              "src": "186:3:1",
+              "subdenomination": null,
+              "typeDescriptions": {
+                "typeIdentifier": "t_rational_0_by_1",
+                "typeString": "int_const 0"
+              },
+              "value": "0x0"
+            },
+            "visibility": "private"
+          },
+          {
+            "body": {
+              "id": 33,
+              "nodeType": "Block",
+              "src": "295:2:1",
+              "statements": []
+            },
+            "documentation": null,
+            "id": 34,
+            "implemented": true,
+            "isConstructor": true,
+            "isDeclaredConst": false,
+            "modifiers": [
+              {
+                "arguments": [
+                  {
+                    "argumentTypes": null,
+                    "id": 30,
+                    "name": "_implementation",
+                    "nodeType": "Identifier",
+                    "overloadedDeclarations": [],
+                    "referencedDeclaration": 27,
+                    "src": "271:15:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  }
+                ],
+                "id": 31,
+                "modifierName": {
+                  "argumentTypes": null,
+                  "id": 29,
+                  "name": "UpgradeabilityProxy",
+                  "nodeType": "Identifier",
+                  "overloadedDeclarations": [],
+                  "referencedDeclaration": 345,
+                  "src": "251:19:1",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_type$_t_contract$_UpgradeabilityProxy_$345_$",
+                    "typeString": "type(contract UpgradeabilityProxy)"
+                  }
+                },
+                "nodeType": "ModifierInvocation",
+                "src": "251:36:1"
+              }
+            ],
+            "name": "BadUpgradeabilityProxy",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 28,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 27,
+                  "name": "_implementation",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 34,
+                  "src": "226:23:1",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 26,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "226:7:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "225:25:1"
+            },
+            "payable": false,
+            "returnParameters": {
+              "id": 32,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "295:0:1"
+            },
+            "scope": 35,
+            "src": "194:103:1",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          }
+        ],
+        "scope": 36,
+        "src": "80:219:1"
+      }
+    ],
+    "src": "0:300:1"
+  },
+  "legacyAST": {
+    "absolutePath": "/Users/facu/Documents/Laburo/Zeppelin/ZeppelinOS/zos-lib/contracts/mocks/BadUpgradeabilityProxy.sol",
+    "exportedSymbols": {
+      "BadUpgradeabilityProxy": [
+        35
+      ]
+    },
+    "id": 36,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 19,
+        "literals": [
+          "solidity",
+          "^",
+          "0.4",
+          ".21"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:24:1"
+      },
+      {
+        "absolutePath": "/Users/facu/Documents/Laburo/Zeppelin/ZeppelinOS/zos-lib/contracts/upgradeability/UpgradeabilityProxy.sol",
+        "file": "../upgradeability/UpgradeabilityProxy.sol",
+        "id": 20,
+        "nodeType": "ImportDirective",
+        "scope": 36,
+        "sourceUnit": 346,
+        "src": "27:51:1",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "baseContracts": [
+          {
+            "arguments": [],
+            "baseName": {
+              "contractScope": null,
+              "id": 21,
+              "name": "UpgradeabilityProxy",
+              "nodeType": "UserDefinedTypeName",
+              "referencedDeclaration": 345,
+              "src": "115:19:1",
+              "typeDescriptions": {
+                "typeIdentifier": "t_contract$_UpgradeabilityProxy_$345",
+                "typeString": "contract UpgradeabilityProxy"
+              }
+            },
+            "id": 22,
+            "nodeType": "InheritanceSpecifier",
+            "src": "115:19:1"
+          }
+        ],
+        "contractDependencies": [
+          270,
+          345
+        ],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 35,
+        "linearizedBaseContracts": [
+          35,
+          345,
+          270
+        ],
+        "name": "BadUpgradeabilityProxy",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "constant": true,
+            "id": 25,
+            "name": "IMPLEMENTATION_SLOT",
+            "nodeType": "VariableDeclaration",
+            "scope": 35,
+            "src": "139:50:1",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_bytes32",
+              "typeString": "bytes32"
+            },
+            "typeName": {
+              "id": 23,
+              "name": "bytes32",
+              "nodeType": "ElementaryTypeName",
+              "src": "139:7:1",
+              "typeDescriptions": {
+                "typeIdentifier": "t_bytes32",
+                "typeString": "bytes32"
+              }
+            },
+            "value": {
+              "argumentTypes": null,
+              "hexValue": "307830",
+              "id": 24,
+              "isConstant": false,
+              "isLValue": false,
+              "isPure": true,
+              "kind": "number",
+              "lValueRequested": false,
+              "nodeType": "Literal",
+              "src": "186:3:1",
+              "subdenomination": null,
+              "typeDescriptions": {
+                "typeIdentifier": "t_rational_0_by_1",
+                "typeString": "int_const 0"
+              },
+              "value": "0x0"
+            },
+            "visibility": "private"
+          },
+          {
+            "body": {
+              "id": 33,
+              "nodeType": "Block",
+              "src": "295:2:1",
+              "statements": []
+            },
+            "documentation": null,
+            "id": 34,
+            "implemented": true,
+            "isConstructor": true,
+            "isDeclaredConst": false,
+            "modifiers": [
+              {
+                "arguments": [
+                  {
+                    "argumentTypes": null,
+                    "id": 30,
+                    "name": "_implementation",
+                    "nodeType": "Identifier",
+                    "overloadedDeclarations": [],
+                    "referencedDeclaration": 27,
+                    "src": "271:15:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  }
+                ],
+                "id": 31,
+                "modifierName": {
+                  "argumentTypes": null,
+                  "id": 29,
+                  "name": "UpgradeabilityProxy",
+                  "nodeType": "Identifier",
+                  "overloadedDeclarations": [],
+                  "referencedDeclaration": 345,
+                  "src": "251:19:1",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_type$_t_contract$_UpgradeabilityProxy_$345_$",
+                    "typeString": "type(contract UpgradeabilityProxy)"
+                  }
+                },
+                "nodeType": "ModifierInvocation",
+                "src": "251:36:1"
+              }
+            ],
+            "name": "BadUpgradeabilityProxy",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 28,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 27,
+                  "name": "_implementation",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 34,
+                  "src": "226:23:1",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 26,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "226:7:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "225:25:1"
+            },
+            "payable": false,
+            "returnParameters": {
+              "id": 32,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "295:0:1"
+            },
+            "scope": 35,
+            "src": "194:103:1",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          }
+        ],
+        "scope": 36,
+        "src": "80:219:1"
+      }
+    ],
+    "src": "0:300:1"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.4.21+commit.dfe3193c.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "2.0.0",
+  "updatedAt": "2018-06-14T16:46:07.956Z"
+}

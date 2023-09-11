@@ -1,0 +1,2774 @@
+{
+  "contractName": "Package",
+  "abi": [
+    {
+      "constant": false,
+      "inputs": [],
+      "name": "renounceOwnership",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "owner",
+      "outputs": [
+        {
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "_newOwner",
+          "type": "address"
+        }
+      ],
+      "name": "transferOwnership",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "name": "version",
+          "type": "string"
+        },
+        {
+          "indexed": false,
+          "name": "provider",
+          "type": "address"
+        }
+      ],
+      "name": "VersionAdded",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "name": "previousOwner",
+          "type": "address"
+        }
+      ],
+      "name": "OwnershipRenounced",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "name": "previousOwner",
+          "type": "address"
+        },
+        {
+          "indexed": true,
+          "name": "newOwner",
+          "type": "address"
+        }
+      ],
+      "name": "OwnershipTransferred",
+      "type": "event"
+    },
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "name": "version",
+          "type": "string"
+        }
+      ],
+      "name": "getVersion",
+      "outputs": [
+        {
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "version",
+          "type": "string"
+        },
+        {
+          "name": "provider",
+          "type": "address"
+        }
+      ],
+      "name": "addVersion",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "name": "version",
+          "type": "string"
+        }
+      ],
+      "name": "hasVersion",
+      "outputs": [
+        {
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "name": "version",
+          "type": "string"
+        },
+        {
+          "name": "contractName",
+          "type": "string"
+        }
+      ],
+      "name": "getImplementation",
+      "outputs": [
+        {
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x6080604052336000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff160217905550610b90806100536000396000f300608060405260043610610083576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff1680632200919f1461008857806327a0d669146101115780633ab50a9c14610200578063715018a6146102a95780638da5cb5b146102c0578063eb0a70c114610317578063f2fde38b14610398575b600080fd5b34801561009457600080fd5b5061010f600480360381019080803590602001908201803590602001908080601f0160208091040260200160405190810160405280939291908181526020018383808284378201915050505050509192919290803573ffffffffffffffffffffffffffffffffffffffff1690602001909291905050506103db565b005b34801561011d57600080fd5b506101be600480360381019080803590602001908201803590602001908080601f0160208091040260200160405190810160405280939291908181526020018383808284378201915050505050509192919290803590602001908201803590602001908080601f0160208091040260200160405190810160405280939291908181526020018383808284378201915050505050509192919290505050610658565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b34801561020c57600080fd5b50610267600480360381019080803590602001908201803590602001908080601f016020809104026020016040519081016040528093929190818152602001838380828437820191505050505050919291929050505061077e565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b3480156102b557600080fd5b506102be610818565b005b3480156102cc57600080fd5b506102d561091a565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b34801561032357600080fd5b5061037e600480360381019080803590602001908201803590602001908080601f016020809104026020016040519081016040528093929190818152602001838380828437820191505050505050919291929050505061093f565b604051808215151515815260200191505060405180910390f35b3480156103a457600080fd5b506103d9600480360381019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610a03565b005b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff1614151561043657600080fd5b61043f8261093f565b1515156104da576040517f08c379a000000000000000000000000000000000000000000000000000000000815260040180806020018281038252602e8152602001807f476976656e2076657273696f6e20697320616c7265616479207265676973746581526020017f72656420696e207061636b61676500000000000000000000000000000000000081525060400191505060405180910390fd5b806001836040518082805190602001908083835b60208310151561051357805182526020820191506020810190506020830392506104ee565b6001836020036101000a038019825116818451168082178552505050505050905001915050908152602001604051809103902060006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055507fe2a08c9e50f4a219841f60ac40fa9d1f2cccb83ac2d3439c8c568fdf1f7c19e4828260405180806020018373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001828103825284818151815260200191508051906020019080838360005b838110156106195780820151818401526020810190506105fe565b50505050905090810190601f1680156106465780820380516001836020036101000a031916815260200191505b50935050505060405180910390a15050565b6000806106648461077e565b90508073ffffffffffffffffffffffffffffffffffffffff16636b683896846040518263ffffffff167c01000000000000000000000000000000000000000000000000000000000281526004018080602001828103825283818151815260200191508051906020019080838360005b838110156106ee5780820151818401526020810190506106d3565b50505050905090810190601f16801561071b5780820380516001836020036101000a031916815260200191505b5092505050602060405180830381600087803b15801561073a57600080fd5b505af115801561074e573d6000803e3d6000fd5b505050506040513d602081101561076457600080fd5b810190808051906020019092919050505091505092915050565b6000806001836040518082805190602001908083835b6020831015156107b95780518252602082019150602081019050602083039250610794565b6001836020036101000a038019825116818451168082178552505050505050905001915050908152602001604051809103902060009054906101000a900473ffffffffffffffffffffffffffffffffffffffff16905080915050919050565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff1614151561087357600080fd5b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff167ff8df31144d9c2f0f6b59d69b8b98abd5459d07f2742c4df920b25aae33c6482060405160405180910390a260008060006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff160217905550565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b60008073ffffffffffffffffffffffffffffffffffffffff166001836040518082805190602001908083835b602083101515610990578051825260208201915060208101905060208303925061096b565b6001836020036101000a038019825116818451168082178552505050505050905001915050908152602001604051809103902060009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1614159050919050565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff16141515610a5e57600080fd5b610a6781610a6a565b50565b600073ffffffffffffffffffffffffffffffffffffffff168173ffffffffffffffffffffffffffffffffffffffff1614151515610aa657600080fd5b8073ffffffffffffffffffffffffffffffffffffffff166000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff167f8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e060405160405180910390a3806000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff160217905550505600a165627a7a72305820d63c7327eb236570fdbefae5f105ddc9ea6961ee39b4b848c51f68ad8b18a5cb0029",
+  "deployedBytecode": "0x608060405260043610610083576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff1680632200919f1461008857806327a0d669146101115780633ab50a9c14610200578063715018a6146102a95780638da5cb5b146102c0578063eb0a70c114610317578063f2fde38b14610398575b600080fd5b34801561009457600080fd5b5061010f600480360381019080803590602001908201803590602001908080601f0160208091040260200160405190810160405280939291908181526020018383808284378201915050505050509192919290803573ffffffffffffffffffffffffffffffffffffffff1690602001909291905050506103db565b005b34801561011d57600080fd5b506101be600480360381019080803590602001908201803590602001908080601f0160208091040260200160405190810160405280939291908181526020018383808284378201915050505050509192919290803590602001908201803590602001908080601f0160208091040260200160405190810160405280939291908181526020018383808284378201915050505050509192919290505050610658565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b34801561020c57600080fd5b50610267600480360381019080803590602001908201803590602001908080601f016020809104026020016040519081016040528093929190818152602001838380828437820191505050505050919291929050505061077e565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b3480156102b557600080fd5b506102be610818565b005b3480156102cc57600080fd5b506102d561091a565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b34801561032357600080fd5b5061037e600480360381019080803590602001908201803590602001908080601f016020809104026020016040519081016040528093929190818152602001838380828437820191505050505050919291929050505061093f565b604051808215151515815260200191505060405180910390f35b3480156103a457600080fd5b506103d9600480360381019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610a03565b005b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff1614151561043657600080fd5b61043f8261093f565b1515156104da576040517f08c379a000000000000000000000000000000000000000000000000000000000815260040180806020018281038252602e8152602001807f476976656e2076657273696f6e20697320616c7265616479207265676973746581526020017f72656420696e207061636b61676500000000000000000000000000000000000081525060400191505060405180910390fd5b806001836040518082805190602001908083835b60208310151561051357805182526020820191506020810190506020830392506104ee565b6001836020036101000a038019825116818451168082178552505050505050905001915050908152602001604051809103902060006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055507fe2a08c9e50f4a219841f60ac40fa9d1f2cccb83ac2d3439c8c568fdf1f7c19e4828260405180806020018373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001828103825284818151815260200191508051906020019080838360005b838110156106195780820151818401526020810190506105fe565b50505050905090810190601f1680156106465780820380516001836020036101000a031916815260200191505b50935050505060405180910390a15050565b6000806106648461077e565b90508073ffffffffffffffffffffffffffffffffffffffff16636b683896846040518263ffffffff167c01000000000000000000000000000000000000000000000000000000000281526004018080602001828103825283818151815260200191508051906020019080838360005b838110156106ee5780820151818401526020810190506106d3565b50505050905090810190601f16801561071b5780820380516001836020036101000a031916815260200191505b5092505050602060405180830381600087803b15801561073a57600080fd5b505af115801561074e573d6000803e3d6000fd5b505050506040513d602081101561076457600080fd5b810190808051906020019092919050505091505092915050565b6000806001836040518082805190602001908083835b6020831015156107b95780518252602082019150602081019050602083039250610794565b6001836020036101000a038019825116818451168082178552505050505050905001915050908152602001604051809103902060009054906101000a900473ffffffffffffffffffffffffffffffffffffffff16905080915050919050565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff1614151561087357600080fd5b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff167ff8df31144d9c2f0f6b59d69b8b98abd5459d07f2742c4df920b25aae33c6482060405160405180910390a260008060006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff160217905550565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b60008073ffffffffffffffffffffffffffffffffffffffff166001836040518082805190602001908083835b602083101515610990578051825260208201915060208101905060208303925061096b565b6001836020036101000a038019825116818451168082178552505050505050905001915050908152602001604051809103902060009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1614159050919050565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff16141515610a5e57600080fd5b610a6781610a6a565b50565b600073ffffffffffffffffffffffffffffffffffffffff168173ffffffffffffffffffffffffffffffffffffffff1614151515610aa657600080fd5b8073ffffffffffffffffffffffffffffffffffffffff166000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff167f8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e060405160405180910390a3806000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff160217905550505600a165627a7a72305820d63c7327eb236570fdbefae5f105ddc9ea6961ee39b4b848c51f68ad8b18a5cb0029",
+  "sourceMap": "310:2083:7:-;;;575:10:23;567:5;;:18;;;;;;;;;;;;;;;;;;310:2083:7;;;;;;",
+  "deployedSourceMap": "310:2083:7:-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1367:252;;8:9:-1;5:2;;;30:1;27;20:12;5:2;1367:252:7;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;2180:211;;8:9:-1;5:2;;;30:1;27;20:12;5:2;2180:211:7;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;997:164;;8:9:-1;5:2;;;30:1;27;20:12;5:2;997:164:7;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;827:111:23;;8:9:-1;5:2;;;30:1;27;20:12;5:2;827:111:23;;;;;;238:20;;8:9:-1;5:2;;;30:1;27;20:12;5:2;238:20:23;;;;;;;;;;;;;;;;;;;;;;;;;;;1815:121:7;;8:9:-1;5:2;;;30:1;27;20:12;5:2;1815:121:7;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1100:103:23;;8:9:-1;5:2;;;30:1;27;20:12;5:2;1100:103:23;;;;;;;;;;;;;;;;;;;;;;;;;;;;1367:252:7;719:5:23;;;;;;;;;;;705:19;;:10;:19;;;697:28;;;;;;;;1468:19:7;1479:7;1468:10;:19::i;:::-;1467:20;1459:79;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1564:8;1544;1553:7;1544:17;;;;;;;;;;;;;36:153:-1;66:2;61:3;58:11;51:19;36:153;;;182:3;176:10;171:3;164:23;98:2;93:3;89:12;82:19;;123:2;118:3;114:12;107:19;;148:2;143:3;139:12;132:19;;36:153;;;274:1;267:3;263:2;259:12;254:3;250:22;246:30;315:4;311:9;305:3;299:10;295:26;356:4;350:3;344:10;340:21;389:7;380;377:20;372:3;365:33;3:399;;;1544:17:7;;;;;;;;;;;;;;;;;;;;;;:28;;;;;;;;;;;;;;;;;;1583:31;1596:7;1605:8;1583:31;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;23:1:-1;8:100;33:3;30:1;27:10;8:100;;;99:1;94:3;90:11;84:18;80:1;75:3;71:11;64:39;52:2;49:1;45:10;40:15;;8:100;;;12:14;1583:31:7;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1367:252;;:::o;2180:211::-;2265:7;2280:31;2314:19;2325:7;2314:10;:19::i;:::-;2280:53;;2346:8;:26;;;2373:12;2346:40;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;23:1:-1;8:100;33:3;30:1;27:10;8:100;;;99:1;94:3;90:11;84:18;80:1;75:3;71:11;64:39;52:2;49:1;45:10;40:15;;8:100;;;12:14;2346:40:7;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;2346:40:7;;;;8:9:-1;5:2;;;45:16;42:1;39;24:38;77:16;74:1;67:27;5:2;2346:40:7;;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;2346:40:7;;;;;;;;;;;;;;;;2339:47;;2180:211;;;;;:::o;997:164::-;1054:22;1084:31;1118:8;1127:7;1118:17;;;;;;;;;;;;;36:153:-1;66:2;61:3;58:11;51:19;36:153;;;182:3;176:10;171:3;164:23;98:2;93:3;89:12;82:19;;123:2;118:3;114:12;107:19;;148:2;143:3;139:12;132:19;;36:153;;;274:1;267:3;263:2;259:12;254:3;250:22;246:30;315:4;311:9;305:3;299:10;295:26;356:4;350:3;344:10;340:21;389:7;380;377:20;372:3;365:33;3:399;;;1118:17:7;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1084:51;;1148:8;1141:15;;997:164;;;;:::o;827:111:23:-;719:5;;;;;;;;;;;705:19;;:10;:19;;;697:28;;;;;;;;903:5;;;;;;;;;;;884:25;;;;;;;;;;;;931:1;915:5;;:18;;;;;;;;;;;;;;;;;;827:111::o;238:20::-;;;;;;;;;;;;;:::o;1815:121:7:-;1872:4;1929:1;1891:40;;1899:8;1908:7;1899:17;;;;;;;;;;;;;36:153:-1;66:2;61:3;58:11;51:19;36:153;;;182:3;176:10;171:3;164:23;98:2;93:3;89:12;82:19;;123:2;118:3;114:12;107:19;;148:2;143:3;139:12;132:19;;36:153;;;274:1;267:3;263:2;259:12;254:3;250:22;246:30;315:4;311:9;305:3;299:10;295:26;356:4;350:3;344:10;340:21;389:7;380;377:20;372:3;365:33;3:399;;;1899:17:7;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1891:40;;;;1884:47;;1815:121;;;:::o;1100:103:23:-;719:5;;;;;;;;;;;705:19;;:10;:19;;;697:28;;;;;;;;1169:29;1188:9;1169:18;:29::i;:::-;1100:103;:::o;1338:171::-;1429:1;1408:23;;:9;:23;;;;1400:32;;;;;;;;1471:9;1443:38;;1464:5;;;;;;;;;;;1443:38;;;;;;;;;;;;1495:9;1487:5;;:17;;;;;;;;;;;;;;;;;;1338:171;:::o",
+  "source": "pragma solidity ^0.4.24;\n\nimport \"./ImplementationProvider.sol\";\nimport \"openzeppelin-solidity/contracts/ownership/Ownable.sol\";\n\n/**\n * @title Package\n * @dev Collection of contracts grouped into versions.\n * Contracts with the same name can have different implementation addresses in different versions.\n */\ncontract Package is Ownable {\n  /**\n   * @dev Emitted when a version is added to the package.\n   * XXX The version is not indexed due to truffle testing constraints.\n   * @param version Name of the added version.\n   * @param provider ImplementationProvider associated with the version.\n   */\n  event VersionAdded(string version, ImplementationProvider provider);\n\n  /*\n   * @dev Mapping associating versions and their implementation providers.\n   */\n  mapping (string => ImplementationProvider) internal versions;\n\n  /**\n   * @dev Returns the implementation provider of a version.\n   * @param version Name of the version.\n   * @return The implementation provider of the version.\n   */\n  function getVersion(string version) public view returns (ImplementationProvider) {\n    ImplementationProvider provider = versions[version];\n    return provider;\n  }\n\n  /**\n   * @dev Adds the implementation provider of a new version to the package.\n   * @param version Name of the version.\n   * @param provider ImplementationProvider associated with the version.\n   */\n  function addVersion(string version, ImplementationProvider provider) public onlyOwner {\n    require(!hasVersion(version), \"Given version is already registered in package\");\n    versions[version] = provider;\n    emit VersionAdded(version, provider);\n  }\n\n  /**\n   * @dev Checks whether a version is present in the package.\n   * @param version Name of the version.\n   * @return true if the version is already in the package, false otherwise.\n   */\n  function hasVersion(string version) public view returns (bool) {\n    return address(versions[version]) != address(0);\n  }\n\n  /**\n   * @dev Returns the implementation address for a given version and contract name.\n   * @param version Name of the version.\n   * @param contractName Name of the contract.\n   * @return Address where the contract is implemented.\n   */\n  function getImplementation(string version, string contractName) public view returns (address) {\n    ImplementationProvider provider = getVersion(version);\n    return provider.getImplementation(contractName);\n  }\n}\n",
+  "sourcePath": "/Users/facu/Documents/Laburo/Zeppelin/ZeppelinOS/zos-lib/contracts/application/versioning/Package.sol",
+  "ast": {
+    "absolutePath": "/Users/facu/Documents/Laburo/Zeppelin/ZeppelinOS/zos-lib/contracts/application/versioning/Package.sol",
+    "exportedSymbols": {
+      "Package": [
+        662
+      ]
+    },
+    "id": 663,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 563,
+        "literals": [
+          "solidity",
+          "^",
+          "0.4",
+          ".24"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:24:7"
+      },
+      {
+        "absolutePath": "/Users/facu/Documents/Laburo/Zeppelin/ZeppelinOS/zos-lib/contracts/application/versioning/ImplementationProvider.sol",
+        "file": "./ImplementationProvider.sol",
+        "id": 564,
+        "nodeType": "ImportDirective",
+        "scope": 663,
+        "sourceUnit": 562,
+        "src": "26:38:7",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "absolutePath": "openzeppelin-solidity/contracts/ownership/Ownable.sol",
+        "file": "openzeppelin-solidity/contracts/ownership/Ownable.sol",
+        "id": 565,
+        "nodeType": "ImportDirective",
+        "scope": 663,
+        "sourceUnit": 2013,
+        "src": "65:63:7",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "baseContracts": [
+          {
+            "arguments": null,
+            "baseName": {
+              "contractScope": null,
+              "id": 566,
+              "name": "Ownable",
+              "nodeType": "UserDefinedTypeName",
+              "referencedDeclaration": 2012,
+              "src": "330:7:7",
+              "typeDescriptions": {
+                "typeIdentifier": "t_contract$_Ownable_$2012",
+                "typeString": "contract Ownable"
+              }
+            },
+            "id": 567,
+            "nodeType": "InheritanceSpecifier",
+            "src": "330:7:7"
+          }
+        ],
+        "contractDependencies": [
+          2012
+        ],
+        "contractKind": "contract",
+        "documentation": "@title Package\n@dev Collection of contracts grouped into versions.\nContracts with the same name can have different implementation addresses in different versions.",
+        "fullyImplemented": true,
+        "id": 662,
+        "linearizedBaseContracts": [
+          662,
+          2012
+        ],
+        "name": "Package",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "anonymous": false,
+            "documentation": "@dev Emitted when a version is added to the package.\nXXX The version is not indexed due to truffle testing constraints.\n@param version Name of the added version.\n@param provider ImplementationProvider associated with the version.",
+            "id": 573,
+            "name": "VersionAdded",
+            "nodeType": "EventDefinition",
+            "parameters": {
+              "id": 572,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 569,
+                  "indexed": false,
+                  "name": "version",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 573,
+                  "src": "623:14:7",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_memory_ptr",
+                    "typeString": "string"
+                  },
+                  "typeName": {
+                    "id": 568,
+                    "name": "string",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "623:6:7",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_string_storage_ptr",
+                      "typeString": "string"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 571,
+                  "indexed": false,
+                  "name": "provider",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 573,
+                  "src": "639:31:7",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_contract$_ImplementationProvider_$561",
+                    "typeString": "contract ImplementationProvider"
+                  },
+                  "typeName": {
+                    "contractScope": null,
+                    "id": 570,
+                    "name": "ImplementationProvider",
+                    "nodeType": "UserDefinedTypeName",
+                    "referencedDeclaration": 561,
+                    "src": "639:22:7",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_contract$_ImplementationProvider_$561",
+                      "typeString": "contract ImplementationProvider"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "622:49:7"
+            },
+            "src": "604:68:7"
+          },
+          {
+            "constant": false,
+            "id": 577,
+            "name": "versions",
+            "nodeType": "VariableDeclaration",
+            "scope": 662,
+            "src": "762:60:7",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_mapping$_t_string_memory_$_t_contract$_ImplementationProvider_$561_$",
+              "typeString": "mapping(string => contract ImplementationProvider)"
+            },
+            "typeName": {
+              "id": 576,
+              "keyType": {
+                "id": 574,
+                "name": "string",
+                "nodeType": "ElementaryTypeName",
+                "src": "771:6:7",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_string_storage_ptr",
+                  "typeString": "string"
+                }
+              },
+              "nodeType": "Mapping",
+              "src": "762:42:7",
+              "typeDescriptions": {
+                "typeIdentifier": "t_mapping$_t_string_memory_$_t_contract$_ImplementationProvider_$561_$",
+                "typeString": "mapping(string => contract ImplementationProvider)"
+              },
+              "valueType": {
+                "contractScope": null,
+                "id": 575,
+                "name": "ImplementationProvider",
+                "nodeType": "UserDefinedTypeName",
+                "referencedDeclaration": 561,
+                "src": "781:22:7",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_contract$_ImplementationProvider_$561",
+                  "typeString": "contract ImplementationProvider"
+                }
+              }
+            },
+            "value": null,
+            "visibility": "internal"
+          },
+          {
+            "body": {
+              "id": 592,
+              "nodeType": "Block",
+              "src": "1078:83:7",
+              "statements": [
+                {
+                  "assignments": [
+                    585
+                  ],
+                  "declarations": [
+                    {
+                      "constant": false,
+                      "id": 585,
+                      "name": "provider",
+                      "nodeType": "VariableDeclaration",
+                      "scope": 593,
+                      "src": "1084:31:7",
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_contract$_ImplementationProvider_$561",
+                        "typeString": "contract ImplementationProvider"
+                      },
+                      "typeName": {
+                        "contractScope": null,
+                        "id": 584,
+                        "name": "ImplementationProvider",
+                        "nodeType": "UserDefinedTypeName",
+                        "referencedDeclaration": 561,
+                        "src": "1084:22:7",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_contract$_ImplementationProvider_$561",
+                          "typeString": "contract ImplementationProvider"
+                        }
+                      },
+                      "value": null,
+                      "visibility": "internal"
+                    }
+                  ],
+                  "id": 589,
+                  "initialValue": {
+                    "argumentTypes": null,
+                    "baseExpression": {
+                      "argumentTypes": null,
+                      "id": 586,
+                      "name": "versions",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 577,
+                      "src": "1118:8:7",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_mapping$_t_string_memory_$_t_contract$_ImplementationProvider_$561_$",
+                        "typeString": "mapping(string memory => contract ImplementationProvider)"
+                      }
+                    },
+                    "id": 588,
+                    "indexExpression": {
+                      "argumentTypes": null,
+                      "id": 587,
+                      "name": "version",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 579,
+                      "src": "1127:7:7",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_string_memory_ptr",
+                        "typeString": "string memory"
+                      }
+                    },
+                    "isConstant": false,
+                    "isLValue": true,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "nodeType": "IndexAccess",
+                    "src": "1118:17:7",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_contract$_ImplementationProvider_$561",
+                      "typeString": "contract ImplementationProvider"
+                    }
+                  },
+                  "nodeType": "VariableDeclarationStatement",
+                  "src": "1084:51:7"
+                },
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "id": 590,
+                    "name": "provider",
+                    "nodeType": "Identifier",
+                    "overloadedDeclarations": [],
+                    "referencedDeclaration": 585,
+                    "src": "1148:8:7",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_contract$_ImplementationProvider_$561",
+                      "typeString": "contract ImplementationProvider"
+                    }
+                  },
+                  "functionReturnParameters": 583,
+                  "id": 591,
+                  "nodeType": "Return",
+                  "src": "1141:15:7"
+                }
+              ]
+            },
+            "documentation": "@dev Returns the implementation provider of a version.\n@param version Name of the version.\n@return The implementation provider of the version.",
+            "id": 593,
+            "implemented": true,
+            "isConstructor": false,
+            "isDeclaredConst": true,
+            "modifiers": [],
+            "name": "getVersion",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 580,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 579,
+                  "name": "version",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 593,
+                  "src": "1017:14:7",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_memory_ptr",
+                    "typeString": "string"
+                  },
+                  "typeName": {
+                    "id": 578,
+                    "name": "string",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1017:6:7",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_string_storage_ptr",
+                      "typeString": "string"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "1016:16:7"
+            },
+            "payable": false,
+            "returnParameters": {
+              "id": 583,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 582,
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 593,
+                  "src": "1054:22:7",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_contract$_ImplementationProvider_$561",
+                    "typeString": "contract ImplementationProvider"
+                  },
+                  "typeName": {
+                    "contractScope": null,
+                    "id": 581,
+                    "name": "ImplementationProvider",
+                    "nodeType": "UserDefinedTypeName",
+                    "referencedDeclaration": 561,
+                    "src": "1054:22:7",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_contract$_ImplementationProvider_$561",
+                      "typeString": "contract ImplementationProvider"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "1053:24:7"
+            },
+            "scope": 662,
+            "src": "997:164:7",
+            "stateMutability": "view",
+            "superFunction": null,
+            "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 621,
+              "nodeType": "Block",
+              "src": "1453:166:7",
+              "statements": [
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "arguments": [
+                      {
+                        "argumentTypes": null,
+                        "id": 606,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "nodeType": "UnaryOperation",
+                        "operator": "!",
+                        "prefix": true,
+                        "src": "1467:20:7",
+                        "subExpression": {
+                          "argumentTypes": null,
+                          "arguments": [
+                            {
+                              "argumentTypes": null,
+                              "id": 604,
+                              "name": "version",
+                              "nodeType": "Identifier",
+                              "overloadedDeclarations": [],
+                              "referencedDeclaration": 595,
+                              "src": "1479:7:7",
+                              "typeDescriptions": {
+                                "typeIdentifier": "t_string_memory_ptr",
+                                "typeString": "string memory"
+                              }
+                            }
+                          ],
+                          "expression": {
+                            "argumentTypes": [
+                              {
+                                "typeIdentifier": "t_string_memory_ptr",
+                                "typeString": "string memory"
+                              }
+                            ],
+                            "id": 603,
+                            "name": "hasVersion",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": 640,
+                            "src": "1468:10:7",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_function_internal_view$_t_string_memory_ptr_$returns$_t_bool_$",
+                              "typeString": "function (string memory) view returns (bool)"
+                            }
+                          },
+                          "id": 605,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": false,
+                          "kind": "functionCall",
+                          "lValueRequested": false,
+                          "names": [],
+                          "nodeType": "FunctionCall",
+                          "src": "1468:19:7",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_bool",
+                            "typeString": "bool"
+                          }
+                        },
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_bool",
+                          "typeString": "bool"
+                        }
+                      },
+                      {
+                        "argumentTypes": null,
+                        "hexValue": "476976656e2076657273696f6e20697320616c7265616479207265676973746572656420696e207061636b616765",
+                        "id": 607,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": true,
+                        "kind": "string",
+                        "lValueRequested": false,
+                        "nodeType": "Literal",
+                        "src": "1489:48:7",
+                        "subdenomination": null,
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_stringliteral_8b3ae3984ba439aa79dd8a004069b5c408247b6da429c2768dd9a60b038d8514",
+                          "typeString": "literal_string \"Given version is already registered in package\""
+                        },
+                        "value": "Given version is already registered in package"
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_bool",
+                          "typeString": "bool"
+                        },
+                        {
+                          "typeIdentifier": "t_stringliteral_8b3ae3984ba439aa79dd8a004069b5c408247b6da429c2768dd9a60b038d8514",
+                          "typeString": "literal_string \"Given version is already registered in package\""
+                        }
+                      ],
+                      "id": 602,
+                      "name": "require",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [
+                        2030,
+                        2031
+                      ],
+                      "referencedDeclaration": 2031,
+                      "src": "1459:7:7",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
+                        "typeString": "function (bool,string memory) pure"
+                      }
+                    },
+                    "id": 608,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "1459:79:7",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_tuple$__$",
+                      "typeString": "tuple()"
+                    }
+                  },
+                  "id": 609,
+                  "nodeType": "ExpressionStatement",
+                  "src": "1459:79:7"
+                },
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "id": 614,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "argumentTypes": null,
+                      "baseExpression": {
+                        "argumentTypes": null,
+                        "id": 610,
+                        "name": "versions",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 577,
+                        "src": "1544:8:7",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_mapping$_t_string_memory_$_t_contract$_ImplementationProvider_$561_$",
+                          "typeString": "mapping(string memory => contract ImplementationProvider)"
+                        }
+                      },
+                      "id": 612,
+                      "indexExpression": {
+                        "argumentTypes": null,
+                        "id": 611,
+                        "name": "version",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 595,
+                        "src": "1553:7:7",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_string_memory_ptr",
+                          "typeString": "string memory"
+                        }
+                      },
+                      "isConstant": false,
+                      "isLValue": true,
+                      "isPure": false,
+                      "lValueRequested": true,
+                      "nodeType": "IndexAccess",
+                      "src": "1544:17:7",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_contract$_ImplementationProvider_$561",
+                        "typeString": "contract ImplementationProvider"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "argumentTypes": null,
+                      "id": 613,
+                      "name": "provider",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 597,
+                      "src": "1564:8:7",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_contract$_ImplementationProvider_$561",
+                        "typeString": "contract ImplementationProvider"
+                      }
+                    },
+                    "src": "1544:28:7",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_contract$_ImplementationProvider_$561",
+                      "typeString": "contract ImplementationProvider"
+                    }
+                  },
+                  "id": 615,
+                  "nodeType": "ExpressionStatement",
+                  "src": "1544:28:7"
+                },
+                {
+                  "eventCall": {
+                    "argumentTypes": null,
+                    "arguments": [
+                      {
+                        "argumentTypes": null,
+                        "id": 617,
+                        "name": "version",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 595,
+                        "src": "1596:7:7",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_string_memory_ptr",
+                          "typeString": "string memory"
+                        }
+                      },
+                      {
+                        "argumentTypes": null,
+                        "id": 618,
+                        "name": "provider",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 597,
+                        "src": "1605:8:7",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_contract$_ImplementationProvider_$561",
+                          "typeString": "contract ImplementationProvider"
+                        }
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_string_memory_ptr",
+                          "typeString": "string memory"
+                        },
+                        {
+                          "typeIdentifier": "t_contract$_ImplementationProvider_$561",
+                          "typeString": "contract ImplementationProvider"
+                        }
+                      ],
+                      "id": 616,
+                      "name": "VersionAdded",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 573,
+                      "src": "1583:12:7",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_event_nonpayable$_t_string_memory_ptr_$_t_contract$_ImplementationProvider_$561_$returns$__$",
+                        "typeString": "function (string memory,contract ImplementationProvider)"
+                      }
+                    },
+                    "id": 619,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "1583:31:7",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_tuple$__$",
+                      "typeString": "tuple()"
+                    }
+                  },
+                  "id": 620,
+                  "nodeType": "EmitStatement",
+                  "src": "1578:36:7"
+                }
+              ]
+            },
+            "documentation": "@dev Adds the implementation provider of a new version to the package.\n@param version Name of the version.\n@param provider ImplementationProvider associated with the version.",
+            "id": 622,
+            "implemented": true,
+            "isConstructor": false,
+            "isDeclaredConst": false,
+            "modifiers": [
+              {
+                "arguments": null,
+                "id": 600,
+                "modifierName": {
+                  "argumentTypes": null,
+                  "id": 599,
+                  "name": "onlyOwner",
+                  "nodeType": "Identifier",
+                  "overloadedDeclarations": [],
+                  "referencedDeclaration": 1960,
+                  "src": "1443:9:7",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_modifier$__$",
+                    "typeString": "modifier ()"
+                  }
+                },
+                "nodeType": "ModifierInvocation",
+                "src": "1443:9:7"
+              }
+            ],
+            "name": "addVersion",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 598,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 595,
+                  "name": "version",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 622,
+                  "src": "1387:14:7",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_memory_ptr",
+                    "typeString": "string"
+                  },
+                  "typeName": {
+                    "id": 594,
+                    "name": "string",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1387:6:7",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_string_storage_ptr",
+                      "typeString": "string"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 597,
+                  "name": "provider",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 622,
+                  "src": "1403:31:7",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_contract$_ImplementationProvider_$561",
+                    "typeString": "contract ImplementationProvider"
+                  },
+                  "typeName": {
+                    "contractScope": null,
+                    "id": 596,
+                    "name": "ImplementationProvider",
+                    "nodeType": "UserDefinedTypeName",
+                    "referencedDeclaration": 561,
+                    "src": "1403:22:7",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_contract$_ImplementationProvider_$561",
+                      "typeString": "contract ImplementationProvider"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "1386:49:7"
+            },
+            "payable": false,
+            "returnParameters": {
+              "id": 601,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "1453:0:7"
+            },
+            "scope": 662,
+            "src": "1367:252:7",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 639,
+              "nodeType": "Block",
+              "src": "1878:58:7",
+              "statements": [
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "commonType": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    },
+                    "id": 637,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftExpression": {
+                      "argumentTypes": null,
+                      "arguments": [
+                        {
+                          "argumentTypes": null,
+                          "baseExpression": {
+                            "argumentTypes": null,
+                            "id": 630,
+                            "name": "versions",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": 577,
+                            "src": "1899:8:7",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_mapping$_t_string_memory_$_t_contract$_ImplementationProvider_$561_$",
+                              "typeString": "mapping(string memory => contract ImplementationProvider)"
+                            }
+                          },
+                          "id": 632,
+                          "indexExpression": {
+                            "argumentTypes": null,
+                            "id": 631,
+                            "name": "version",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": 624,
+                            "src": "1908:7:7",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_string_memory_ptr",
+                              "typeString": "string memory"
+                            }
+                          },
+                          "isConstant": false,
+                          "isLValue": true,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "nodeType": "IndexAccess",
+                          "src": "1899:17:7",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_contract$_ImplementationProvider_$561",
+                            "typeString": "contract ImplementationProvider"
+                          }
+                        }
+                      ],
+                      "expression": {
+                        "argumentTypes": [
+                          {
+                            "typeIdentifier": "t_contract$_ImplementationProvider_$561",
+                            "typeString": "contract ImplementationProvider"
+                          }
+                        ],
+                        "id": 629,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": true,
+                        "lValueRequested": false,
+                        "nodeType": "ElementaryTypeNameExpression",
+                        "src": "1891:7:7",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_type$_t_address_$",
+                          "typeString": "type(address)"
+                        },
+                        "typeName": "address"
+                      },
+                      "id": 633,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "kind": "typeConversion",
+                      "lValueRequested": false,
+                      "names": [],
+                      "nodeType": "FunctionCall",
+                      "src": "1891:26:7",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_address",
+                        "typeString": "address"
+                      }
+                    },
+                    "nodeType": "BinaryOperation",
+                    "operator": "!=",
+                    "rightExpression": {
+                      "argumentTypes": null,
+                      "arguments": [
+                        {
+                          "argumentTypes": null,
+                          "hexValue": "30",
+                          "id": 635,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": true,
+                          "kind": "number",
+                          "lValueRequested": false,
+                          "nodeType": "Literal",
+                          "src": "1929:1:7",
+                          "subdenomination": null,
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_rational_0_by_1",
+                            "typeString": "int_const 0"
+                          },
+                          "value": "0"
+                        }
+                      ],
+                      "expression": {
+                        "argumentTypes": [
+                          {
+                            "typeIdentifier": "t_rational_0_by_1",
+                            "typeString": "int_const 0"
+                          }
+                        ],
+                        "id": 634,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": true,
+                        "lValueRequested": false,
+                        "nodeType": "ElementaryTypeNameExpression",
+                        "src": "1921:7:7",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_type$_t_address_$",
+                          "typeString": "type(address)"
+                        },
+                        "typeName": "address"
+                      },
+                      "id": 636,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": true,
+                      "kind": "typeConversion",
+                      "lValueRequested": false,
+                      "names": [],
+                      "nodeType": "FunctionCall",
+                      "src": "1921:10:7",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_address",
+                        "typeString": "address"
+                      }
+                    },
+                    "src": "1891:40:7",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "functionReturnParameters": 628,
+                  "id": 638,
+                  "nodeType": "Return",
+                  "src": "1884:47:7"
+                }
+              ]
+            },
+            "documentation": "@dev Checks whether a version is present in the package.\n@param version Name of the version.\n@return true if the version is already in the package, false otherwise.",
+            "id": 640,
+            "implemented": true,
+            "isConstructor": false,
+            "isDeclaredConst": true,
+            "modifiers": [],
+            "name": "hasVersion",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 625,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 624,
+                  "name": "version",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 640,
+                  "src": "1835:14:7",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_memory_ptr",
+                    "typeString": "string"
+                  },
+                  "typeName": {
+                    "id": 623,
+                    "name": "string",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1835:6:7",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_string_storage_ptr",
+                      "typeString": "string"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "1834:16:7"
+            },
+            "payable": false,
+            "returnParameters": {
+              "id": 628,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 627,
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 640,
+                  "src": "1872:4:7",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bool",
+                    "typeString": "bool"
+                  },
+                  "typeName": {
+                    "id": 626,
+                    "name": "bool",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1872:4:7",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "1871:6:7"
+            },
+            "scope": 662,
+            "src": "1815:121:7",
+            "stateMutability": "view",
+            "superFunction": null,
+            "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 660,
+              "nodeType": "Block",
+              "src": "2274:117:7",
+              "statements": [
+                {
+                  "assignments": [
+                    650
+                  ],
+                  "declarations": [
+                    {
+                      "constant": false,
+                      "id": 650,
+                      "name": "provider",
+                      "nodeType": "VariableDeclaration",
+                      "scope": 661,
+                      "src": "2280:31:7",
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_contract$_ImplementationProvider_$561",
+                        "typeString": "contract ImplementationProvider"
+                      },
+                      "typeName": {
+                        "contractScope": null,
+                        "id": 649,
+                        "name": "ImplementationProvider",
+                        "nodeType": "UserDefinedTypeName",
+                        "referencedDeclaration": 561,
+                        "src": "2280:22:7",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_contract$_ImplementationProvider_$561",
+                          "typeString": "contract ImplementationProvider"
+                        }
+                      },
+                      "value": null,
+                      "visibility": "internal"
+                    }
+                  ],
+                  "id": 654,
+                  "initialValue": {
+                    "argumentTypes": null,
+                    "arguments": [
+                      {
+                        "argumentTypes": null,
+                        "id": 652,
+                        "name": "version",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 642,
+                        "src": "2325:7:7",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_string_memory_ptr",
+                          "typeString": "string memory"
+                        }
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_string_memory_ptr",
+                          "typeString": "string memory"
+                        }
+                      ],
+                      "id": 651,
+                      "name": "getVersion",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 593,
+                      "src": "2314:10:7",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_internal_view$_t_string_memory_ptr_$returns$_t_contract$_ImplementationProvider_$561_$",
+                        "typeString": "function (string memory) view returns (contract ImplementationProvider)"
+                      }
+                    },
+                    "id": 653,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "2314:19:7",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_contract$_ImplementationProvider_$561",
+                      "typeString": "contract ImplementationProvider"
+                    }
+                  },
+                  "nodeType": "VariableDeclarationStatement",
+                  "src": "2280:53:7"
+                },
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "arguments": [
+                      {
+                        "argumentTypes": null,
+                        "id": 657,
+                        "name": "contractName",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 644,
+                        "src": "2373:12:7",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_string_memory_ptr",
+                          "typeString": "string memory"
+                        }
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_string_memory_ptr",
+                          "typeString": "string memory"
+                        }
+                      ],
+                      "expression": {
+                        "argumentTypes": null,
+                        "id": 655,
+                        "name": "provider",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 650,
+                        "src": "2346:8:7",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_contract$_ImplementationProvider_$561",
+                          "typeString": "contract ImplementationProvider"
+                        }
+                      },
+                      "id": 656,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberName": "getImplementation",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 560,
+                      "src": "2346:26:7",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_external_view$_t_string_memory_ptr_$returns$_t_address_$",
+                        "typeString": "function (string memory) view external returns (address)"
+                      }
+                    },
+                    "id": 658,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "2346:40:7",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "functionReturnParameters": 648,
+                  "id": 659,
+                  "nodeType": "Return",
+                  "src": "2339:47:7"
+                }
+              ]
+            },
+            "documentation": "@dev Returns the implementation address for a given version and contract name.\n@param version Name of the version.\n@param contractName Name of the contract.\n@return Address where the contract is implemented.",
+            "id": 661,
+            "implemented": true,
+            "isConstructor": false,
+            "isDeclaredConst": true,
+            "modifiers": [],
+            "name": "getImplementation",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 645,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 642,
+                  "name": "version",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 661,
+                  "src": "2207:14:7",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_memory_ptr",
+                    "typeString": "string"
+                  },
+                  "typeName": {
+                    "id": 641,
+                    "name": "string",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "2207:6:7",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_string_storage_ptr",
+                      "typeString": "string"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 644,
+                  "name": "contractName",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 661,
+                  "src": "2223:19:7",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_memory_ptr",
+                    "typeString": "string"
+                  },
+                  "typeName": {
+                    "id": 643,
+                    "name": "string",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "2223:6:7",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_string_storage_ptr",
+                      "typeString": "string"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "2206:37:7"
+            },
+            "payable": false,
+            "returnParameters": {
+              "id": 648,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 647,
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 661,
+                  "src": "2265:7:7",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 646,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "2265:7:7",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "2264:9:7"
+            },
+            "scope": 662,
+            "src": "2180:211:7",
+            "stateMutability": "view",
+            "superFunction": null,
+            "visibility": "public"
+          }
+        ],
+        "scope": 663,
+        "src": "310:2083:7"
+      }
+    ],
+    "src": "0:2394:7"
+  },
+  "legacyAST": {
+    "absolutePath": "/Users/facu/Documents/Laburo/Zeppelin/ZeppelinOS/zos-lib/contracts/application/versioning/Package.sol",
+    "exportedSymbols": {
+      "Package": [
+        662
+      ]
+    },
+    "id": 663,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 563,
+        "literals": [
+          "solidity",
+          "^",
+          "0.4",
+          ".24"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:24:7"
+      },
+      {
+        "absolutePath": "/Users/facu/Documents/Laburo/Zeppelin/ZeppelinOS/zos-lib/contracts/application/versioning/ImplementationProvider.sol",
+        "file": "./ImplementationProvider.sol",
+        "id": 564,
+        "nodeType": "ImportDirective",
+        "scope": 663,
+        "sourceUnit": 562,
+        "src": "26:38:7",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "absolutePath": "openzeppelin-solidity/contracts/ownership/Ownable.sol",
+        "file": "openzeppelin-solidity/contracts/ownership/Ownable.sol",
+        "id": 565,
+        "nodeType": "ImportDirective",
+        "scope": 663,
+        "sourceUnit": 2013,
+        "src": "65:63:7",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "baseContracts": [
+          {
+            "arguments": null,
+            "baseName": {
+              "contractScope": null,
+              "id": 566,
+              "name": "Ownable",
+              "nodeType": "UserDefinedTypeName",
+              "referencedDeclaration": 2012,
+              "src": "330:7:7",
+              "typeDescriptions": {
+                "typeIdentifier": "t_contract$_Ownable_$2012",
+                "typeString": "contract Ownable"
+              }
+            },
+            "id": 567,
+            "nodeType": "InheritanceSpecifier",
+            "src": "330:7:7"
+          }
+        ],
+        "contractDependencies": [
+          2012
+        ],
+        "contractKind": "contract",
+        "documentation": "@title Package\n@dev Collection of contracts grouped into versions.\nContracts with the same name can have different implementation addresses in different versions.",
+        "fullyImplemented": true,
+        "id": 662,
+        "linearizedBaseContracts": [
+          662,
+          2012
+        ],
+        "name": "Package",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "anonymous": false,
+            "documentation": "@dev Emitted when a version is added to the package.\nXXX The version is not indexed due to truffle testing constraints.\n@param version Name of the added version.\n@param provider ImplementationProvider associated with the version.",
+            "id": 573,
+            "name": "VersionAdded",
+            "nodeType": "EventDefinition",
+            "parameters": {
+              "id": 572,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 569,
+                  "indexed": false,
+                  "name": "version",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 573,
+                  "src": "623:14:7",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_memory_ptr",
+                    "typeString": "string"
+                  },
+                  "typeName": {
+                    "id": 568,
+                    "name": "string",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "623:6:7",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_string_storage_ptr",
+                      "typeString": "string"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 571,
+                  "indexed": false,
+                  "name": "provider",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 573,
+                  "src": "639:31:7",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_contract$_ImplementationProvider_$561",
+                    "typeString": "contract ImplementationProvider"
+                  },
+                  "typeName": {
+                    "contractScope": null,
+                    "id": 570,
+                    "name": "ImplementationProvider",
+                    "nodeType": "UserDefinedTypeName",
+                    "referencedDeclaration": 561,
+                    "src": "639:22:7",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_contract$_ImplementationProvider_$561",
+                      "typeString": "contract ImplementationProvider"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "622:49:7"
+            },
+            "src": "604:68:7"
+          },
+          {
+            "constant": false,
+            "id": 577,
+            "name": "versions",
+            "nodeType": "VariableDeclaration",
+            "scope": 662,
+            "src": "762:60:7",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_mapping$_t_string_memory_$_t_contract$_ImplementationProvider_$561_$",
+              "typeString": "mapping(string => contract ImplementationProvider)"
+            },
+            "typeName": {
+              "id": 576,
+              "keyType": {
+                "id": 574,
+                "name": "string",
+                "nodeType": "ElementaryTypeName",
+                "src": "771:6:7",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_string_storage_ptr",
+                  "typeString": "string"
+                }
+              },
+              "nodeType": "Mapping",
+              "src": "762:42:7",
+              "typeDescriptions": {
+                "typeIdentifier": "t_mapping$_t_string_memory_$_t_contract$_ImplementationProvider_$561_$",
+                "typeString": "mapping(string => contract ImplementationProvider)"
+              },
+              "valueType": {
+                "contractScope": null,
+                "id": 575,
+                "name": "ImplementationProvider",
+                "nodeType": "UserDefinedTypeName",
+                "referencedDeclaration": 561,
+                "src": "781:22:7",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_contract$_ImplementationProvider_$561",
+                  "typeString": "contract ImplementationProvider"
+                }
+              }
+            },
+            "value": null,
+            "visibility": "internal"
+          },
+          {
+            "body": {
+              "id": 592,
+              "nodeType": "Block",
+              "src": "1078:83:7",
+              "statements": [
+                {
+                  "assignments": [
+                    585
+                  ],
+                  "declarations": [
+                    {
+                      "constant": false,
+                      "id": 585,
+                      "name": "provider",
+                      "nodeType": "VariableDeclaration",
+                      "scope": 593,
+                      "src": "1084:31:7",
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_contract$_ImplementationProvider_$561",
+                        "typeString": "contract ImplementationProvider"
+                      },
+                      "typeName": {
+                        "contractScope": null,
+                        "id": 584,
+                        "name": "ImplementationProvider",
+                        "nodeType": "UserDefinedTypeName",
+                        "referencedDeclaration": 561,
+                        "src": "1084:22:7",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_contract$_ImplementationProvider_$561",
+                          "typeString": "contract ImplementationProvider"
+                        }
+                      },
+                      "value": null,
+                      "visibility": "internal"
+                    }
+                  ],
+                  "id": 589,
+                  "initialValue": {
+                    "argumentTypes": null,
+                    "baseExpression": {
+                      "argumentTypes": null,
+                      "id": 586,
+                      "name": "versions",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 577,
+                      "src": "1118:8:7",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_mapping$_t_string_memory_$_t_contract$_ImplementationProvider_$561_$",
+                        "typeString": "mapping(string memory => contract ImplementationProvider)"
+                      }
+                    },
+                    "id": 588,
+                    "indexExpression": {
+                      "argumentTypes": null,
+                      "id": 587,
+                      "name": "version",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 579,
+                      "src": "1127:7:7",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_string_memory_ptr",
+                        "typeString": "string memory"
+                      }
+                    },
+                    "isConstant": false,
+                    "isLValue": true,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "nodeType": "IndexAccess",
+                    "src": "1118:17:7",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_contract$_ImplementationProvider_$561",
+                      "typeString": "contract ImplementationProvider"
+                    }
+                  },
+                  "nodeType": "VariableDeclarationStatement",
+                  "src": "1084:51:7"
+                },
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "id": 590,
+                    "name": "provider",
+                    "nodeType": "Identifier",
+                    "overloadedDeclarations": [],
+                    "referencedDeclaration": 585,
+                    "src": "1148:8:7",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_contract$_ImplementationProvider_$561",
+                      "typeString": "contract ImplementationProvider"
+                    }
+                  },
+                  "functionReturnParameters": 583,
+                  "id": 591,
+                  "nodeType": "Return",
+                  "src": "1141:15:7"
+                }
+              ]
+            },
+            "documentation": "@dev Returns the implementation provider of a version.\n@param version Name of the version.\n@return The implementation provider of the version.",
+            "id": 593,
+            "implemented": true,
+            "isConstructor": false,
+            "isDeclaredConst": true,
+            "modifiers": [],
+            "name": "getVersion",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 580,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 579,
+                  "name": "version",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 593,
+                  "src": "1017:14:7",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_memory_ptr",
+                    "typeString": "string"
+                  },
+                  "typeName": {
+                    "id": 578,
+                    "name": "string",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1017:6:7",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_string_storage_ptr",
+                      "typeString": "string"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "1016:16:7"
+            },
+            "payable": false,
+            "returnParameters": {
+              "id": 583,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 582,
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 593,
+                  "src": "1054:22:7",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_contract$_ImplementationProvider_$561",
+                    "typeString": "contract ImplementationProvider"
+                  },
+                  "typeName": {
+                    "contractScope": null,
+                    "id": 581,
+                    "name": "ImplementationProvider",
+                    "nodeType": "UserDefinedTypeName",
+                    "referencedDeclaration": 561,
+                    "src": "1054:22:7",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_contract$_ImplementationProvider_$561",
+                      "typeString": "contract ImplementationProvider"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "1053:24:7"
+            },
+            "scope": 662,
+            "src": "997:164:7",
+            "stateMutability": "view",
+            "superFunction": null,
+            "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 621,
+              "nodeType": "Block",
+              "src": "1453:166:7",
+              "statements": [
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "arguments": [
+                      {
+                        "argumentTypes": null,
+                        "id": 606,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "nodeType": "UnaryOperation",
+                        "operator": "!",
+                        "prefix": true,
+                        "src": "1467:20:7",
+                        "subExpression": {
+                          "argumentTypes": null,
+                          "arguments": [
+                            {
+                              "argumentTypes": null,
+                              "id": 604,
+                              "name": "version",
+                              "nodeType": "Identifier",
+                              "overloadedDeclarations": [],
+                              "referencedDeclaration": 595,
+                              "src": "1479:7:7",
+                              "typeDescriptions": {
+                                "typeIdentifier": "t_string_memory_ptr",
+                                "typeString": "string memory"
+                              }
+                            }
+                          ],
+                          "expression": {
+                            "argumentTypes": [
+                              {
+                                "typeIdentifier": "t_string_memory_ptr",
+                                "typeString": "string memory"
+                              }
+                            ],
+                            "id": 603,
+                            "name": "hasVersion",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": 640,
+                            "src": "1468:10:7",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_function_internal_view$_t_string_memory_ptr_$returns$_t_bool_$",
+                              "typeString": "function (string memory) view returns (bool)"
+                            }
+                          },
+                          "id": 605,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": false,
+                          "kind": "functionCall",
+                          "lValueRequested": false,
+                          "names": [],
+                          "nodeType": "FunctionCall",
+                          "src": "1468:19:7",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_bool",
+                            "typeString": "bool"
+                          }
+                        },
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_bool",
+                          "typeString": "bool"
+                        }
+                      },
+                      {
+                        "argumentTypes": null,
+                        "hexValue": "476976656e2076657273696f6e20697320616c7265616479207265676973746572656420696e207061636b616765",
+                        "id": 607,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": true,
+                        "kind": "string",
+                        "lValueRequested": false,
+                        "nodeType": "Literal",
+                        "src": "1489:48:7",
+                        "subdenomination": null,
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_stringliteral_8b3ae3984ba439aa79dd8a004069b5c408247b6da429c2768dd9a60b038d8514",
+                          "typeString": "literal_string \"Given version is already registered in package\""
+                        },
+                        "value": "Given version is already registered in package"
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_bool",
+                          "typeString": "bool"
+                        },
+                        {
+                          "typeIdentifier": "t_stringliteral_8b3ae3984ba439aa79dd8a004069b5c408247b6da429c2768dd9a60b038d8514",
+                          "typeString": "literal_string \"Given version is already registered in package\""
+                        }
+                      ],
+                      "id": 602,
+                      "name": "require",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [
+                        2030,
+                        2031
+                      ],
+                      "referencedDeclaration": 2031,
+                      "src": "1459:7:7",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
+                        "typeString": "function (bool,string memory) pure"
+                      }
+                    },
+                    "id": 608,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "1459:79:7",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_tuple$__$",
+                      "typeString": "tuple()"
+                    }
+                  },
+                  "id": 609,
+                  "nodeType": "ExpressionStatement",
+                  "src": "1459:79:7"
+                },
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "id": 614,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "argumentTypes": null,
+                      "baseExpression": {
+                        "argumentTypes": null,
+                        "id": 610,
+                        "name": "versions",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 577,
+                        "src": "1544:8:7",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_mapping$_t_string_memory_$_t_contract$_ImplementationProvider_$561_$",
+                          "typeString": "mapping(string memory => contract ImplementationProvider)"
+                        }
+                      },
+                      "id": 612,
+                      "indexExpression": {
+                        "argumentTypes": null,
+                        "id": 611,
+                        "name": "version",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 595,
+                        "src": "1553:7:7",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_string_memory_ptr",
+                          "typeString": "string memory"
+                        }
+                      },
+                      "isConstant": false,
+                      "isLValue": true,
+                      "isPure": false,
+                      "lValueRequested": true,
+                      "nodeType": "IndexAccess",
+                      "src": "1544:17:7",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_contract$_ImplementationProvider_$561",
+                        "typeString": "contract ImplementationProvider"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "argumentTypes": null,
+                      "id": 613,
+                      "name": "provider",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 597,
+                      "src": "1564:8:7",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_contract$_ImplementationProvider_$561",
+                        "typeString": "contract ImplementationProvider"
+                      }
+                    },
+                    "src": "1544:28:7",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_contract$_ImplementationProvider_$561",
+                      "typeString": "contract ImplementationProvider"
+                    }
+                  },
+                  "id": 615,
+                  "nodeType": "ExpressionStatement",
+                  "src": "1544:28:7"
+                },
+                {
+                  "eventCall": {
+                    "argumentTypes": null,
+                    "arguments": [
+                      {
+                        "argumentTypes": null,
+                        "id": 617,
+                        "name": "version",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 595,
+                        "src": "1596:7:7",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_string_memory_ptr",
+                          "typeString": "string memory"
+                        }
+                      },
+                      {
+                        "argumentTypes": null,
+                        "id": 618,
+                        "name": "provider",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 597,
+                        "src": "1605:8:7",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_contract$_ImplementationProvider_$561",
+                          "typeString": "contract ImplementationProvider"
+                        }
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_string_memory_ptr",
+                          "typeString": "string memory"
+                        },
+                        {
+                          "typeIdentifier": "t_contract$_ImplementationProvider_$561",
+                          "typeString": "contract ImplementationProvider"
+                        }
+                      ],
+                      "id": 616,
+                      "name": "VersionAdded",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 573,
+                      "src": "1583:12:7",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_event_nonpayable$_t_string_memory_ptr_$_t_contract$_ImplementationProvider_$561_$returns$__$",
+                        "typeString": "function (string memory,contract ImplementationProvider)"
+                      }
+                    },
+                    "id": 619,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "1583:31:7",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_tuple$__$",
+                      "typeString": "tuple()"
+                    }
+                  },
+                  "id": 620,
+                  "nodeType": "EmitStatement",
+                  "src": "1578:36:7"
+                }
+              ]
+            },
+            "documentation": "@dev Adds the implementation provider of a new version to the package.\n@param version Name of the version.\n@param provider ImplementationProvider associated with the version.",
+            "id": 622,
+            "implemented": true,
+            "isConstructor": false,
+            "isDeclaredConst": false,
+            "modifiers": [
+              {
+                "arguments": null,
+                "id": 600,
+                "modifierName": {
+                  "argumentTypes": null,
+                  "id": 599,
+                  "name": "onlyOwner",
+                  "nodeType": "Identifier",
+                  "overloadedDeclarations": [],
+                  "referencedDeclaration": 1960,
+                  "src": "1443:9:7",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_modifier$__$",
+                    "typeString": "modifier ()"
+                  }
+                },
+                "nodeType": "ModifierInvocation",
+                "src": "1443:9:7"
+              }
+            ],
+            "name": "addVersion",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 598,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 595,
+                  "name": "version",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 622,
+                  "src": "1387:14:7",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_memory_ptr",
+                    "typeString": "string"
+                  },
+                  "typeName": {
+                    "id": 594,
+                    "name": "string",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1387:6:7",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_string_storage_ptr",
+                      "typeString": "string"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 597,
+                  "name": "provider",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 622,
+                  "src": "1403:31:7",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_contract$_ImplementationProvider_$561",
+                    "typeString": "contract ImplementationProvider"
+                  },
+                  "typeName": {
+                    "contractScope": null,
+                    "id": 596,
+                    "name": "ImplementationProvider",
+                    "nodeType": "UserDefinedTypeName",
+                    "referencedDeclaration": 561,
+                    "src": "1403:22:7",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_contract$_ImplementationProvider_$561",
+                      "typeString": "contract ImplementationProvider"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "1386:49:7"
+            },
+            "payable": false,
+            "returnParameters": {
+              "id": 601,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "1453:0:7"
+            },
+            "scope": 662,
+            "src": "1367:252:7",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 639,
+              "nodeType": "Block",
+              "src": "1878:58:7",
+              "statements": [
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "commonType": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    },
+                    "id": 637,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftExpression": {
+                      "argumentTypes": null,
+                      "arguments": [
+                        {
+                          "argumentTypes": null,
+                          "baseExpression": {
+                            "argumentTypes": null,
+                            "id": 630,
+                            "name": "versions",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": 577,
+                            "src": "1899:8:7",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_mapping$_t_string_memory_$_t_contract$_ImplementationProvider_$561_$",
+                              "typeString": "mapping(string memory => contract ImplementationProvider)"
+                            }
+                          },
+                          "id": 632,
+                          "indexExpression": {
+                            "argumentTypes": null,
+                            "id": 631,
+                            "name": "version",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": 624,
+                            "src": "1908:7:7",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_string_memory_ptr",
+                              "typeString": "string memory"
+                            }
+                          },
+                          "isConstant": false,
+                          "isLValue": true,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "nodeType": "IndexAccess",
+                          "src": "1899:17:7",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_contract$_ImplementationProvider_$561",
+                            "typeString": "contract ImplementationProvider"
+                          }
+                        }
+                      ],
+                      "expression": {
+                        "argumentTypes": [
+                          {
+                            "typeIdentifier": "t_contract$_ImplementationProvider_$561",
+                            "typeString": "contract ImplementationProvider"
+                          }
+                        ],
+                        "id": 629,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": true,
+                        "lValueRequested": false,
+                        "nodeType": "ElementaryTypeNameExpression",
+                        "src": "1891:7:7",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_type$_t_address_$",
+                          "typeString": "type(address)"
+                        },
+                        "typeName": "address"
+                      },
+                      "id": 633,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "kind": "typeConversion",
+                      "lValueRequested": false,
+                      "names": [],
+                      "nodeType": "FunctionCall",
+                      "src": "1891:26:7",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_address",
+                        "typeString": "address"
+                      }
+                    },
+                    "nodeType": "BinaryOperation",
+                    "operator": "!=",
+                    "rightExpression": {
+                      "argumentTypes": null,
+                      "arguments": [
+                        {
+                          "argumentTypes": null,
+                          "hexValue": "30",
+                          "id": 635,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": true,
+                          "kind": "number",
+                          "lValueRequested": false,
+                          "nodeType": "Literal",
+                          "src": "1929:1:7",
+                          "subdenomination": null,
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_rational_0_by_1",
+                            "typeString": "int_const 0"
+                          },
+                          "value": "0"
+                        }
+                      ],
+                      "expression": {
+                        "argumentTypes": [
+                          {
+                            "typeIdentifier": "t_rational_0_by_1",
+                            "typeString": "int_const 0"
+                          }
+                        ],
+                        "id": 634,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": true,
+                        "lValueRequested": false,
+                        "nodeType": "ElementaryTypeNameExpression",
+                        "src": "1921:7:7",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_type$_t_address_$",
+                          "typeString": "type(address)"
+                        },
+                        "typeName": "address"
+                      },
+                      "id": 636,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": true,
+                      "kind": "typeConversion",
+                      "lValueRequested": false,
+                      "names": [],
+                      "nodeType": "FunctionCall",
+                      "src": "1921:10:7",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_address",
+                        "typeString": "address"
+                      }
+                    },
+                    "src": "1891:40:7",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "functionReturnParameters": 628,
+                  "id": 638,
+                  "nodeType": "Return",
+                  "src": "1884:47:7"
+                }
+              ]
+            },
+            "documentation": "@dev Checks whether a version is present in the package.\n@param version Name of the version.\n@return true if the version is already in the package, false otherwise.",
+            "id": 640,
+            "implemented": true,
+            "isConstructor": false,
+            "isDeclaredConst": true,
+            "modifiers": [],
+            "name": "hasVersion",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 625,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 624,
+                  "name": "version",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 640,
+                  "src": "1835:14:7",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_memory_ptr",
+                    "typeString": "string"
+                  },
+                  "typeName": {
+                    "id": 623,
+                    "name": "string",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1835:6:7",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_string_storage_ptr",
+                      "typeString": "string"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "1834:16:7"
+            },
+            "payable": false,
+            "returnParameters": {
+              "id": 628,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 627,
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 640,
+                  "src": "1872:4:7",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bool",
+                    "typeString": "bool"
+                  },
+                  "typeName": {
+                    "id": 626,
+                    "name": "bool",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1872:4:7",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "1871:6:7"
+            },
+            "scope": 662,
+            "src": "1815:121:7",
+            "stateMutability": "view",
+            "superFunction": null,
+            "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 660,
+              "nodeType": "Block",
+              "src": "2274:117:7",
+              "statements": [
+                {
+                  "assignments": [
+                    650
+                  ],
+                  "declarations": [
+                    {
+                      "constant": false,
+                      "id": 650,
+                      "name": "provider",
+                      "nodeType": "VariableDeclaration",
+                      "scope": 661,
+                      "src": "2280:31:7",
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_contract$_ImplementationProvider_$561",
+                        "typeString": "contract ImplementationProvider"
+                      },
+                      "typeName": {
+                        "contractScope": null,
+                        "id": 649,
+                        "name": "ImplementationProvider",
+                        "nodeType": "UserDefinedTypeName",
+                        "referencedDeclaration": 561,
+                        "src": "2280:22:7",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_contract$_ImplementationProvider_$561",
+                          "typeString": "contract ImplementationProvider"
+                        }
+                      },
+                      "value": null,
+                      "visibility": "internal"
+                    }
+                  ],
+                  "id": 654,
+                  "initialValue": {
+                    "argumentTypes": null,
+                    "arguments": [
+                      {
+                        "argumentTypes": null,
+                        "id": 652,
+                        "name": "version",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 642,
+                        "src": "2325:7:7",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_string_memory_ptr",
+                          "typeString": "string memory"
+                        }
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_string_memory_ptr",
+                          "typeString": "string memory"
+                        }
+                      ],
+                      "id": 651,
+                      "name": "getVersion",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 593,
+                      "src": "2314:10:7",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_internal_view$_t_string_memory_ptr_$returns$_t_contract$_ImplementationProvider_$561_$",
+                        "typeString": "function (string memory) view returns (contract ImplementationProvider)"
+                      }
+                    },
+                    "id": 653,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "2314:19:7",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_contract$_ImplementationProvider_$561",
+                      "typeString": "contract ImplementationProvider"
+                    }
+                  },
+                  "nodeType": "VariableDeclarationStatement",
+                  "src": "2280:53:7"
+                },
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "arguments": [
+                      {
+                        "argumentTypes": null,
+                        "id": 657,
+                        "name": "contractName",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 644,
+                        "src": "2373:12:7",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_string_memory_ptr",
+                          "typeString": "string memory"
+                        }
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_string_memory_ptr",
+                          "typeString": "string memory"
+                        }
+                      ],
+                      "expression": {
+                        "argumentTypes": null,
+                        "id": 655,
+                        "name": "provider",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 650,
+                        "src": "2346:8:7",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_contract$_ImplementationProvider_$561",
+                          "typeString": "contract ImplementationProvider"
+                        }
+                      },
+                      "id": 656,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberName": "getImplementation",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 560,
+                      "src": "2346:26:7",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_external_view$_t_string_memory_ptr_$returns$_t_address_$",
+                        "typeString": "function (string memory) view external returns (address)"
+                      }
+                    },
+                    "id": 658,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "2346:40:7",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "functionReturnParameters": 648,
+                  "id": 659,
+                  "nodeType": "Return",
+                  "src": "2339:47:7"
+                }
+              ]
+            },
+            "documentation": "@dev Returns the implementation address for a given version and contract name.\n@param version Name of the version.\n@param contractName Name of the contract.\n@return Address where the contract is implemented.",
+            "id": 661,
+            "implemented": true,
+            "isConstructor": false,
+            "isDeclaredConst": true,
+            "modifiers": [],
+            "name": "getImplementation",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 645,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 642,
+                  "name": "version",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 661,
+                  "src": "2207:14:7",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_memory_ptr",
+                    "typeString": "string"
+                  },
+                  "typeName": {
+                    "id": 641,
+                    "name": "string",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "2207:6:7",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_string_storage_ptr",
+                      "typeString": "string"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 644,
+                  "name": "contractName",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 661,
+                  "src": "2223:19:7",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_memory_ptr",
+                    "typeString": "string"
+                  },
+                  "typeName": {
+                    "id": 643,
+                    "name": "string",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "2223:6:7",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_string_storage_ptr",
+                      "typeString": "string"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "2206:37:7"
+            },
+            "payable": false,
+            "returnParameters": {
+              "id": 648,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 647,
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 661,
+                  "src": "2265:7:7",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 646,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "2265:7:7",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "2264:9:7"
+            },
+            "scope": 662,
+            "src": "2180:211:7",
+            "stateMutability": "view",
+            "superFunction": null,
+            "visibility": "public"
+          }
+        ],
+        "scope": 663,
+        "src": "310:2083:7"
+      }
+    ],
+    "src": "0:2394:7"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.4.24+commit.e67f0147.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "2.0.1",
+  "updatedAt": "2018-07-13T14:57:58.465Z"
+}
