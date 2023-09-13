@@ -21,16 +21,16 @@ The repository is for the work "Transaction-reverting Statement in Ethereum Smar
 *The default setting of runtime parameters:*
 |                | Trials | Timeout | Depth Limit |
 |----------------|--------|---------|-------------|
-| ContractFuzzer | 1      | 80h     | /           |
-| sFuzz          | 3      | 2m      | /           |
-| SmarTian       | 5      | 1h      | /           |
-| Oyente         | /      | 30m     | 1,024       |
-| Mythril        | /      | 24h     | 22          |
-| Securify       | /      | /       | /           |
-| Maian          | /      | 300s    | 60          |
-| Manticore      | /      | 90m     | /           |
-| Slither        | /      | 2m      | /           |
-| VeriSmart      | /      | 30m     | /           |
+| ContractFuzzer | 1      | 80h     | -           |
+| sFuzz          | 3      | 2m      | -           |
+| SmarTian       | 5      | 1h      | -          |
+| Oyente         | -      | 30m     | 1,024       |
+| Mythril        | -      | 24h     | 22          |
+| Securify       | -      | /       | -           |
+| Maian          | -      | 300s    | 60          |
+| Manticore      | -      | 90m     | -           |
+| Slither        | -      | 2m      | -           |
+| VeriSmart      | -      | 30m     | -           |
 
 
 
