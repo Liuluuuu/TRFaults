@@ -1,5 +1,7 @@
 # TRS vulnerablity dataset
-The repository is for the work "Transaction-reverting Statement in Ethereum Smart Contracts: Characterization, Benchmark, and Evaluation".
+This project aims to provide a benchmark for smart contract developers and researchers to enhance their understanding of transaction-reverting faults in smart contracts.
+The project is associated with a paper titled ``Understanding Transaction-Reverting Faults in Smart Contracts''. <i>(The paper is currently undergoing review and will be released in the near future.)<i>
+
 
 ## Overview
 **Dataset:** The 91 vulnerable contracts are available in `/dataset` folder. Detailed information about the 91 contract cases is presented in `TRS_v.xlsx`.
