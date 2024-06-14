@@ -1,0 +1,225 @@
+Commit URL,File Name,Category,Project Name,Project Types
+https://github.com/Uniswap/v3-core/commit/705be1eefc56a3620afe96a725c3a68951e8d4a9,contracts/libraries/SqrtPriceMath.sol,Underflow/Overflow,Uniswap,Dexes
+https://github.com/transmissions11/solmate/commit/2e27e00db68aa2cbe36f32ccd9b9043ca14554aa,src/utils/SignedWadMath.sol,Underflow/Overflow,solmate,services
+https://github.com/crytic/not-so-smart-contracts/commit/5cf309ccf9df3f2eda8091bea7a331de51007103,denial_of_service/list_dos.sol,Unchecked Call Return Value,No-so-smart-contracts,services
+https://github.com/SidraChain/sidra-contracts/commit/c7761643830b8490b79ff41b473afa317c2551e2,contracts/Owner.sol,Unprotected Ether Withdrawal,Sidra,token
+https://github.com/SidraChain/sidra-contracts/commit/73df01cb36a92ef679d46d82adb0ec25196758e3,contracts/SidraToken.sol,Unchecked Call Return Value,Sidra,token
+https://github.com/Uniswap/v4-core/commit/b9b0d2a1f6e6a39444ff9ab286d99efd5de5b8d2,src/test/AccessLockHook.sol,Unprotected Ether Withdrawal,Uniswap,Dexes
+https://github.com/Uniswap/v4-core/commit/06564d33b2fa6095830c914461ee64d34d39c305,src/test/PoolModifyPositionTest.sol,Unprotected Ether Withdrawal,Uniswap,Dexes
+https://github.com/Uniswap/v4-core/commit/cede34fd171a664d4eb6468854475c9cba5c559c,src/test/PoolModifyPositionTest.sol,Unprotected Ether Withdrawal,Uniswap,Dexes
+https://github.com/Synthetixio/synthetix/commit/85d61a215cb6ef04fa04c9e5a0240fb6a6e4d011,contracts/RewardsDistribution.sol,Unchecked Call Return Value,Synthetix,Synthetics
+https://github.com/Synthetixio/synthetix/commit/263e5737ba8b10c61c9c71a794b4ce6ae02a0c45,contracts/RewardsDistribution.sol,Unchecked Call Return Value,Synthetix,Synthetics
+https://github.com/Uniswap/v2-periphery/commit/dda62473e2da448bc9cb8f4514dadda4aeede5f4,contracts/examples/ExampleSwapToPrice.sol,Unchecked Call Return Value,Uniswap,Dexes
+https://github.com/yearn/yearn-vaults/commit/7c5755255b1c17c754113a7bc1e1ba9770997af3,contracts/BaseStrategy.sol,Unprotected Ether Withdrawal,Yearn Vault,Yield Aggregator
+https://github.com/yearn/yearn-protocol/commit/7b7d4042f87d6e854b00de9228c01f6f587cf0c0,contracts/strategies/StrategyProxy.sol,Unchecked Call Return Value,Yearn Vault,Yield Aggregator
+https://github.com/yearn/yearn-protocol/commit/7843b12ff01240897d535df7da9cfafbb9d4bbae,contracts/strategies/StrategyMKRVaultDAIDelegate.sol,Unprotected Ether Withdrawal,Yearn Vault,Yield Aggregator
+https://github.com/ProjectWyvern/wyvern-ethereum/commit/a68053060f69c23a09d82cb7f6e361ba2cc0c768,contracts/common/ArrayUtils.sol,Underflow/Overflow,Wyvern,Dexes
+https://github.com/omni/tokenbridge-contracts/commit/908a48107919d4ab127f9af07d44d47eac91547e,contracts/upgradeable_contracts/arbitrary_message/MessageDelivery.sol,Unprotected Ether Withdrawal,TokenBridge,bridge
+https://github.com/omni/tokenbridge-contracts/commit/908a48107919d4ab127f9af07d44d47eac91547e,contracts/upgradeable_contracts/erc20_to_native/InterestConnector.sol,Unprotected Ether Withdrawal,TokenBridge,bridge
+https://github.com/ethereum/act/commit/7d568e5fe8981ce8a3ad3ea591e82623e97d4a52,tests/hevm/pass/safemath/safemath.sol,Underflow/Overflow,Act,others
+https://github.com/matter-labs/era-contracts/commit/626e1ccf2aa943eab85f111337e23a1a763a03fc,ethereum/contracts/zksync/facets/Executor.sol,Underflow/Overflow,zkSync Era,layer 2
+https://github.com/matter-labs/era-contracts/commit/414377fa021d2943ddd98622b8e2747fa6d2b9bf,ethereum/contracts/zksync/libraries/TransactionValidator.sol,Underflow/Overflow,zkSync Era,layer 2
+https://github.com/truffle-box/react-auth-box/commit/b473772c07dc19f1128a2f4646ba5b0cbc932470,contracts/Authentication.sol,Unprotected Ether Withdrawal,Truffle Box,services
+https://github.com/thesandboxgame/sandbox-smart-contracts/commit/f102e4a72c70d72e73df43acd27cc64b6bea2580,packages/asset/contracts/Catalyst.sol,Unprotected Ether Withdrawal,Sandbox,Gaming
+https://github.com/blunt-instruments/MevWallet/commit/6f8a001e2aee9bf534560a378a0477bca2ea0c1d,contracts/MevWalletV0.sol,Unprotected Ether Withdrawal,MevWallet,wallets
+https://github.com/DODOEX/contractV2/commit/806cfb6a62db03bbe38986ea9ab3dcd10e835efa,archive/DODOV2Proxy01.sol,Unchecked Call Return Value,DODOEX V2,Dexes
+https://github.com/DODOEX/contractV2/commit/806cfb6a62db03bbe38986ea9ab3dcd10e835efa,contracts/SmartRoute/DODOV2Proxy02.sol,Unchecked Call Return Value,DODOEX V2,Dexes
+https://github.com/DODOEX/contractV2/commit/806cfb6a62db03bbe38986ea9ab3dcd10e835efa,contracts/SmartRoute/adapter/UniV3Adapter.sol,Unchecked Call Return Value,DODOEX V2,Dexes
+https://github.com/DODOEX/contractV2/commit/2cfa638ed825cd24b5f763de5d2cf8ece5da0eb9,contracts/SmartRoute/adapter/UniV3Adapter.sol,Unprotected Ether Withdrawal,DODOEX V2,Dexes
+https://github.com/jcsec-security/solidity-security-teaching-resources/commit/89c229336eb04058706ef28eea94da95f9ad583b,faillapop/src/Faillapop_shop.sol,Unprotected Ether Withdrawal,/,others
+https://github.com/jcsec-security/solidity-security-teaching-resources/commit/f5cee8c9621c87a4fc1f62e311fdf66d0e19e9a3,BasicExamples/2-reentrancy.sol,Unchecked Call Return Value,/,others
+https://github.com/jcsec-security/solidity-security-teaching-resources/commit/f5cee8c9621c87a4fc1f62e311fdf66d0e19e9a3,BasicExamples/4-weakRandomness.sol,Unchecked Call Return Value,/,others
+https://github.com/jcsec-security/solidity-security-teaching-resources/commit/f5cee8c9621c87a4fc1f62e311fdf66d0e19e9a3,BasicExamples/5-Overflow.sol,Unchecked Call Return Value,/,others
+https://github.com/jcsec-security/solidity-security-teaching-resources/commit/f5cee8c9621c87a4fc1f62e311fdf66d0e19e9a3,BasicExamples/6-txOrigin.sol,Unchecked Call Return Value,/,others
+https://github.com/jcsec-security/solidity-security-teaching-resources/commit/f5cee8c9621c87a4fc1f62e311fdf66d0e19e9a3,BasicExamples/7-forceFeeding.sol,Unchecked Call Return Value,/,others
+https://github.com/blockchain-IoT/Motoro/commit/2fd83d53c2ed3beac45d4401d781fe33dfebe1cf,contracts/Machine.sol,Underflow/Overflow,Motoro,blockchain LoT
+https://github.com/blockchain-IoT/Motoro/commit/db5e43f30b1f51d47f193ab32fb9f9da2e4141c9,contracts/Machine.sol,Underflow/Overflow,Motoro,blockchain LoT
+https://github.com/poanetwork/posdao-contracts/commit/9de3a94be98d9553c6ac72916221b42fc56daec2,contracts/Certifier.sol,Unprotected Ether Withdrawal,POSDAO,DAO
+https://github.com/poanetwork/posdao-contracts/commit/a4e24c76c7ed71f2780834b529599c7d0f6bf6e2,contracts/base/BlockRewardAuRaTokens.sol,Unchecked Call Return Value,POSDAO,DAO
+https://github.com/poanetwork/posdao-contracts/commit/a4e24c76c7ed71f2780834b529599c7d0f6bf6e2,contracts/base/StakingAuRaTokens.sol,Unchecked Call Return Value,POSDAO,DAO
+https://github.com/a16z/halmos/commit/e3aea1413624670b429126938798dd5c8220f349,tests/test/Send.t.sol,Underflow/Overflow,Halmos,security
+https://github.com/yearn/yearn-protocol/commit/7b7d4042f87d6e854b00de9228c01f6f587cf0c0,contracts/strategies/StrategyProxy.sol,Unchecked Call Return Value,Yearn Protocol,yield
+https://github.com/omni/tokenbridge-contracts/commit/7edfe777e061c8c04b5b5add416d5012bdbd734b,contracts/upgradeable_contracts/erc20_to_native/ForeignBridgeErcToNative.sol,Unprotected Ether Withdrawal,TokenBridge,bridge
+https://github.com/SetProtocol/set-protocol-contracts/commit/e3b8677488221f7a96a9ba35660e4b0f1414a3ad,contracts/core/liquidators/TWAPLiquidator.sol,Unprotected Ether Withdrawal,Set Protocol ,Indexes
+https://github.com/ProofSuite/presale-contracts/commit/6f16be15cd8f8bcdeebddf2e0f697bd193431cfa,contracts/Crowdsale.sol,Reentrancy,proof suite,token
+https://github.com/delvtech/council/commit/7d01b7de58569109755b84af38524884fe68a1c8,contracts/features/Treasury.sol,Unchecked Call Return Value,Council,DAO
+https://github.com/Orbiter-Finance/OB_ReturnCabin/commit/5a05c1b042e8fc7b06b6908cf92c29b2eca3ac4f,contracts/ORMakerDeposit.sol,Unprotected Ether Withdrawal,Orbiter,Lending
+https://github.com/FourthState/plasma-mvp-rootchain/commit/2a41203ea25d85001323606cf3266858a7f8852f,contracts/PlasmaMVP.sol,Underflow/Overflow,Plasma,layer 2
+https://github.com/FourthState/plasma-mvp-rootchain/commit/51f51e6fa12c9ff8d0446217fbe73979886d911d,contracts/PlasmaMVP.sol,Underflow/Overflow,Plasma,layer 2
+https://github.com/FourthState/plasma-mvp-rootchain/commit/ec7e0dd0639c194f4e35132402f256015b2d647e,contracts/PlasmaMVP.sol,Underflow/Overflow,Plasma,layer 2
+https://github.com/FourthState/plasma-mvp-rootchain/commit/9f75cd2a60f45aa1cafb95b1a4221184af873391,contracts/PlasmaMVP.sol,Underflow/Overflow,Plasma,layer 2
+https://github.com/FourthState/plasma-mvp-rootchain/commit/088adc738b15126324739816495f1651598c5873,contracts/rootchain/RootChain.sol,Underflow/Overflow,Plasma,layer 2
+https://github.com/FourthState/plasma-mvp-rootchain/commit/c659009290ddfda921646206d1ac02e7bf4950b7,contracts/rootchain/RootChain.sol,Unchecked Call Return Value,Plasma,layer 2
+https://github.com/adorsys/p2p-lending/commit/1495c9375cfb5c113660d17a5e8dff8a4f574440,contracts/LendingRequests/LendingRequest.sol,Unprotected Ether Withdrawal,p2p-lending,Lending
+https://github.com/PolymathNetwork/polymath-core-deprecated/commit/20bed2fbb5fac5449a8c7ce1ff069efbb8b98456,contracts/NameSpaceRegistrar.sol,Unprotected Ether Withdrawal,Polymath,Launchpad
+https://github.com/PolymathNetwork/polymath-core-deprecated/commit/3a03f252bc1ea32799be3405680afeccea1a35f0,contracts/NameSpaceRegistrar.sol,Unprotected Ether Withdrawal,Polymath,Launchpad
+https://github.com/PolymathNetwork/polymath-core-deprecated/commit/c01e8b77fc9b64aa044f93cd778dd0b62d970dad,contracts/NameSpaceRegistrar.sol,Unprotected Ether Withdrawal,Polymath,Launchpad
+https://github.com/PolymathNetwork/polymath-core-deprecated/commit/27a2210e7ab0e0af82241c1e0e4d1bf7af179ff9,contracts/NameSpaceRegistrar.sol,Unprotected Ether Withdrawal,Polymath,Launchpad
+https://github.com/OpenBazaar/smart-contracts/commit/954176eee930dc5f5fe31df0f4db1ad4feab786d,contracts/escrow/Escrow.sol,Reentrancy,OpenBazaar,Dexes
+https://github.com/e11-io/crypto-wars-solidity/commit/a7319e6f5e65505ccb10c9636833099a64fdb080,contracts/UserBuildings.sol,Unprotected Ether Withdrawal,CryptoWars,Gaming
+https://github.com/e11-io/crypto-wars-solidity/commit/8fdc6db9811f5ee31cf6e11ade98144ef9a02f78,contracts/UserBuildings.sol,Unprotected Ether Withdrawal,CryptoWars,Gaming
+https://github.com/tatumio/smart-contracts/commit/8cff275c500acdcdca7ff0c947fb698b980747b7,contracts/tatum/custodial/CustodialWalletFactoryV2.sol,Underflow/Overflow,Tatum fork,services
+https://github.com/tatumio/smart-contracts/commit/8cff275c500acdcdca7ff0c947fb698b980747b7,contracts/tatum/custodial/TronCustodialWalletFactoryV2.sol,Underflow/Overflow,Tatum fork,services
+https://github.com/tatumio/smart-contracts/commit/2795a8a7a2d6fbf9d5915908f208788f4bb32cbe,contracts/tatum/custodial/TronCustodialWallet.sol,Unprotected Ether Withdrawal,Tatum fork,services
+https://github.com/tatumio/smart-contracts/commit/3cbf025e6c468822821dcf443300981850c1abd4,contracts/tatum/custodial/CustodialWallet.sol,Unprotected Ether Withdrawal,Tatum fork,services
+https://github.com/authereum/contracts/commit/4a778540362efe6cec4d501ff5ed36c5327131fb,contracts/modules/AuthereumDelegateKeyModule.sol,Underflow/Overflow,Authereum,blockchain
+https://github.com/autofarmnetwork/autofarm-v2-contracts/commit/0f2dfac26ea22a6fba489f88fc23dd64d3cd8454,AutoSwap.sol,Reentrancy,Autofarm,Yield Aggregator
+https://github.com/streamr-dev/marketplace-contracts/commit/0240b78d6dd67671a6372cd77e822bfe11f0cc18,contracts/Uniswap2Adapter.sol,Unprotected Ether Withdrawal,/,marketplace
+https://github.com/defidollar/defidollar-core/commit/857a90daab1d9d377303c7cb3ee7a1cb9b11d8be,contracts/peaks/Controller.sol,Unprotected Ether Withdrawal,DefiDollar,Algo-Stables
+https://github.com/defidollar/defidollar-core/commit/06d2a5d2c0f34ed2849b2e892b2f89994e436608,contracts/peaks/yearn/YVaultPeak.sol,Underflow/Overflow,DefiDollar,Algo-Stables
+https://github.com/servntire/Property-Registry/commit/f70dc1d77dee53520ea470fc0ee4d8ee5833babd,contracts/Migrations.sol,Unprotected Ether Withdrawal,servntire,RWA
+https://github.com/sonnysangha/lottery-smart-contract/commit/644e6403c4df1ca15e5a0cd1376880807559ae77,Lottery.sol,Reentrancy,lottery-smart-contract,Lottery
+https://github.com/notional-finance/contracts/commit/57a802cb6cd7d57ea4c82f2b17e080bf15056213,contracts/Portfolios.sol,Unprotected Ether Withdrawal,Notional Finance,Lending
+https://github.com/idexio/idex-contracts-whistler/commit/9faf536e090e9e3168c096cec581dff5cdc3ee0e,contracts/libraries/AssetTransfers.sol,Unchecked Call Return Value,IDEX 2.0,Dexes
+https://github.com/idexio/idex-contracts-whistler/commit/23c53b3458e4ee5d53aab34d4ab9c8111d392686,contracts/libraries/AssetRegistry.sol,Underflow/Overflow,IDEX 2.0,Dexes
+https://github.com/idexio/idex-contracts-whistler/commit/23c53b3458e4ee5d53aab34d4ab9c8111d39268,contracts/libraries/AssetUnitConversions.sol,Underflow/Overflow,IDEX 2.0,Dexes
+https://github.com/ToucanProtocol/contracts/commit/caaec0a5126efa6d83bf9e9bbe0e5ad01d845df5,contracts/ToucanCarbonOffsetsFactory.sol,Unprotected Ether Withdrawal,Toucan,RWA
+https://github.com/chronologic/chronologic/commit/25c153b028f2007c0ea6e3f0ef614f4c8c0acd83,contracts/DayToken.sol,Unprotected Ether Withdrawal,chronologic,token
+https://github.com/somish/govblocks-protocol/commit/5a2030b7b9b44d54a678c3389f5b3d0a8a858ef1,contracts/Governance.sol,Underflow/Overflow,GovBlocks,Gaming
+https://github.com/somish/govblocks-protocol/commit/f402e77261e6e814f7114a52cc5f6ee6fef29ac1,contracts/ProposalCategory.sol,Unprotected Ether Withdrawal,GovBlocks,Gaming
+https://github.com/somish/govblocks-protocol/commit/8fe3244e4ec41404660e35369d1d3ee849127fe1,contracts/Governance.sol,Reentrancy,GovBlocks,Gaming
+https://github.com/somish/govblocks-protocol/commit/8fe3244e4ec41404660e35369d1d3ee849127fe1,contracts/imports/govern/Governed.sol,Unprotected Ether Withdrawal,GovBlocks,Gaming
+https://github.com/charlesndalton/milkman/commit/3e78abe9627ae215dda1eaf336ce3502b3d89d2c,contracts/pricecheckers/SingleSidedBalancerBalWethExpectedOutCalculator.sol,Underflow/Overflow,milkman,services
+https://github.com/charlesndalton/milkman/commit/2ee9bd683163c6216987ec8381a74a181b9714b2,contracts/Milkman.sol,Unchecked Call Return Value,milkman,services
+https://github.com/Popsicle-Finance/Contracts/commit/4fe2b8dc789dfd26de5267f4d2fca8c64c75b85e,DiamondHands.sol,Unprotected Ether Withdrawal,Popsicle,Liquidity manager
+https://github.com/Popsicle-Finance/Contracts/commit/4fe2b8dc789dfd26de5267f4d2fca8c64c75b85e,PopsicleJoint.sol,Unprotected Ether Withdrawal,Popsicle,Liquidity manager
+https://github.com/Popsicle-Finance/Contracts/commit/4fe2b8dc789dfd26de5267f4d2fca8c64c75b85e,PopsicleProjectVesting.sol,Unprotected Ether Withdrawal,Popsicle,Liquidity manager
+https://github.com/Popsicle-Finance/Contracts/commit/4fe2b8dc789dfd26de5267f4d2fca8c64c75b85e,PopsicleStand.sol,Unprotected Ether Withdrawal,Popsicle,Liquidity manager
+https://github.com/Popsicle-Finance/Contracts/commit/4fe2b8dc789dfd26de5267f4d2fca8c64c75b85e,Sorbettiere.sol,Unprotected Ether Withdrawal,Popsicle,Liquidity manager
+https://github.com/OpiumProtocol/opium-contracts/commit/503c4c10d54575da40e197d9e408360ea6773aeb,contracts/Core.sol,Underflow/Overflow,Opium,Options
+https://github.com/OpiumProtocol/opium-contracts/commit/6f7e89570055e91a691a11e00bce874de5068339,contracts/Core.sol,Underflow/Overflow,Opium,Options
+https://github.com/OpiumProtocol/opium-contracts/commit/23e8b1533376af2d03114cb2192a8b7ec8febf13,contracts/Core.sol,Underflow/Overflow,Opium,Options
+https://github.com/mangrovedao/mangrove-core/commit/5f31346d0bb49356d75f417f35aa82cdee98f6be,src/core/MgvOfferMaking.sol,Unchecked Call Return Value,Mangrove,Dexes
+https://github.com/mangrovedao/mangrove-core/commit/f5fce72d7f8d7a8a905b475967ec71268b847d46,src/core/MgvOfferMaking.sol,Unchecked Call Return Value,Mangrove,Dexes
+https://github.com/mangrovedao/mangrove-core/commit/afebe0f28f0a58f3f4a67446c3ad4b84b2e53db1,src/core/MgvOfferMaking.sol,Unchecked Call Return Value,Mangrove,Dexes
+https://github.com/Instadapp/InstaContract/commit/0b5f247e44430a5918c886d3dfbb8d6af0efc19c,contracts/v2/InstaBank.sol,Unprotected Ether Withdrawal,InstaDApp,Services
+https://github.com/hermeznetwork/contracts/commit/0cc0c87fd9e7422b8cd4455e2a2b3e2506eaff7b,contracts/hermez/Hermez.sol,Reentrancy,Hermez network protocol,DAO
+https://github.com/hermeznetwork/contracts/commit/a2ea2951d3c3b9ef5dbb48efb6cabee9ae31abbd,contracts/hermez/Hermez.sol,Reentrancy,Hermez network protocol,DAO
+https://github.com/EtherOrcsOfficial/etherOrcs-contracts/commit/babfd995da41c225ccf78180333f0ff423248bb0,src/mainnet/EtherOrcsAllies.sol,Unprotected Ether Withdrawal,EtherOrcs,Gaming
+https://github.com/EtherOrcsOfficial/etherOrcs-contracts/commit/babfd995da41c225ccf78180333f0ff423248bb0,src/polygon/EtherOrcsPoly.sol,Unprotected Ether Withdrawal,EtherOrcs,Gaming
+https://github.com/EtherOrcsOfficial/etherOrcs-contracts/commit/babfd995da41c225ccf78180333f0ff423248bb0,src/polygon/GamingOraclePoly.sol,Unprotected Ether Withdrawal,EtherOrcs,Gaming
+https://github.com/EtherOrcsOfficial/etherOrcs-contracts/commit/47abbf90a42ba5e5cc6a7633c82f38aa1de1dc61,src/mainnet/MainlandPortal.sol,Unprotected Ether Withdrawal,EtherOrcs,Gaming
+https://github.com/EtherOrcsOfficial/etherOrcs-contracts/commit/33dbda8faad235c3ec0c3090e9037d8daa61905b,src/mainnet/MainlandPortal.sol,Unprotected Ether Withdrawal,EtherOrcs,Gaming
+https://github.com/panoptic-labs/panoptic-v1-core/commit/02cd20d23698f9ae62d6d51262f7043be4146b6c,contracts/libraries/Math.sol,Underflow/Overflow,Panoptic,Options
+https://github.com/Neufund/platform-contracts/commit/6c1639a346a40ac7eff8e1bd57b46688dc6fe1a0,contracts/Company/Extras/ExitController.sol,Unchecked Call Return Value,Neufund,Lending
+https://github.com/Seedifyfund/Launchpad-smart-contract/commit/372798954c4402b0c22b36d5a077c2bd9688da7e,contracts/SeedifyFund/SeedifyFund.sol,Underflow/Overflow,Seedifyfund,Launchpad
+https://github.com/Seedifyfund/Launchpad-smart-contract/commit/372798954c4402b0c22b36d5a077c2bd9688da7e,seedifyFundSingleFile.sol,Underflow/Overflow,Seedifyfund,Launchpad
+https://github.com/bloxapp/ssv-network/commit/0ab954ec24fc0b32b51c278958c3d51480940f1a,contracts/libraries/Types.sol,Underflow/Overflow,SSV Network,Staking
+https://github.com/pedrosgmagalhaes/drex_smartcontracts/commit/159c736a0e5683c7d71c890e10f4071fd1c294b2,contracts/CBDCAccessControl.sol,Unprotected Ether Withdrawal,RealDigital Smart Contract,token
+https://github.com/ethereum/dapp-bin/commit/2849dab39f874797ba65557378c8dc2e1a76e448,wallet/wallet.sol,Unprotected Ether Withdrawal,dapp-bin,Services
+https://github.com/coinbase/nft-dapp-starter-kit/commit/a5c6fc1139f10f143eed535a8a21eedbfdf7d3cc,smart-contracts/contracts/nft.sol,Underflow/Overflow,NFT Dapp Starter Kit ,Services
+https://github.com/Rishabh42/HealthCare-Insurance-Ethereum/commit/4d264217816e63d1f0c49895ac872e8e07b748e4,contracts/HealthCare.sol,Unprotected Ether Withdrawal,Medical Insurance claiming DApp ,others
+https://github.com/0xProject/0x-monorepo/commit/063d6ff24e7b3a135e3b232b76ffae3c9a5f6a39,contracts/staking/contracts/src/libs/LibFixedMath.sol,Underflow/Overflow,0x protocol monorepo,services
+https://github.com/0xProject/0x-monorepo/commit/a09cd03ce61036e2659a1af6577a74bb74dc6b5e,contracts/staking/contracts/src/libs/LibFixedMath.sol,Underflow/Overflow,0x protocol monorepo,services
+https://github.com/0xProject/0x-monorepo/commit/c68278d824c3f50c52c074f6b1832b97ccd8d7b2,contracts/asset-proxy/contracts/src/ERC1155Proxy.sol,Underflow/Overflow,0x protocol monorepo,services
+https://github.com/0xProject/0x-monorepo/commit/795a357595b94006a2f1fd6313bdf02103f1b6f5,packages/contracts/src/contracts/current/protocol/Exchange/MixinWrapperFunctions.sol,Unchecked Call Return Value,0x protocol monorepo,services
+https://github.com/0xProject/0x-monorepo/commit/1400ceb4e82a73be6ccefebc27d98442ae1c3748,contracts/exchange/contracts/test/ReentrancyTester.sol,Reentrancy,0x protocol monorepo,services
+https://github.com/0xProject/0x-monorepo/commit/9cda9f69cdf3df1bb2ecbaa67fb20577db51f1fa,contracts/zero-ex/contracts/src/features/MetaTransactions.sol,Reentrancy,0x protocol monorepo,services
+https://github.com/0xProject/0x-monorepo/commit/6f88e9bdbdd8f44c45053b8c17c84411f9499084,packages/contracts/src/2.0.0/protocol/Exchange/MixinWrapperFunctions.sol,Reentrancy,0x protocol monorepo,services
+https://github.com/0xProject/0x-monorepo/commit/5dd686f22fd028c90ee53b5706d9db71764e6bb4,contracts/zero-ex/contracts/src/features/MetaTransactions.sol,Reentrancy,0x protocol monorepo,services
+https://github.com/AdChain/AdChainRegistry/commit/802cd178a930b4b76edd51a836d81c22113bc109,contracts/Registry.sol,Unprotected Ether Withdrawal,adChain registry,services
+https://github.com/alpaca-finance/alpaca-stablecoin/commit/2b77c6e18976ca9e18c9bd6befb37efd92e9f0fb,contracts/6.12/stablecoin-core/LiquidationEngine.sol,Underflow/Overflow,Alpaca Stablecoin,CDP
+https://github.com/alpaca-finance/alpaca-stablecoin/commit/3264f098bafcbd42e08d5db93c4986005e7dfb07,contracts/6.12/stablecoin-core/LiquidationEngine.sol,Underflow/Overflow,Alpaca Stablecoin,CDP
+https://github.com/alpaca-finance/alpaca-stablecoin/commit/88dee92f866f8c31ca229a71fdc52679750a83f2,ontracts/6.12/stablecoin-core/liquidation-strategies/FixedSpreadLiquidationStrategy.sol,Underflow/Overflow,Alpaca Stablecoin,CDP
+https://github.com/alpaca-finance/alpaca-stablecoin/commit/6377a3416165781f0d7320a87cfe2811a03224e5,contracts/6.12/stablecoin-core/liquidation-strategies/FixedSpreadLiquidationStrategy.sol,Reentrancy,Alpaca Stablecoin,CDP
+https://github.com/ampleforth/ampleforth-contracts/commit/7f2d468f7303dfca11db9e516142f2a0000885c3,contracts/UFragments.sol,Underflow/Overflow,Ampleforth,services
+https://github.com/argentlabs/argent-contracts/commit/fcb56d430dd9b74138ef0004eca391f5c40cf6c1,contracts/modules/common/TokenPriceProvider.sol,Underflow/Overflow,Argent,wallet
+https://github.com/argentlabs/argent-contracts/commit/2bcfe82b26cbcd287efe66d413cf13378678fb5f,contracts/modules/maker/MakerV2Loan.sol,Reentrancy,Argent,wallet
+https://github.com/AugurProject/augur-core/commit/9f1dff79301d3697001d13164aa23fead5f32e34,source/contracts/reporting/FeeWindow.sol,Underflow/Overflow,Augur,Prediction Market
+https://github.com/AugurProject/augur-core/commit/337967b9973b93aab9671fc997c55f5a57dff9d5,source/contracts/reporting/Market.sol,Unchecked Call Return Value,Augur,Prediction Market
+https://github.com/blockmason/credit-protocol/commit/7b6788b230fe5fc9e7dea891a5a1acf0800bfe01,contracts/FriendData.sol,Underflow/Overflow,Credit Protocol,services
+https://github.com/bnb-chain/bsc-genesis-contract/commit/8232f4245e6b0e2a3d13b644d599dad9d1d64a07,contracts/RelayerHub.sol,Underflow/Overflow,BNB Smart Chain,services
+https://github.com/bnb-chain/bsc-genesis-contract/commit/befb3f17f98a826118203f874aa93e81e57d4128,contracts/lib/RLPDecode.sol,Underflow/Overflow,BNB Smart Chain,services
+https://github.com/Computable-Finance/CoFiX/commit/68517379fbb1f16b300bf0f20be018490716898b,contracts/CoFiXVaultForLP.sol,Reentrancy,CoFiX,Dexes
+https://github.com/convergentcx/milky-way/commit/bfc4f156595eef76158eb89b085e7d9827dfe914,contracts/EthBondingCurveToken.sol,Underflow/Overflow,Arc,services
+https://github.com/crytic/not-so-smart-contracts/commit/3f1e2b153e24c8140cca18580a1b76710616deb7,reentrancy/ReentrancyExploit.sol,Unchecked Call Return Value,/,others
+https://github.com/Dawn-Protocol/dawn-erc20-erc777/commit/7fcf7fa9caa16f74cf826951ce6920310e6f13fc,contracts/Recoverable.sol,Unchecked Call Return Value,Dawn,Gaming
+https://github.com/DeFiOptions/DeFiOptions-core/commit/3519ec3177ac0ece687e70aaebc9c82339db163b,contracts/governance/GovToken.sol,Underflow/Overflow,DeFi options ,Options
+https://github.com/DODOEX/contractV2/commit/f81e5481f869d516ebd3baabcc834925d8033538,contracts/lib/DODOMath.sol,Underflow/Overflow,DODOEX V2,Dexes
+https://github.com/DODOEX/contractV2/commit/6ecf34e1e173855157b9342495d931bbbf04c3d9,contracts/SmartRoute/DODOIncentive.sol,Underflow/Overflow,DODOEX V2,Dexes
+https://github.com/DODOEX/contractV2/commit/805f639c3a8763e16062b9cfc69921b10f5cfebf,contracts/CollateralVault/impl/NFTCollateralVault.sol,Unchecked Call Return Value,DODOEX V2,Dexes
+https://github.com/DODOEX/contractV2/commit/e810adaffe4d48348a2dbd7ce60381674a0a55ea,contracts/SmartRoute/proxies/DODONFTPoolProxy.sol,Unprotected Ether Withdrawal,DODOEX V2,Dexes
+https://github.com/DODOEX/contractV2/commit/fc39f709f2ae94b8f738abd6254dcf538bb7dbec,contracts/SmartRoute/DODOV2Proxy01.sol,Unprotected Ether Withdrawal,DODOEX V2,Dexes
+https://github.com/DODOEX/contractV2/commit/11814c230dad6df3babad981fef7ba2e9a67dc9f,contracts/external/ERC1155/InitializableERC1155.sol,Unprotected Ether Withdrawal,DODOEX V2,Dexes
+https://github.com/DODOEX/contractV2/commit/01c544780291a5acc3e2be4980493e63065fb200,contracts/DODOVendingMachine/impl/DVM.sol,Unprotected Ether Withdrawal,DODOEX V2,Dexes
+https://github.com/DODOEX/contractV2/commit/267ad24edc1e5dbda5ca89905502934ded05b23b,contracts/SmartRoute/DODOV2Proxy01.sol,Reentrancy,DODOEX V2,Dexes
+https://github.com/element-fi/council/commit/42e4d9cc9429ec4254734e0feefbb12d21660d8d,contracts/CoreVoting.sol,Unchecked Call Return Value,Council,Governance
+https://github.com/element-fi/council/commit/7d01b7de58569109755b84af38524884fe68a1c8,contracts/features/Treasury.sol,Unchecked Call Return Value,Council,Governance
+https://github.com/erasureprotocol/NMR/commit/4f5796bdc8cf2d1a9ee1a59502e6ec4acfca9aae,contracts/NumeraireDelegate.sol,Underflow/Overflow,Numeraire,Staking
+https://github.com/ETHLend/ICO_SmartContract/commit/c5baf85b8290c216e719eecfe07579e92a37d825,contracts/EthLendICO.sol,Underflow/Overflow,/,others
+https://github.com/Fairmint/c-org/commit/3b594f59f60ecde10837960bb5b4b1d16953c8dd,contracts/DecentralizedAutonomousTrust.sol,Underflow/Overflow,fairmint,Governance
+https://github.com/fei-protocol/fei-protocol-core/commit/e6fee99b580a01539f9723afa2f41966386ada85,contracts/genesis/GenesisGroup.sol,Unprotected Ether Withdrawal,Fei Protocol,Algo-Stables
+https://github.com/fei-protocol/fei-protocol-core/commit/91dd9ff7aedf121cae73c28eb4ef7203015001dd,contracts/staking/MasterChief.sol → contracts/staking/TribalChief.sol,Reentrancy,Fei Protocol,Algo-Stables
+https://github.com/fei-protocol/fei-protocol-core/commit/6e621bfcc6b2d394d83c83a9bca046e5075a6ed9,contracts/staking/MasterChief.sol,Reentrancy,Fei Protocol,Algo-Stables
+https://github.com/gnosis/conditional-tokens-contracts/commit/ec9f68dc8c9b3fe8a628ec4b874fdd75246bea2e,contracts/solidity/Events/ScalarEvent.sol,Underflow/Overflow,conditional tokens,token
+https://github.com/gnosis/dx-contracts/commit/29a52dad48b62967b6b7e465a79e844411c4d08f,contracts/DutchExchange.sol,Underflow/Overflow,DutchX,Dexes
+https://github.com/gnosis/dx-contracts/commit/12196d170f52f2ada1fe081229aa050ecb9c251d,contracts/DutchExchange.sol,Underflow/Overflow,DutchX,Dexes
+https://github.com/gnosis/dx-contracts/commit/65361c7455891840dd44349c5480a6e45c97cd92,contracts/Oracle/PriceFeed.sol,Unchecked Call Return Value,DutchX,Dexes
+https://github.com/gnosis/dx-contracts/commit/beddc7f5f5244ba4ba4bdd1c8ea591385207abd1,contracts/DutchExchange.sol,Reentrancy,DutchX,Dexes
+https://github.com/gnosis/pm-contracts/commit/ec9f68dc8c9b3fe8a628ec4b874fdd75246bea2e,contracts/solidity/Events/ScalarEvent.sol,Underflow/Overflow,Gnosis,Prediction Market
+https://github.com/Good-Ghosting/goodghosting-protocol-v0/commit/04fabad79691a2fc0a0899c9782a0e3a3b68d699,contracts/GoodGhosting.sol,Reentrancy,HaloFi,services
+https://github.com/idexio/idex-contracts-whistler/commit/23c53b3458e4ee5d53aab34d4ab9c8111d392686,contracts/libraries/AssetUnitConversions.sol,Underflow/Overflow,IDEX,Dexes
+https://github.com/JoinColony/colonyNetwork/commit/040a61d29069af70e541db32a4d849d7ced6e323,contracts/ReputationMiningCycle.sol,Underflow/Overflow,Colony Network,services
+https://github.com/JoinColony/colonyNetwork/commit/14f42ac416be0e870a615201d53a6409457620a5,contracts/ReputationMiningCycle.sol,Underflow/Overflow,Colony Network,services
+https://github.com/JoinColony/colonyNetwork/commit/46cc2d2138e2a7b0f67d19013e402c0ed9a0f64c,contracts/ReputationMiningCycleRespond.sol,Underflow/Overflow,Colony Network,services
+https://github.com/JoinColony/colonyNetwork/commit/6684daf88f206880f6f91411bc192b70003ee770,contracts/ReputationMiningCycleRespond.sol,Underflow/Overflow,Colony Network,services
+https://github.com/JoinColony/colonyNetwork/commit/39c1a32e0aea0ea2bdbc153509ff9ce1f136a1b6,contracts/colonyNetwork/ColonyNetworkAuction.sol,Reentrancy,Colony Network,services
+https://github.com/keep-network/keep-core/commit/8044979929a8bd31aabf4b49a3d78ed1324bc855,contracts/solidity/contracts/utils/OperatorParams.sol,Underflow/Overflow,Keep network,Cross Chain
+https://github.com/keep-network/keep-ecdsa/commit/92bf08fbe7a4a23bd0162c16045e94b06d966eca,solidity/contracts/KeepBonding.sol,Unprotected Ether Withdrawal,Keep network,Cross Chain
+https://github.com/kleros/kleros/commit/7bd8813ba2cef898f1cb1aeb84debfd2b5388593,contracts/kleros/KlerosLiquid.sol,Unchecked Call Return Value,Kleros,services
+https://github.com/kleros/kleros/commit/97196fa07f8319a992a1101caa6c282a3c875ddf,contracts/Governance.sol,Unchecked Call Return Value,Kleros,services
+https://github.com/kleros/kleros/commit/15b195f8a9c6bb83126b3624d98d6c455c437608,contracts/Governance.sol,Reentrancy,Kleros,services
+https://github.com/lukso-network/lsp-smart-contracts/commit/b9bb5d63db75ad33f5af8e1fbdd7329f66f8dcae,contracts/KeyManager/KeyManager.sol,Reentrancy,LUKSO Standard Proposals (LSPs).,services
+https://github.com/makerdao/dss-deploy/commit/efc3b43d88eae92b1f6e5947f1678927fe6e0335,src/join.sol,Unchecked Call Return Value,Multi Collateral Dai Deployment,others
+https://github.com/poanetwork/tokenbridge-contracts/commit/e752e94ec1a73162fac7f525ce7c1180280fcfbc,contracts/upgradeable_contracts/BasicHomeBridge.sol,Unchecked Call Return Value,TokenBridge,bridge
+https://github.com/PolymathNetwork/polymath-core-deprecated/commit/f3683cdfea80ddc7eb5c3783fa2dd10e25bc043f,contracts/SecurityToken.sol,Underflow/Overflow,Polymath,Launchpad
+https://github.com/pooltogether/pooltogether-pool-contracts/commit/ff861bf6cc9cd01a7bc9edc1ee596f83a12dbb78,contracts/prize-pool/PrizePool.sol,Reentrancy,PoolTogether,Gaming
+https://github.com/raiden-network/raiden-contracts/commit/6c91fd5639aa340e8bd9283b67a80476a449262b,raiden_contracts/data/source/services/ServiceRegistry.sol,Underflow/Overflow,Raiden Network,services
+https://github.com/reflexer-labs/geb/commit/422210bd509b15e60c2cd9f6b5615c5fc99935d8,src/TaxCollector.sol,Underflow/Overflow,GEB,CDP
+https://github.com/ripio/rcn-network/commit/42913cea4b97e5aa68989f74769de074df64671e,contracts/diaspore/model/NanoLoanModel.sol,Underflow/Overflow,RCN,CDP
+https://github.com/SmartContractSecurity/SWC-registry/commit/c78ea62e715b7d1d301f264099048acbdb4677b4,test_cases/reentracy/simple_dao.sol,Unchecked Call Return Value,swc registry,others
+https://github.com/solidstate-network/solidstate-solidity/commit/1881f3f86e4c234543d0a60f3a4826ec7deddef0,contracts/token/ERC1155/ERC1155Base.sol,Underflow/Overflow,SolidState,services
+https://github.com/somish/NexusMutual/commit/a4dce0491bee471e8a32e30533b55f3cec2b9dbd,contracts/Pool1.sol,Reentrancy,Nexus Mutual,services
+https://github.com/spartan-protocol/spartanswap-contracts/commit/2d651bc0ae48f28e814152f60a656030f58e0e5f,contracts/Dao.sol,Reentrancy,Spartan Protocol,Dexes
+https://github.com/sushiswap/sushiswap/commit/c5ffb929dcc459e8d17ffa2323fd24af5a5a0870,contracts/mocks/CloneRewarderTime.sol,Reentrancy,sushiswap,Dexes
+https://github.com/Synthetixio/synthetix/commit/c79966490f5a6d9d04b3ac06a7c3466463abde9b,contracts/Court.sol,Underflow/Overflow,Synthetix ,Synthetics
+https://github.com/Tokemak/tokemak-smart-contracts-public/commit/7f173157cd7cd2517ba8a3f24b7d95825faf94d6,contracts/manager/Manager.sol,Reentrancy,Tokemak,Yield
+https://github.com/Uniswap/v3-core/commit/3face0c89ca191164f39540bf8c1c3ba650c6f24,contracts/libraries/FullMath.sol,Underflow/Overflow,uniswap,Dexes
+https://github.com/yearn/yearn-vaults/commit/8ccd04860999264afb6bce58ed125ef54008f8d1,contracts/BaseWrapper.sol,Underflow/Overflow,Yearn Vault ,Yield Aggregator
+https://github.com/maticnetwork/contracts/commit/ba520b66689c52756cbead8ab5db426f19d3badd,contracts/root/predicates/IPredicate.sol,Missing  Zero Address Check,Matic Network,Dexes
+https://github.com/maticnetwork/contracts/commit/913f4b1c3cec25aafa3493ce2b45d4e60522ccfb,contracts/root/predicates/IPredicate.sol,Missing  Zero Address Check,Matic Network,Dexes
+https://github.com/maticnetwork/pos-portal/commit/eac5a8e39c450610ab903281297654498b22cc7a,contracts/child/ChildToken/DappTokens/UChildDAI.sol,Missing  Zero Address Check,Matic Network,Dexes
+https://github.com/bcnmy/metatx-standard/commit/f0e64aaf84502d5ef660d9568e7673e6ac780cc8,src/contracts/EIP712MetaTransaction.sol,Missing  Zero Address Check,Generalized Meta Transaction,services
+https://github.com/saddle-finance/saddle-contract/commit/997475a59557800c3b63b6e5a5a7eb1edb6ba8c7,contracts/rewards/RewardScheduler.sol,Missing  Zero Address Check,saddle finance,Dexes
+https://github.com/Fantom-foundation/Artion-Contracts/commit/f078383b1d836422d66e0a64684d25260b60275c,contracts/FantomAuction.sol,Missing  Zero Address Check,Fantom Artion Marketplace,Marketplaces
+https://github.com/TokenySolutions/T-REX/commit/840500c7c995186e3a149379d085ae998f86673f,contracts/factory/TREXFactory.sol,Missing  Zero Address Check,T-REX,token standard
+https://github.com/shentufoundation/security-oracle-smart-contracts/commit/ad8feabc603586410422011b4e4df860909e5982,contracts/CertiKSecurityOracle.sol,Missing  Zero Address Check,Shentu Security Oracle,security
+https://github.com/delvtech/council/commit/7d01b7de58569109755b84af38524884fe68a1c8,contracts/libraries/MerkleRewards.sol,Missing  Zero Address Check,Council,DAO
+https://github.com/delvtech/council/commit/7d01b7de58569109755b84af38524884fe68a1c8,contracts/vaults/LockingVault.sol,Missing  Zero Address Check,Council,DAO
+https://github.com/AngleProtocol/angle-core/commit/1ee95d275f3c2e27c16660581bc4567ca9126887,contracts/strategies/BaseStrategy.sol,Missing  Zero Address Check,Angle Protocol,CDP
+https://github.com/manifoldxyz/creator-core-extensions-solidity/commit/7f6e26df73ef6f212146de31c2bc8e38df7f0fed,packages/manifold/contracts/lazyclaim/ERC1155LazyPayableClaim.sol,Missing  Zero Address Check,Manifold,nft marketplace
+https://github.com/Orbiter-Finance/OB_ReturnCabin/commit/b68507b64523507394f585e3f46b592fcddf8bb2,contracts/ORMakerDeposit.sol,Missing  Zero Address Check,Orbiter,Lending
+https://github.com/Orbiter-Finance/OB_ReturnCabin/commit/b68507b64523507394f585e3f46b592fcddf8bb2,contracts/ORProtocalV1.sol,Missing  Zero Address Check,Orbiter,Lending
+https://github.com/Etheremon/smartcontract/commit/df53b7c6f9d92bdf2db1707d8a8df41664bde37e,EtheremonERC721.sol,Missing  Zero Address Check,Etheremon,Gaming
+https://github.com/makerdao/dss-deploy/commit/348c726998f4e4d8116c1d770d748b2faa8b360f,src/DssDeploy.sol,Missing  Zero Address Check,MakerDAO,CDP
+https://github.com/onchain-id/solidity/commit/a407555dc0c1e5a329463b04b29e0bed51df5010,contracts/proxy/IdentityProxy.sol,Missing  Zero Address Check,OnchainID,security
+https://github.com/onchain-id/solidity/commit/a407555dc0c1e5a329463b04b29e0bed51df5010,contracts/proxy/ImplementationAuthority.sol,Missing  Zero Address Check,OnchainID,security
+https://github.com/tatumio/smart-contracts/commit/8cff275c500acdcdca7ff0c947fb698b980747b7,contracts/tatum/custodial/CustodialWallet.sol,Missing  Zero Address Check,Tatum fork,services
+https://github.com/tatumio/smart-contracts/commit/b49fcbe33063ed06342694264b5fe921b1510205,contracts/tatum/nft/NftAuction.sol,Missing  Zero Address Check,Tatum fork,services
+https://github.com/hanzoai/solidity/commit/ff26eddda23bef353090e8a628d894ff53252888,contracts/Blacklist.sol,Missing  Zero Address Check,Hanzo,others
+https://github.com/hanzoai/solidity/commit/515a9194a9976601a0ebdcef7609803470ef627c,contracts/Whitelist.sol,Missing  Zero Address Check,Hanzo,others
+https://github.com/hanzoai/solidity/commit/8bff6ea07fdb0d5fc8a480feda92aa045c92a529,contracts/Whitelist.sol,Missing  Zero Address Check,Hanzo,others
+https://github.com/hanzoai/solidity/commit/73f734bb25e552777f25b0d3df22947cb8d797e0,contracts/Blacklist.sol,Missing  Zero Address Check,Hanzo,others
+https://github.com/hanzoai/solidity/commit/04bd6db4f565f263092a2720974a2c5e97b3b96f,contracts/Blacklist.sol,Missing  Zero Address Check,Hanzo,others
+https://github.com/idexio/idex-contracts-whistler/commit/9e62d998975832479d43988e1b7d56d2b6ce4c9e,contracts/libraries/AssetRegistry.sol,Missing  Zero Address Check,IDEX 2.0,Dexes
+https://github.com/Instadapp/InstaContract/commit/ed0dea5424b83c1970957c31b58c840b9f894c5a,contracts/v1/protocols/MakerDAO/InstaMaker.sol,Missing  Zero Address Check,InstaDApp,Services
+https://github.com/TotlePlatform/contracts/commit/f7528e907cd1413a41678596a65edd7a44f50294,contracts/TotlePrimary.sol,Missing  Zero Address Check,Totle,Liquidity manager
+https://github.com/Seedifyfund/Launchpad-smart-contract/commit/1df5b2cca24429513394e34418f4a6949409e52d,contracts/SeedifyFund/SeedifyFund.sol,Missing  Zero Address Check,Seedifyfund,Launchpad
+https://github.com/Seedifyfund/Launchpad-smart-contract/commit/1df5b2cca24429513394e34418f4a6949409e52d,seedifyFundSingleFile.sol,Missing  Zero Address Check,Seedifyfund,Launchpad
+https://github.com/stakewise/contracts/commit/e1891e2f3e18862d4304c70d3a4f69ed6da5ac39,contracts/Oracles.sol,Missing  Zero Address Check,StakeWise,Liquid staking
+https://github.com/stakewise/contracts/commit/e1891e2f3e18862d4304c70d3a4f69ed6da5ac39,contracts/Oracles.sol,Missing  Zero Address Check,StakeWise,Liquid staking
+https://github.com/kendricktan/heiswap-dapp/commit/13b3198d0912b1db07f6dbccc92da1a6d854e9d8,contracts/Heiswap.sol,Missing  Zero Address Check,Heiswap,Dexes
+https://github.com/stakewise/contracts/commit/29022d7c4628420efe5fed0560e5269db07d9892,contracts/tokens/RewardEthToken.sol,Unprotected Ether Withdrawal,StakeWise,Liquid staking
+https://github.com/stakewise/contracts/commit/29022d7c4628420efe5fed0560e5269db07d9892,contracts/tokens/StakedEthToken.sol,Unprotected Ether Withdrawal,StakeWise,Liquid staking
+https://github.com/stakewise/contracts/commit/29022d7c4628420efe5fed0560e5269db07d9892,contracts/tokens/StakedEthToken.sol,Unprotected Ether Withdrawal,StakeWise,Liquid staking
+https://github.com/wireshape/real-digital-smart-contracts/commit/9d3322a992fac6053953a1d2b84bf420a562f825,RealDigitalEnableAccount.sol,Unprotected Ether Withdrawal,/,/

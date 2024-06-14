@@ -1,0 +1,78 @@
+Commit URL,File Name,Category,Project Name,Project Types
+https://github.com/maticnetwork/contracts/commit/5dace23fd378b89aef3ef9ad6407cc44eac4d7db,contracts/staking/stakeManager/StakeManager.sol,Temporal Property Violation,/,Dexes
+https://github.com/omni/tokenbridge-contracts/commit/1166e00c5b976295914d625504f3b53b7bfc945c,contracts/upgradeable_contracts/multi_amb_erc20_to_erc677/ForeignMultiAMBErc20ToErc677.sol,Lack of Property Check for External Call,POA Bridge,Bridge
+https://github.com/matter-labs/era-contracts/commit/5b38a57d6f329c0542cb6ca1c638d920fb0bccb1,ethereum/contracts/zksync/facets/Executor.sol,Others,zkSync Era,Dexes
+https://github.com/matter-labs/era-contracts/commit/414377fa021d2943ddd98622b8e2747fa6d2b9bf,ethereum/contracts/upgrades/BaseZkSyncUpgrade.sol,Others,zkSync Era,Dexes
+https://github.com/matter-labs/era-contracts/commit/414377fa021d2943ddd98622b8e2747fa6d2b9bf,ethereum/contracts/zksync/libraries/Diamond.sol,Missing Account Type Verification,zkSync Era,Dexes
+https://github.com/TokenySolutions/T-REX/commit/840500c7c995186e3a149379d085ae998f86673f,contracts/compliance/modular/ModularCompliance.sol,Consistencyv Violation,T-REX,token standard
+https://github.com/delvtech/elf-contracts/commit/cb909af9b9843abd477980ba6023fb97e053005c,contracts/Tranche.sol,Number Rounding Error,Element Protocol ,Yeild
+https://github.com/blockchain-IoT/Motoro/commit/db5e43f30b1f51d47f193ab32fb9f9da2e4141c9,contracts/Machine.sol,Time Constraint Violation,Motoro,blockchain LoT
+https://github.com/oncyberio/factory/commit/5883c0d77e59236689101fdc3ce375f0efab9a84,packages/contracts/contracts/CyberDropBase.sol,Time Constraint Violation,Cyber Destination Diamonds,NFT Marketplace
+https://github.com/ethereum-optimism/contracts/commit/c6e6be4056e60e73dc064c0e3bf6ef12d4598e7c,contracts/optimistic-ethereum/OVM/bridge/tokens/OVM_L1ETHGateway.sol,Temporal Property Violation,Optimism,Layer 2
+https://github.com/delvtech/council/commit/861e7600bcd5fe3cacca4f84e9f25c72f9c21075,contracts/CoreVoting.sol,Temporal Property Violation,Council,DAO
+https://github.com/delvtech/council/commit/7d01b7de58569109755b84af38524884fe68a1c8,contracts/features/Timelock.sol,Temporal Property Violation,Council,DAO
+https://github.com/delvtech/council/commit/7d01b7de58569109755b84af38524884fe68a1c8,contracts/libraries/History.sol,Time Constraint Violation,Council,DAO
+https://github.com/delvtech/council/commit/d5907de66776ac96aded21412eb28b3fefffc08b,contracts/features/Timelock.sol,Temporal Property Violation,Council,DAO
+https://github.com/bcnmy/scw-contracts/commit/3bf128e9e2ece1fd1ce666507700944708eef4ce,contracts/smart-account/modules/BatchedSessionRouterModule.sol,Consistencyv Violation,Biconomy,Wallets
+https://github.com/bcnmy/scw-contracts/commit/484e2a25898c013cd57df8dc71aec13a2fd1b58a,contracts/smart-account/modules/BatchedSessionRouterModule.sol,Consistencyv Violation,Biconomy,Wallets
+https://github.com/AngleProtocol/angle-core/commit/1ee95d275f3c2e27c16660581bc4567ca9126887,contracts/oracle/modules/ModuleChainlinkMulti.sol,Others,Angle,CDP
+https://github.com/AngleProtocol/angle-core/commit/1ee95d275f3c2e27c16660581bc4567ca9126887,contracts/oracle/modules/ModuleChainlinkSingle.sol,Others,Angle,CDP
+https://github.com/AngleProtocol/angle-core/commit/1ee95d275f3c2e27c16660581bc4567ca9126887,contracts/oracle/utils/ChainlinkUtils.sol,Lack of Property Check for External Call,Angle,CDP
+https://github.com/oceanprotocol/contracts/commit/1a2cad46280a7ee6133a8a33288a5dcbe5371ab9,contracts/pools/fixedRate/FixedRateExchange.sol,Missing Account Type Verification,Ocean protocol,Launchpad
+https://github.com/oceanprotocol/contracts/commit/3f6697c811123b41c19230ba2cee5b6820242981,contracts/pools/fixedRate/FixedRateExchange.sol,Missing Account Type Verification,Ocean protocol,Launchpad
+https://github.com/Etheremon/smartcontract/commit/cc4dcc187eab362aac9776549aac36d087109e89,EtheremonTrade.sol,Non-asset-related Unauthorized Access,Etheremon,Gaming
+https://github.com/Instadapp/smart-contract/commit/d65da6bec7d9f6fff4e61ee83aa83fe89302e238,contracts/ProxyLogics/InstaCompMigrate.sol,Insufficient Balance Validation,Instadapp,Services
+https://github.com/Instadapp/smart-contract/commit/510f86b7f80a4a4a3ae2a880410a1fe6fc6b6b26,contracts/ProxyLogics/MCD/InstaMcdMigrate.sol,Insufficient Balance Validation,Instadapp,Services
+https://github.com/thundercore/referral-solidity/commit/a44f0e7728974435b63c8b8ef9e323243f006884,contracts/Referral.sol,Non-asset-related Unauthorized Access,Referral Solidity,Services
+https://github.com/thundercore/referral-solidity/commit/5b6c8e3ac7f3a68566b536b52e5e558ba0f87c82,contracts/Referral.sol,Non-asset-related Unauthorized Access,Referral Solidity,Services
+https://github.com/candidelabs/CandideWalletContracts/commit/f7131dad4532e40488ade1932b9fd4f68c8d0e58,contracts/candideWallet/CandideWallet.sol,Others,Candide Wallet,Wallets
+https://github.com/k26dr/ethereum-games/commit/96a536619e34cb8454bfe171e8f773d7d4651302,contracts/Lotteries.sol,ID Uniqueness Violation,ethereum-games,Gaming
+https://github.com/k26dr/ethereum-games/commit/363994697a5005a38ed5c9eb43183a30396e5056,contracts/Gambling.sol,Temporal Property Violation,ethereum-games,Gaming
+https://github.com/e11-io/crypto-wars-solidity/commit/a7319e6f5e65505ccb10c9636833099a64fdb080,contracts/BuildingsQueue.sol,Others,CryptoWars,Gaming
+https://github.com/beefyfinance/beefy-protocol/commit/de6e44166925fe6049bac6910beff6cdaaa5bc75,zaps/beefyUniswapZap.sol,Consistencyv Violation,Beefy Finance ,Yield Aggregator
+https://github.com/beefyfinance/beefy-protocol/commit/39e06b52a8443442935f1754260fa3a0480e95e8,zaps/beefyUniswapZap.sol,Consistencyv Violation,Beefy Finance ,Yield Aggregator
+https://github.com/onchain-id/solidity/commit/a407555dc0c1e5a329463b04b29e0bed51df5010,contracts/ClaimIssuer.sol,Temporal Property Violation,OnchainID,Privacy
+https://github.com/tooploox/ipfs-eth-database/commit/ee6563a5d5189b795efae7bf79b60ea34f579101,contracts/Blog.sol,Insufficient Balance Validation,IPFS,Services
+https://github.com/SmartBillions/SmartBillions/commit/996cbe312a9a435eca91e93e888c3d1b3ccefdd8,SmartBillions.sol,Temporal Property Violation,SmartBillions,Gaming
+https://github.com/morpho-labs/smart-contract-challenges/commit/4b0d173c843d325972a23efdc88a39485f71cf96,src/hacks/h21-roulette/Roulette.sol,Temporal Property Violation,/,others
+https://github.com/sirin-labs/crowdsale-smart-contract/commit/e01bea07951ae314112c7f06a350b6ac66b2188d,contracts/crowdsale/RefundVault.sol,Temporal Property Violation,Sirin Crowdsale,others
+https://github.com/sonnysangha/lottery-smart-contract/commit/0399cc1c532549b9c537d5ad556f39038c50219d,Lottery.sol,Asset Availability Violation,lottery-smart-contract,Gaming
+https://github.com/Equalizer-Finance/equalizer-smart-contracts-v1/commit/60cae3b77347b5b880743684f8de3c8436ba65ed,contracts/FlashLoanFeeProvider.sol,Errorneous Accounting,Equalizer,Dexes
+https://github.com/Equalizer-Finance/equalizer-smart-contracts-v1/commit/60cae3b77347b5b880743684f8de3c8436ba65ed,contracts/Vault.sol,Atomicity Violation,Equalizer,Dexes
+https://github.com/Equalizer-Finance/equalizer-smart-contracts-v1/commit/512722ce9e0d5a7783f193fb4ff3cec5a5e9d8e3,contracts/FlashLoanFeeProvider.sol,Errorneous Accounting,Equalizer,Dexes
+https://github.com/Equalizer-Finance/equalizer-smart-contracts-v1/commit/70606020f5fd700f6e25152b64172a206f98e9c1,contracts/FlashLoanFeeProvider.sol,Errorneous Accounting,Equalizer,Dexes
+https://github.com/Equalizer-Finance/equalizer-smart-contracts-v1/commit/17d79a0b31ee18ac8de6447460ba96de3358777c,contracts/Vault.sol,Atomicity Violation,Equalizer,Dexes
+https://github.com/Equalizer-Finance/equalizer-smart-contracts-v1/commit/6f866369cae3c13613300d9e9519e267e86f7d3b,contracts/Vault.sol,Atomicity Violation,Equalizer,Dexes
+https://github.com/idexio/idex-contracts-whistler/commit/2bedc5bcc4d90a92ea96a65663622f4a6a921aa1,contracts/libraries/AssetRegistry.sol,Temporal Property Violation,IDEX,Dexes
+https://github.com/idexio/idex-contracts-whistler/commit/c3c8574cfe9e5ce79615a650733be60b5050cd03,contracts/Exchange.sol,Temporal Property Violation,IDEX,Dexes
+https://github.com/idexio/idex-contracts-whistler/commit/9e62d998975832479d43988e1b7d56d2b6ce4c9e,contracts/Custodian.sol,Missing Account Type Verification,IDEX,Dexes
+https://github.com/idexio/idex-contracts-whistler/commit/9e62d998975832479d43988e1b7d56d2b6ce4c9e,contracts/Governance.sol,Missing Account Type Verification,IDEX,Dexes
+https://github.com/Instadapp/InstaContract/commit/b230ca57b5b88fc59b3a81d4650682566d01b741,contracts/v2/LeverageCDP.sol,Lack of Property Check for External Call,InstaDApp,Services
+https://github.com/ParaState/simple-staking-smart-contract/commit/2f4400a3b9d14ffc6e41d455b8abb6301e112dd3,SimpleStaking.sol,Insufficient Balance Validation,Simple Staking,Staking Pool
+https://github.com/coinbase/nft-dapp-starter-kit/commit/a5c6fc1139f10f143eed535a8a21eedbfdf7d3cc,smart-contracts/contracts/nft.sol,Asset Availability Violation,Starter kit,Services
+https://github.com/trusttoken/contracts-pre22/commit/979aeabacbc9a81916356f8d2e8b158ba6a33224,packages/contracts-por/contracts/TrueCurrencyWithProofOfReserve.sol,Consistencyv Violation,TrueFi Smart Contracts,Lending
+https://github.com/perpetual-protocol/perpetual-protocol/commit/040959feab2c550c387efc379c35563f682c0da0,src/ClearingHouse.sol,Others,Perpetual Protocol,AMM
+https://github.com/centrifuge/tinlake/commit/9a582098da40862398af3bdb5f7a9a1dd6fa7d62,src/borrower/shelf.sol,Others,Tinlake Contracts,Lending
+https://github.com/IndexCoop/index-coop-smart-contracts/commit/b707a9abad045bf13c2769ddaf4bf60be857481b,contracts/adapters/FixedRebalanceExtension.sol,Consistencyv Violation,Index Cooperative,protocol
+https://github.com/AngleProtocol/angle-core/commit/1ee95d275f3c2e27c16660581bc4567ca9126887,contracts/strategies/Strategy.sol,Others,Angle Protocol,CDP
+https://github.com/bitcoin-portal/bitcoincom-solidity-swap/commit/3bccbb05c2d95f5c73347df90f409fc5c1b82c8c,contracts/SwapsERC20.sol,Others,bitcoincom-solidity-swap,Dexes
+https://github.com/HydroBlockchain/smart-contracts/commit/1545da0937d7e7f0005695afd89ae4b190cddfc7,snowflake/contracts/Snowflake.sol,Others,Hydro,Services
+https://github.com/HydroBlockchain/smart-contracts/commit/a5c7f96e16631f3bc28600afe7007b6e5b28bafa,snowflake/contracts/Snowflake.sol,Others,Hydro,Services
+https://github.com/HydroBlockchain/smart-contracts/commit/d7a47d73f394eb4f8ca2ac2caa719923e0128c80,snowflake/contracts/resolvers/ClientRaindrop/ClientRaindrop.sol,Consistencyv Violation,Hydro,Services
+https://github.com/Fairmint/c-org/commit/0861378fb2f3f744e69b499a44db3175c5d2625f,contracts/Whitelist.sol,Others,Fairmint ,Services
+https://github.com/authereum/contracts/commit/a6b5c2409250aae6511d43b8f842ec1ad94f7b0f,contracts/account/BaseAccount.sol,Insufficient Gas Validation,Authereum,blockchain
+https://github.com/authereum/contracts/commit/4a778540362efe6cec4d501ff5ed36c5327131fb,contracts/account/BaseAccount.sol,Insufficient Gas Validation,Authereum,blockchain
+https://github.com/autofarmnetwork/autofarm-v2-contracts/commit/6b278f750671cc5d27b055943194cc4076411d87,StratX2.sol,Others,Autofarm,Dexes
+https://github.com/Equalizer-Finance/equalizer-smart-contracts-v1/commit/10a9fcf30f13ac2bdeb7dfaf87665426844128d4,contracts/Vault.sol,Excessive Slippage,Equalizer,Lending
+https://github.com/horizon-games/Skyweaver-contracts/commit/279b51e04d278afce1645323c28c2661169efdd5,src/contracts/factories/BoundingCurveFactory.sol,Others,Skyweaver Card,Dexes
+https://github.com/OpiumProtocol/opium-contracts/commit/6f7e89570055e91a691a11e00bce874de5068339,contracts/Matching/Match/MatchCreate.sol,Others,Opium,Options
+https://github.com/OpiumProtocol/opium-contracts/commit/6f7e89570055e91a691a11e00bce874de5068339,contracts/Matching/Match/MatchPool.sol,Others,Opium,Options
+https://github.com/OpiumProtocol/opium-contracts/commit/6f7e89570055e91a691a11e00bce874de5068339,contracts/Matching/SwaprateMatch/SwaprateMatch.sol,Others,Opium,Options
+https://github.com/OpiumProtocol/opium-contracts/commit/c62ff43f6bc934cbcd81f0baaeed413e4a344867,contracts/Matching/Match/MatchCreate.sol,Others,Opium,Options
+https://github.com/OpiumProtocol/opium-contracts/commit/c62ff43f6bc934cbcd81f0baaeed413e4a344867,contracts/Matching/Match/MatchPool.sol,Others,Opium,Options
+https://github.com/OpiumProtocol/opium-contracts/commit/c62ff43f6bc934cbcd81f0baaeed413e4a344867,contracts/Matching/SwaprateMatch/SwaprateMatch.sol,Others,Opium,Options
+https://github.com/mangrovedao/mangrove-core/commit/f5fce72d7f8d7a8a905b475967ec71268b847d46,src/core/MgvOfferTakingWithPermit.sol,Others,Mangrove,Dexes
+https://github.com/Dexalot/contracts/commit/ab85a832e0a3bda354a8b22b4040553424344a40,contracts/PortfolioSub.sol,Others,Dexalot,Dexes
+https://github.com/lukso-network/rICO-smart-contracts/commit/01426fc161911ec470a3be8daf85039c31475093,contracts/ReversibleICO.sol,Temporal Property Violation,Reversible ICO,Services
+https://github.com/defidollar/defidollar-core/commit/99e2dc3c0376014cdfeebc1030d2b685c75c60e8,contracts/stream/Comptroller.sol,Consistencyv Violation,DefiDollar,Algo-Stables
+https://github.com/idexio/idex-contracts-whistler/commit/9e62d998975832479d43988e1b7d56d2b6ce4c9e,contracts/Exchange.sol,Missing Account Type Verification,IDEX 2.0,Dexes
