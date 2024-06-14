@@ -14,8 +14,8 @@ Among these faults, 224 (74.4%) fall into the machine auditable category, while 
 The dataset is structured into four distinct sections within the `/contracts` directory:
 + [/machine_auditable_faults](/contracts/machine_auditable_faults): includes the buggy and patched version of the 224 machine auditable faults.
 + [/machine_unauditable_faults](/contracts/machine_unauditable_faults): includes the buggy and patched version of the 77 machine unauditable faults.
-+ [/machine_auditable_faults.xlsx](/contracts/machine_auditable_faults.xlsx): contains the detailed information of each machine auditable fault, including the commit URL, category, and project type.
-+ [/machine_auditable_faults.xlsx](/contracts/machine_unauditable_faults.xlsx): contains the detailed information of each machine unauditable fault, including the commit URL, category, and project type.
++ [/machine_auditable_faults.csv](/contracts/machine_auditable_faults.csv): contains the detailed information of each machine auditable fault, including the commit URL, category, and project type.
++ [/machine_unauditable_faults.csv](/contracts/machine_unauditable_faults.csv): contains the detailed information of each machine unauditable fault, including the commit URL, category, and project type.
 
 
 ## Security Analysis Tool Evaluation
