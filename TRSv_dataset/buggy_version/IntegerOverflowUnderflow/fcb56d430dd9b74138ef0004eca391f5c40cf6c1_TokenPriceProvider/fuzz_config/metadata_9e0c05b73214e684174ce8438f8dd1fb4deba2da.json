@@ -1,6 +1,0 @@
-{
-	"tuffleProjDir": "/shared/",
-	"transactions": "/shared//fuzz_config/transactions_9e0c05b73214e684174ce8438f8dd1fb4deba2da.json",
-	"accounts": "/shared//fuzz_config/accounts.json",
-	"config": "/shared//fuzz_config/config.json"
-}
