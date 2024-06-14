@@ -2,7 +2,7 @@
 This project aims to provide a benchmark for smart contract developers and researchers to enhance their understanding of transaction-reverting faults (TR faults) in smart contracts.
 The project is associated with a paper titled <b>Understanding Transaction-Reverting Faults in Smart Contracts</b>.
 
-(<i>The paper is currently undergoing review and will be released in the near future</i>.🌟)
+(🌟<i>The paper is currently undergoing review and will be released in the near future</i>.)
 
 
 ## Dataset Description 
@@ -53,7 +53,7 @@ We select ten representive stat-of-the art security analysis tools for experimen
 The execution result for the ten tools are presented in `/results` folder.
 
 **Summary of tool execution results:**
-| **Tool**       | **Underflow/ Overflow** | **Unprotected Ether  Withdrawal** | **Unchecked Call  Return Value ** | **Missing Zero  Address Check** | **Reentrancy** | **Vulnerability Detection Rate (VDR)** | **False Positive Rate (FPR)** |
+| **Tool**       | **Underflow/ Overflow** | **Unprotected Ether  Withdrawal** | **Unchecked Call  Return Value** | **Missing Zero  Address Check** | **Reentrancy** | **Vulnerability Detection Rate (VDR)** | **False Positive Rate (FPR)** |
 |----------------|:-----------------------:|:---------------------------------:|:---------------------------------:|:-------------------------------:|:--------------:|:--------------------------------------:|:-----------------------------:|
 | ContractFuzzer |            -            |                 -                 |                 -                 |                -                |        0       |              0/27（0.0%）              |           0/27(0.0%)          |
 | sFuzz          |            0            |                 -                 |                 -                 |                -                |        0       |              0/94（0.0%）              |           0/94(0.0%)          |
