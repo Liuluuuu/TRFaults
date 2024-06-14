@@ -1,12 +1,20 @@
-# TRS vulnerablity dataset
-This project aims to provide a benchmark for smart contract developers and researchers to enhance their understanding of transaction-reverting faults in smart contracts.
-The project is associated with a paper titled ``Understanding Transaction-Reverting Faults in Smart Contracts''. <i>(The paper is currently undergoing review and will be released in the near future.)<i>
+# TR fault dataset
+This project aims to provide a benchmark for smart contract developers and researchers to enhance their understanding of transaction-reverting faults (TR faults) in smart contracts.
+The project is associated with a paper titled <b>Understanding Transaction-Reverting Faults in Smart Contracts</b>.
+
+<i>(The paper is currently undergoing review and will be released in the near future:star:.)</i>
 
 
-## Overview
-**Dataset:** The 91 vulnerable contracts are available in `/dataset` folder. Detailed information about the 91 contract cases is presented in `TRS_v.xlsx`.
+## Dataset description
+### Dataset
+We identify 301 real-world TR faults from open-source GitHub project and categorize them into machine auditable and machine unauditable faults. 
+Together there are 224 (74.4%) machine auditable faults and 77(25.6%) machine auditable faults.
+The 301 TR faults are availablae in `/dataset` folder. Detailed information about the 301 contract cases is presented in `TR_faults.xlsx`.
 
-**Tools:** Ten representive tools for experiments are listed below:
+
+## Security Analysis Tool Evaluation
+### Tools:
+We select ten representive stat-of-the art sscurity analysis tools for experiments. The ten tools are listed below:
 * [ContractFuzzer](https://github.com/gongbell/ContractFuzzer)
 * [sFuzz](https://github.com/duytai/sFuzz)
 * [SmarTian](https://github.com/SoftSec-KAIST/Smartian)
@@ -35,14 +43,6 @@ The project is associated with a paper titled ``Understanding Transaction-Revert
 | VeriSmart      | -      | 30m     | -           |
 
 
-
-*The recommended setting of runtime parameters:*
-| Parameter   | Technique                                    | Value |
-|-------------|----------------------------------------------|-------|
-| Depth Limit | Symbolic Execution                           | 50    |
-| Trials      | Fuzzing                                      | 48    |
-| Timeout (s) | Static Analysis, Fuzzing, Symbolic Execution | 3600  |
-
 **Experiment Result:**
 
 *The default setting of runtime parameters:*
@@ -59,21 +59,5 @@ The project is associated with a paper titled ``Understanding Transaction-Revert
 | Securify       | 0/2          | -           | -                       | 0/2 0.0%                     |
 | Slither        | 8/24         | -           | 2/4                     | 10/28 35.7%                  |
 | Total          | 16/163       | 0/4         | 4/35                    | 20/202 10.0%                 |
-
-*The recommended setting of runtime parameters:*
-| Tool           | TRS Omission | TRS Overuse | Improper TRS Conditions | Vulnerability Detection Rate |
-|----------------|--------------|-------------|-------------------------|------------------------------|
-| ContractFuzzer | 0/10         | -           | 0/4                     | 0/14 0.0%                    |
-| sFuzz          | 10/18        | -           | 0/5                     | 10/23 43.5%                  |
-| SmarTian       | 0/4          | 0/4         | 0/2                     | 0/10 0.0%                    |
-| Oyente         | 0/3          | -           | 0/2                     | 0/5 0.0%                     |
-| Mythril        | 5/57         | -           | 2/13                    | 7/70 10.0%                   |
-| Maian          | 0/7          | -           | -                       | 0/7 0.0%                     |
-| Manticore      | 0/31         | -           | 0/4                     | 0/35 0.0%                    |
-| VeriSmart      | 0/7          | -           | 0/1                     | 0/8 0.0%                     |
-| Securify       | 1/2          | -           | -                       | 1/2 50.0%                    |
-| Slither        | 15/24        | -           | 4/4                     | 19/28 67.9%                  |
-| Total          | 31/163       | 0/4         | 6/35                    | 37/202 18.3%                 |
-
 
 **Note:** For more information, please refer to our [paper]().
