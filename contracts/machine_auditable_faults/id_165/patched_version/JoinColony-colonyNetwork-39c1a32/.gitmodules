@@ -1,8 +1,0 @@
-[submodule "lib/dappsys"]
-	path = lib/dappsys
-	url = https://github.com/JoinColony/dappsys-monolithic.git
-  branch = solidity070
-[submodule "lib/colonyToken"]
-	path = lib/colonyToken
-	url = https://github.com/JoinColony/colonyToken.git
-  branch = master
