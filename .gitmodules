@@ -1,0 +1,1764 @@
+[submodule "contracts/machine_auditable_faults/id_1/buggy_version/v3-core"]
+	path = contracts/machine_auditable_faults/id_1/buggy_version/v3-core
+	url = https://github.com/Uniswap/v3-core.git
+[submodule "contracts/machine_auditable_faults/id_1/patched_version/v3-core"]
+	path = contracts/machine_auditable_faults/id_1/patched_version/v3-core
+	url = https://github.com/Uniswap/v3-core.git
+[submodule "contracts/machine_auditable_faults/id_2/buggy_version/solmate"]
+	path = contracts/machine_auditable_faults/id_2/buggy_version/solmate
+	url = https://github.com/transmissions11/solmate.git
+[submodule "contracts/machine_auditable_faults/id_2/patched_version/solmate"]
+	path = contracts/machine_auditable_faults/id_2/patched_version/solmate
+	url = https://github.com/transmissions11/solmate.git
+[submodule "contracts/machine_auditable_faults/id_3/buggy_version/not-so-smart-contracts"]
+	path = contracts/machine_auditable_faults/id_3/buggy_version/not-so-smart-contracts
+	url = https://github.com/crytic/not-so-smart-contracts.git
+[submodule "contracts/machine_auditable_faults/id_3/patched_version/not-so-smart-contracts"]
+	path = contracts/machine_auditable_faults/id_3/patched_version/not-so-smart-contracts
+	url = https://github.com/crytic/not-so-smart-contracts.git
+[submodule "contracts/machine_auditable_faults/id_4/buggy_version/sidra-contracts"]
+	path = contracts/machine_auditable_faults/id_4/buggy_version/sidra-contracts
+	url = https://github.com/SidraChain/sidra-contracts.git
+[submodule "contracts/machine_auditable_faults/id_4/patched_version/sidra-contracts"]
+	path = contracts/machine_auditable_faults/id_4/patched_version/sidra-contracts
+	url = https://github.com/SidraChain/sidra-contracts.git
+[submodule "contracts/machine_auditable_faults/id_5/buggy_version/sidra-contracts"]
+	path = contracts/machine_auditable_faults/id_5/buggy_version/sidra-contracts
+	url = https://github.com/SidraChain/sidra-contracts.git
+[submodule "contracts/machine_auditable_faults/id_5/patched_version/sidra-contracts"]
+	path = contracts/machine_auditable_faults/id_5/patched_version/sidra-contracts
+	url = https://github.com/SidraChain/sidra-contracts.git
+[submodule "contracts/machine_auditable_faults/id_6/buggy_version/v4-core"]
+	path = contracts/machine_auditable_faults/id_6/buggy_version/v4-core
+	url = https://github.com/Uniswap/v4-core.git
+[submodule "contracts/machine_auditable_faults/id_6/patched_version/v4-core"]
+	path = contracts/machine_auditable_faults/id_6/patched_version/v4-core
+	url = https://github.com/Uniswap/v4-core.git
+[submodule "contracts/machine_auditable_faults/id_7/buggy_version/v4-core"]
+	path = contracts/machine_auditable_faults/id_7/buggy_version/v4-core
+	url = https://github.com/Uniswap/v4-core.git
+[submodule "contracts/machine_auditable_faults/id_7/patched_version/v4-core"]
+	path = contracts/machine_auditable_faults/id_7/patched_version/v4-core
+	url = https://github.com/Uniswap/v4-core.git
+[submodule "contracts/machine_auditable_faults/id_8/buggy_version/v4-core"]
+	path = contracts/machine_auditable_faults/id_8/buggy_version/v4-core
+	url = https://github.com/Uniswap/v4-core.git
+[submodule "contracts/machine_auditable_faults/id_8/patched_version/v4-core"]
+	path = contracts/machine_auditable_faults/id_8/patched_version/v4-core
+	url = https://github.com/Uniswap/v4-core.git
+[submodule "contracts/machine_auditable_faults/id_9/buggy_version/synthetix"]
+	path = contracts/machine_auditable_faults/id_9/buggy_version/synthetix
+	url = https://github.com/Synthetixio/synthetix.git
+[submodule "contracts/machine_auditable_faults/id_9/patched_version/synthetix"]
+	path = contracts/machine_auditable_faults/id_9/patched_version/synthetix
+	url = https://github.com/Synthetixio/synthetix.git
+[submodule "contracts/machine_auditable_faults/id_10/buggy_version/synthetix"]
+	path = contracts/machine_auditable_faults/id_10/buggy_version/synthetix
+	url = https://github.com/Synthetixio/synthetix.git
+[submodule "contracts/machine_auditable_faults/id_10/patched_version/synthetix"]
+	path = contracts/machine_auditable_faults/id_10/patched_version/synthetix
+	url = https://github.com/Synthetixio/synthetix.git
+[submodule "contracts/machine_auditable_faults/id_11/buggy_version/v2-periphery"]
+	path = contracts/machine_auditable_faults/id_11/buggy_version/v2-periphery
+	url = https://github.com/Uniswap/v2-periphery.git
+[submodule "contracts/machine_auditable_faults/id_11/patched_version/v2-periphery"]
+	path = contracts/machine_auditable_faults/id_11/patched_version/v2-periphery
+	url = https://github.com/Uniswap/v2-periphery.git
+[submodule "contracts/machine_auditable_faults/id_12/buggy_version/yearn-vaults"]
+	path = contracts/machine_auditable_faults/id_12/buggy_version/yearn-vaults
+	url = https://github.com/yearn/yearn-vaults.git
+[submodule "contracts/machine_auditable_faults/id_12/patched_version/yearn-vaults"]
+	path = contracts/machine_auditable_faults/id_12/patched_version/yearn-vaults
+	url = https://github.com/yearn/yearn-vaults.git
+[submodule "contracts/machine_auditable_faults/id_13/buggy_version/yearn-protocol"]
+	path = contracts/machine_auditable_faults/id_13/buggy_version/yearn-protocol
+	url = https://github.com/yearn/yearn-protocol.git
+[submodule "contracts/machine_auditable_faults/id_13/patched_version/yearn-protocol"]
+	path = contracts/machine_auditable_faults/id_13/patched_version/yearn-protocol
+	url = https://github.com/yearn/yearn-protocol.git
+[submodule "contracts/machine_auditable_faults/id_14/buggy_version/yearn-protocol"]
+	path = contracts/machine_auditable_faults/id_14/buggy_version/yearn-protocol
+	url = https://github.com/yearn/yearn-protocol.git
+[submodule "contracts/machine_auditable_faults/id_14/patched_version/yearn-protocol"]
+	path = contracts/machine_auditable_faults/id_14/patched_version/yearn-protocol
+	url = https://github.com/yearn/yearn-protocol.git
+[submodule "contracts/machine_auditable_faults/id_16/buggy_version/tokenbridge-contracts"]
+	path = contracts/machine_auditable_faults/id_16/buggy_version/tokenbridge-contracts
+	url = https://github.com/omni/tokenbridge-contracts.git
+[submodule "contracts/machine_auditable_faults/id_16/patched_version/tokenbridge-contracts"]
+	path = contracts/machine_auditable_faults/id_16/patched_version/tokenbridge-contracts
+	url = https://github.com/omni/tokenbridge-contracts.git
+[submodule "contracts/machine_auditable_faults/id_17/buggy_version/tokenbridge-contracts"]
+	path = contracts/machine_auditable_faults/id_17/buggy_version/tokenbridge-contracts
+	url = https://github.com/omni/tokenbridge-contracts.git
+[submodule "contracts/machine_auditable_faults/id_17/patched_version/tokenbridge-contracts"]
+	path = contracts/machine_auditable_faults/id_17/patched_version/tokenbridge-contracts
+	url = https://github.com/omni/tokenbridge-contracts.git
+[submodule "contracts/machine_auditable_faults/id_18/buggy_version/act"]
+	path = contracts/machine_auditable_faults/id_18/buggy_version/act
+	url = https://github.com/ethereum/act.git
+[submodule "contracts/machine_auditable_faults/id_18/patched_version/act"]
+	path = contracts/machine_auditable_faults/id_18/patched_version/act
+	url = https://github.com/ethereum/act.git
+[submodule "contracts/machine_auditable_faults/id_19/buggy_version/era-contracts"]
+	path = contracts/machine_auditable_faults/id_19/buggy_version/era-contracts
+	url = https://github.com/matter-labs/era-contracts.git
+[submodule "contracts/machine_auditable_faults/id_19/patched_version/era-contracts"]
+	path = contracts/machine_auditable_faults/id_19/patched_version/era-contracts
+	url = https://github.com/matter-labs/era-contracts.git
+[submodule "contracts/machine_auditable_faults/id_20/buggy_version/era-contracts"]
+	path = contracts/machine_auditable_faults/id_20/buggy_version/era-contracts
+	url = https://github.com/matter-labs/era-contracts.git
+[submodule "contracts/machine_auditable_faults/id_20/patched_version/era-contracts"]
+	path = contracts/machine_auditable_faults/id_20/patched_version/era-contracts
+	url = https://github.com/matter-labs/era-contracts.git
+[submodule "contracts/machine_auditable_faults/id_21/buggy_version/react-auth-box"]
+	path = contracts/machine_auditable_faults/id_21/buggy_version/react-auth-box
+	url = https://github.com/truffle-box/react-auth-box.git
+[submodule "contracts/machine_auditable_faults/id_21/patched_version/react-auth-box"]
+	path = contracts/machine_auditable_faults/id_21/patched_version/react-auth-box
+	url = https://github.com/truffle-box/react-auth-box.git
+[submodule "contracts/machine_auditable_faults/id_22/buggy_version/sandbox-smart-contracts"]
+	path = contracts/machine_auditable_faults/id_22/buggy_version/sandbox-smart-contracts
+	url = https://github.com/thesandboxgame/sandbox-smart-contracts.git
+[submodule "contracts/machine_auditable_faults/id_22/patched_version/sandbox-smart-contracts"]
+	path = contracts/machine_auditable_faults/id_22/patched_version/sandbox-smart-contracts
+	url = https://github.com/thesandboxgame/sandbox-smart-contracts.git
+[submodule "contracts/machine_auditable_faults/id_23/buggy_version/MevWallet"]
+	path = contracts/machine_auditable_faults/id_23/buggy_version/MevWallet
+	url = https://github.com/blunt-instruments/MevWallet.git
+[submodule "contracts/machine_auditable_faults/id_23/patched_version/MevWallet"]
+	path = contracts/machine_auditable_faults/id_23/patched_version/MevWallet
+	url = https://github.com/blunt-instruments/MevWallet.git
+[submodule "contracts/machine_auditable_faults/id_24/buggy_version/contractV2"]
+	path = contracts/machine_auditable_faults/id_24/buggy_version/contractV2
+	url = https://github.com/DODOEX/contractV2.git
+[submodule "contracts/machine_auditable_faults/id_24/patched_version/contractV2"]
+	path = contracts/machine_auditable_faults/id_24/patched_version/contractV2
+	url = https://github.com/DODOEX/contractV2.git
+[submodule "contracts/machine_auditable_faults/id_25/buggy_version/contractV2"]
+	path = contracts/machine_auditable_faults/id_25/buggy_version/contractV2
+	url = https://github.com/DODOEX/contractV2.git
+[submodule "contracts/machine_auditable_faults/id_25/patched_version/contractV2"]
+	path = contracts/machine_auditable_faults/id_25/patched_version/contractV2
+	url = https://github.com/DODOEX/contractV2.git
+[submodule "contracts/machine_auditable_faults/id_26/buggy_version/contractV2"]
+	path = contracts/machine_auditable_faults/id_26/buggy_version/contractV2
+	url = https://github.com/DODOEX/contractV2.git
+[submodule "contracts/machine_auditable_faults/id_26/patched_version/contractV2"]
+	path = contracts/machine_auditable_faults/id_26/patched_version/contractV2
+	url = https://github.com/DODOEX/contractV2.git
+[submodule "contracts/machine_auditable_faults/id_27/buggy_version/contractV2"]
+	path = contracts/machine_auditable_faults/id_27/buggy_version/contractV2
+	url = https://github.com/DODOEX/contractV2.git
+[submodule "contracts/machine_auditable_faults/id_27/patched_version/contractV2"]
+	path = contracts/machine_auditable_faults/id_27/patched_version/contractV2
+	url = https://github.com/DODOEX/contractV2.git
+[submodule "contracts/machine_auditable_faults/id_28/buggy_version/solidity-security-teaching-resources"]
+	path = contracts/machine_auditable_faults/id_28/buggy_version/solidity-security-teaching-resources
+	url = https://github.com/jcsec-security/solidity-security-teaching-resources.git
+[submodule "contracts/machine_auditable_faults/id_28/patched_version/solidity-security-teaching-resources"]
+	path = contracts/machine_auditable_faults/id_28/patched_version/solidity-security-teaching-resources
+	url = https://github.com/jcsec-security/solidity-security-teaching-resources.git
+[submodule "contracts/machine_auditable_faults/id_29/buggy_version/solidity-security-teaching-resources"]
+	path = contracts/machine_auditable_faults/id_29/buggy_version/solidity-security-teaching-resources
+	url = https://github.com/jcsec-security/solidity-security-teaching-resources.git
+[submodule "contracts/machine_auditable_faults/id_29/patched_version/solidity-security-teaching-resources"]
+	path = contracts/machine_auditable_faults/id_29/patched_version/solidity-security-teaching-resources
+	url = https://github.com/jcsec-security/solidity-security-teaching-resources.git
+[submodule "contracts/machine_auditable_faults/id_30/buggy_version/solidity-security-teaching-resources"]
+	path = contracts/machine_auditable_faults/id_30/buggy_version/solidity-security-teaching-resources
+	url = https://github.com/jcsec-security/solidity-security-teaching-resources.git
+[submodule "contracts/machine_auditable_faults/id_30/patched_version/solidity-security-teaching-resources"]
+	path = contracts/machine_auditable_faults/id_30/patched_version/solidity-security-teaching-resources
+	url = https://github.com/jcsec-security/solidity-security-teaching-resources.git
+[submodule "contracts/machine_auditable_faults/id_31/buggy_version/solidity-security-teaching-resources"]
+	path = contracts/machine_auditable_faults/id_31/buggy_version/solidity-security-teaching-resources
+	url = https://github.com/jcsec-security/solidity-security-teaching-resources.git
+[submodule "contracts/machine_auditable_faults/id_31/patched_version/solidity-security-teaching-resources"]
+	path = contracts/machine_auditable_faults/id_31/patched_version/solidity-security-teaching-resources
+	url = https://github.com/jcsec-security/solidity-security-teaching-resources.git
+[submodule "contracts/machine_auditable_faults/id_32/buggy_version/solidity-security-teaching-resources"]
+	path = contracts/machine_auditable_faults/id_32/buggy_version/solidity-security-teaching-resources
+	url = https://github.com/jcsec-security/solidity-security-teaching-resources.git
+[submodule "contracts/machine_auditable_faults/id_32/patched_version/solidity-security-teaching-resources"]
+	path = contracts/machine_auditable_faults/id_32/patched_version/solidity-security-teaching-resources
+	url = https://github.com/jcsec-security/solidity-security-teaching-resources.git
+[submodule "contracts/machine_auditable_faults/id_33/buggy_version/solidity-security-teaching-resources"]
+	path = contracts/machine_auditable_faults/id_33/buggy_version/solidity-security-teaching-resources
+	url = https://github.com/jcsec-security/solidity-security-teaching-resources.git
+[submodule "contracts/machine_auditable_faults/id_33/patched_version/solidity-security-teaching-resources"]
+	path = contracts/machine_auditable_faults/id_33/patched_version/solidity-security-teaching-resources
+	url = https://github.com/jcsec-security/solidity-security-teaching-resources.git
+[submodule "contracts/machine_auditable_faults/id_34/buggy_version/Motoro"]
+	path = contracts/machine_auditable_faults/id_34/buggy_version/Motoro
+	url = https://github.com/blockchain-IoT/Motoro.git
+[submodule "contracts/machine_auditable_faults/id_34/patched_version/Motoro"]
+	path = contracts/machine_auditable_faults/id_34/patched_version/Motoro
+	url = https://github.com/blockchain-IoT/Motoro.git
+[submodule "contracts/machine_auditable_faults/id_35/buggy_version/Motoro"]
+	path = contracts/machine_auditable_faults/id_35/buggy_version/Motoro
+	url = https://github.com/blockchain-IoT/Motoro.git
+[submodule "contracts/machine_auditable_faults/id_35/patched_version/Motoro"]
+	path = contracts/machine_auditable_faults/id_35/patched_version/Motoro
+	url = https://github.com/blockchain-IoT/Motoro.git
+[submodule "contracts/machine_auditable_faults/id_36/buggy_version/posdao-contracts"]
+	path = contracts/machine_auditable_faults/id_36/buggy_version/posdao-contracts
+	url = https://github.com/poanetwork/posdao-contracts.git
+[submodule "contracts/machine_auditable_faults/id_36/patched_version/posdao-contracts"]
+	path = contracts/machine_auditable_faults/id_36/patched_version/posdao-contracts
+	url = https://github.com/poanetwork/posdao-contracts.git
+[submodule "contracts/machine_auditable_faults/id_37/buggy_version/posdao-contracts"]
+	path = contracts/machine_auditable_faults/id_37/buggy_version/posdao-contracts
+	url = https://github.com/poanetwork/posdao-contracts.git
+[submodule "contracts/machine_auditable_faults/id_37/patched_version/posdao-contracts"]
+	path = contracts/machine_auditable_faults/id_37/patched_version/posdao-contracts
+	url = https://github.com/poanetwork/posdao-contracts.git
+[submodule "contracts/machine_auditable_faults/id_38/buggy_version/posdao-contracts"]
+	path = contracts/machine_auditable_faults/id_38/buggy_version/posdao-contracts
+	url = https://github.com/poanetwork/posdao-contracts.git
+[submodule "contracts/machine_auditable_faults/id_38/patched_version/posdao-contracts"]
+	path = contracts/machine_auditable_faults/id_38/patched_version/posdao-contracts
+	url = https://github.com/poanetwork/posdao-contracts.git
+[submodule "contracts/machine_auditable_faults/id_39/buggy_version/halmos"]
+	path = contracts/machine_auditable_faults/id_39/buggy_version/halmos
+	url = https://github.com/a16z/halmos.git
+[submodule "contracts/machine_auditable_faults/id_39/patched_version/halmos"]
+	path = contracts/machine_auditable_faults/id_39/patched_version/halmos
+	url = https://github.com/a16z/halmos.git
+[submodule "contracts/machine_auditable_faults/id_40/buggy_version/yearn-protocol"]
+	path = contracts/machine_auditable_faults/id_40/buggy_version/yearn-protocol
+	url = https://github.com/yearn/yearn-protocol.git
+[submodule "contracts/machine_auditable_faults/id_40/patched_version/yearn-protocol"]
+	path = contracts/machine_auditable_faults/id_40/patched_version/yearn-protocol
+	url = https://github.com/yearn/yearn-protocol.git
+[submodule "contracts/machine_auditable_faults/id_41/buggy_version/tokenbridge-contracts"]
+	path = contracts/machine_auditable_faults/id_41/buggy_version/tokenbridge-contracts
+	url = https://github.com/omni/tokenbridge-contracts.git
+[submodule "contracts/machine_auditable_faults/id_41/patched_version/tokenbridge-contracts"]
+	path = contracts/machine_auditable_faults/id_41/patched_version/tokenbridge-contracts
+	url = https://github.com/omni/tokenbridge-contracts.git
+[submodule "contracts/machine_auditable_faults/id_42/buggy_version/set-protocol-contracts"]
+	path = contracts/machine_auditable_faults/id_42/buggy_version/set-protocol-contracts
+	url = https://github.com/SetProtocol/set-protocol-contracts.git
+[submodule "contracts/machine_auditable_faults/id_42/patched_version/set-protocol-contracts"]
+	path = contracts/machine_auditable_faults/id_42/patched_version/set-protocol-contracts
+	url = https://github.com/SetProtocol/set-protocol-contracts.git
+[submodule "contracts/machine_auditable_faults/id_43/buggy_version/presale-contracts"]
+	path = contracts/machine_auditable_faults/id_43/buggy_version/presale-contracts
+	url = https://github.com/ProofSuite/presale-contracts.git
+[submodule "contracts/machine_auditable_faults/id_43/patched_version/presale-contracts"]
+	path = contracts/machine_auditable_faults/id_43/patched_version/presale-contracts
+	url = https://github.com/ProofSuite/presale-contracts.git
+[submodule "contracts/machine_auditable_faults/id_44/buggy_version/council"]
+	path = contracts/machine_auditable_faults/id_44/buggy_version/council
+	url = https://github.com/delvtech/council.git
+[submodule "contracts/machine_auditable_faults/id_44/patched_version/council"]
+	path = contracts/machine_auditable_faults/id_44/patched_version/council
+	url = https://github.com/delvtech/council.git
+[submodule "contracts/machine_auditable_faults/id_45/buggy_version/OB_ReturnCabin"]
+	path = contracts/machine_auditable_faults/id_45/buggy_version/OB_ReturnCabin
+	url = https://github.com/Orbiter-Finance/OB_ReturnCabin.git
+[submodule "contracts/machine_auditable_faults/id_45/patched_version/OB_ReturnCabin"]
+	path = contracts/machine_auditable_faults/id_45/patched_version/OB_ReturnCabin
+	url = https://github.com/Orbiter-Finance/OB_ReturnCabin.git
+[submodule "contracts/machine_auditable_faults/id_46/buggy_version/plasma-mvp-rootchain"]
+	path = contracts/machine_auditable_faults/id_46/buggy_version/plasma-mvp-rootchain
+	url = https://github.com/FourthState/plasma-mvp-rootchain.git
+[submodule "contracts/machine_auditable_faults/id_46/patched_version/plasma-mvp-rootchain"]
+	path = contracts/machine_auditable_faults/id_46/patched_version/plasma-mvp-rootchain
+	url = https://github.com/FourthState/plasma-mvp-rootchain.git
+[submodule "contracts/machine_auditable_faults/id_47/buggy_version/plasma-mvp-rootchain"]
+	path = contracts/machine_auditable_faults/id_47/buggy_version/plasma-mvp-rootchain
+	url = https://github.com/FourthState/plasma-mvp-rootchain.git
+[submodule "contracts/machine_auditable_faults/id_47/patched_version/plasma-mvp-rootchain"]
+	path = contracts/machine_auditable_faults/id_47/patched_version/plasma-mvp-rootchain
+	url = https://github.com/FourthState/plasma-mvp-rootchain.git
+[submodule "contracts/machine_auditable_faults/id_48/buggy_version/plasma-mvp-rootchain"]
+	path = contracts/machine_auditable_faults/id_48/buggy_version/plasma-mvp-rootchain
+	url = https://github.com/FourthState/plasma-mvp-rootchain.git
+[submodule "contracts/machine_auditable_faults/id_48/patched_version/plasma-mvp-rootchain"]
+	path = contracts/machine_auditable_faults/id_48/patched_version/plasma-mvp-rootchain
+	url = https://github.com/FourthState/plasma-mvp-rootchain.git
+[submodule "contracts/machine_auditable_faults/id_49/buggy_version/plasma-mvp-rootchain"]
+	path = contracts/machine_auditable_faults/id_49/buggy_version/plasma-mvp-rootchain
+	url = https://github.com/FourthState/plasma-mvp-rootchain.git
+[submodule "contracts/machine_auditable_faults/id_49/patched_version/plasma-mvp-rootchain"]
+	path = contracts/machine_auditable_faults/id_49/patched_version/plasma-mvp-rootchain
+	url = https://github.com/FourthState/plasma-mvp-rootchain.git
+[submodule "contracts/machine_auditable_faults/id_50/buggy_version/plasma-mvp-rootchain"]
+	path = contracts/machine_auditable_faults/id_50/buggy_version/plasma-mvp-rootchain
+	url = https://github.com/FourthState/plasma-mvp-rootchain.git
+[submodule "contracts/machine_auditable_faults/id_50/patched_version/plasma-mvp-rootchain"]
+	path = contracts/machine_auditable_faults/id_50/patched_version/plasma-mvp-rootchain
+	url = https://github.com/FourthState/plasma-mvp-rootchain.git
+[submodule "contracts/machine_auditable_faults/id_51/buggy_version/plasma-mvp-rootchain"]
+	path = contracts/machine_auditable_faults/id_51/buggy_version/plasma-mvp-rootchain
+	url = https://github.com/FourthState/plasma-mvp-rootchain.git
+[submodule "contracts/machine_auditable_faults/id_51/patched_version/plasma-mvp-rootchain"]
+	path = contracts/machine_auditable_faults/id_51/patched_version/plasma-mvp-rootchain
+	url = https://github.com/FourthState/plasma-mvp-rootchain.git
+[submodule "contracts/machine_auditable_faults/id_52/buggy_version/p2p-lending"]
+	path = contracts/machine_auditable_faults/id_52/buggy_version/p2p-lending
+	url = https://github.com/adorsys/p2p-lending.git
+[submodule "contracts/machine_auditable_faults/id_52/patched_version/p2p-lending"]
+	path = contracts/machine_auditable_faults/id_52/patched_version/p2p-lending
+	url = https://github.com/adorsys/p2p-lending.git
+[submodule "contracts/machine_auditable_faults/id_53/buggy_version/polymath-core-deprecated"]
+	path = contracts/machine_auditable_faults/id_53/buggy_version/polymath-core-deprecated
+	url = https://github.com/PolymathNetwork/polymath-core-deprecated.git
+[submodule "contracts/machine_auditable_faults/id_53/patched_version/polymath-core-deprecated"]
+	path = contracts/machine_auditable_faults/id_53/patched_version/polymath-core-deprecated
+	url = https://github.com/PolymathNetwork/polymath-core-deprecated.git
+[submodule "contracts/machine_auditable_faults/id_54/buggy_version/polymath-core-deprecated"]
+	path = contracts/machine_auditable_faults/id_54/buggy_version/polymath-core-deprecated
+	url = https://github.com/PolymathNetwork/polymath-core-deprecated.git
+[submodule "contracts/machine_auditable_faults/id_54/patched_version/polymath-core-deprecated"]
+	path = contracts/machine_auditable_faults/id_54/patched_version/polymath-core-deprecated
+	url = https://github.com/PolymathNetwork/polymath-core-deprecated.git
+[submodule "contracts/machine_auditable_faults/id_55/buggy_version/polymath-core-deprecated"]
+	path = contracts/machine_auditable_faults/id_55/buggy_version/polymath-core-deprecated
+	url = https://github.com/PolymathNetwork/polymath-core-deprecated.git
+[submodule "contracts/machine_auditable_faults/id_55/patched_version/polymath-core-deprecated"]
+	path = contracts/machine_auditable_faults/id_55/patched_version/polymath-core-deprecated
+	url = https://github.com/PolymathNetwork/polymath-core-deprecated.git
+[submodule "contracts/machine_auditable_faults/id_56/buggy_version/polymath-core-deprecated"]
+	path = contracts/machine_auditable_faults/id_56/buggy_version/polymath-core-deprecated
+	url = https://github.com/PolymathNetwork/polymath-core-deprecated.git
+[submodule "contracts/machine_auditable_faults/id_56/patched_version/polymath-core-deprecated"]
+	path = contracts/machine_auditable_faults/id_56/patched_version/polymath-core-deprecated
+	url = https://github.com/PolymathNetwork/polymath-core-deprecated.git
+[submodule "contracts/machine_auditable_faults/id_57/buggy_version/smart-contracts"]
+	path = contracts/machine_auditable_faults/id_57/buggy_version/smart-contracts
+	url = https://github.com/OpenBazaar/smart-contracts.git
+[submodule "contracts/machine_auditable_faults/id_57/patched_version/smart-contracts"]
+	path = contracts/machine_auditable_faults/id_57/patched_version/smart-contracts
+	url = https://github.com/OpenBazaar/smart-contracts.git
+[submodule "contracts/machine_auditable_faults/id_58/buggy_version/crypto-wars-solidity"]
+	path = contracts/machine_auditable_faults/id_58/buggy_version/crypto-wars-solidity
+	url = https://github.com/e11-io/crypto-wars-solidity.git
+[submodule "contracts/machine_auditable_faults/id_58/patched_version/crypto-wars-solidity"]
+	path = contracts/machine_auditable_faults/id_58/patched_version/crypto-wars-solidity
+	url = https://github.com/e11-io/crypto-wars-solidity.git
+[submodule "contracts/machine_auditable_faults/id_59/buggy_version/crypto-wars-solidity"]
+	path = contracts/machine_auditable_faults/id_59/buggy_version/crypto-wars-solidity
+	url = https://github.com/e11-io/crypto-wars-solidity.git
+[submodule "contracts/machine_auditable_faults/id_59/patched_version/crypto-wars-solidity"]
+	path = contracts/machine_auditable_faults/id_59/patched_version/crypto-wars-solidity
+	url = https://github.com/e11-io/crypto-wars-solidity.git
+[submodule "contracts/machine_auditable_faults/id_60/buggy_version/smart-contracts"]
+	path = contracts/machine_auditable_faults/id_60/buggy_version/smart-contracts
+	url = https://github.com/tatumio/smart-contracts.git
+[submodule "contracts/machine_auditable_faults/id_60/patched_version/smart-contracts"]
+	path = contracts/machine_auditable_faults/id_60/patched_version/smart-contracts
+	url = https://github.com/tatumio/smart-contracts.git
+[submodule "contracts/machine_auditable_faults/id_61/buggy_version/smart-contracts"]
+	path = contracts/machine_auditable_faults/id_61/buggy_version/smart-contracts
+	url = https://github.com/tatumio/smart-contracts.git
+[submodule "contracts/machine_auditable_faults/id_61/patched_version/smart-contracts"]
+	path = contracts/machine_auditable_faults/id_61/patched_version/smart-contracts
+	url = https://github.com/tatumio/smart-contracts.git
+[submodule "contracts/machine_auditable_faults/id_62/buggy_version/smart-contracts"]
+	path = contracts/machine_auditable_faults/id_62/buggy_version/smart-contracts
+	url = https://github.com/tatumio/smart-contracts.git
+[submodule "contracts/machine_auditable_faults/id_62/patched_version/smart-contracts"]
+	path = contracts/machine_auditable_faults/id_62/patched_version/smart-contracts
+	url = https://github.com/tatumio/smart-contracts.git
+[submodule "contracts/machine_auditable_faults/id_63/buggy_version/smart-contracts"]
+	path = contracts/machine_auditable_faults/id_63/buggy_version/smart-contracts
+	url = https://github.com/tatumio/smart-contracts.git
+[submodule "contracts/machine_auditable_faults/id_63/patched_version/smart-contracts"]
+	path = contracts/machine_auditable_faults/id_63/patched_version/smart-contracts
+	url = https://github.com/tatumio/smart-contracts.git
+[submodule "contracts/machine_auditable_faults/id_64/buggy_version/contracts"]
+	path = contracts/machine_auditable_faults/id_64/buggy_version/contracts
+	url = https://github.com/authereum/contracts.git
+[submodule "contracts/machine_auditable_faults/id_64/patched_version/contracts"]
+	path = contracts/machine_auditable_faults/id_64/patched_version/contracts
+	url = https://github.com/authereum/contracts.git
+[submodule "contracts/machine_auditable_faults/id_65/buggy_version/autofarm-v2-contracts"]
+	path = contracts/machine_auditable_faults/id_65/buggy_version/autofarm-v2-contracts
+	url = https://github.com/autofarmnetwork/autofarm-v2-contracts.git
+[submodule "contracts/machine_auditable_faults/id_65/patched_version/autofarm-v2-contracts"]
+	path = contracts/machine_auditable_faults/id_65/patched_version/autofarm-v2-contracts
+	url = https://github.com/autofarmnetwork/autofarm-v2-contracts.git
+[submodule "contracts/machine_auditable_faults/id_66/buggy_version/marketplace-contracts"]
+	path = contracts/machine_auditable_faults/id_66/buggy_version/marketplace-contracts
+	url = https://github.com/streamr-dev/marketplace-contracts.git
+[submodule "contracts/machine_auditable_faults/id_66/patched_version/marketplace-contracts"]
+	path = contracts/machine_auditable_faults/id_66/patched_version/marketplace-contracts
+	url = https://github.com/streamr-dev/marketplace-contracts.git
+[submodule "contracts/machine_auditable_faults/id_67/buggy_version/defidollar-core"]
+	path = contracts/machine_auditable_faults/id_67/buggy_version/defidollar-core
+	url = https://github.com/defidollar/defidollar-core.git
+[submodule "contracts/machine_auditable_faults/id_67/patched_version/defidollar-core"]
+	path = contracts/machine_auditable_faults/id_67/patched_version/defidollar-core
+	url = https://github.com/defidollar/defidollar-core.git
+[submodule "contracts/machine_auditable_faults/id_68/buggy_version/defidollar-core"]
+	path = contracts/machine_auditable_faults/id_68/buggy_version/defidollar-core
+	url = https://github.com/defidollar/defidollar-core.git
+[submodule "contracts/machine_auditable_faults/id_68/patched_version/defidollar-core"]
+	path = contracts/machine_auditable_faults/id_68/patched_version/defidollar-core
+	url = https://github.com/defidollar/defidollar-core.git
+[submodule "contracts/machine_auditable_faults/id_69/buggy_version/Property-Registry"]
+	path = contracts/machine_auditable_faults/id_69/buggy_version/Property-Registry
+	url = https://github.com/servntire/Property-Registry.git
+[submodule "contracts/machine_auditable_faults/id_69/patched_version/Property-Registry"]
+	path = contracts/machine_auditable_faults/id_69/patched_version/Property-Registry
+	url = https://github.com/servntire/Property-Registry.git
+[submodule "contracts/machine_auditable_faults/id_70/buggy_version/lottery-smart-contract"]
+	path = contracts/machine_auditable_faults/id_70/buggy_version/lottery-smart-contract
+	url = https://github.com/sonnysangha/lottery-smart-contract.git
+[submodule "contracts/machine_auditable_faults/id_70/patched_version/lottery-smart-contract"]
+	path = contracts/machine_auditable_faults/id_70/patched_version/lottery-smart-contract
+	url = https://github.com/sonnysangha/lottery-smart-contract.git
+[submodule "contracts/machine_auditable_faults/id_71/buggy_version/contracts"]
+	path = contracts/machine_auditable_faults/id_71/buggy_version/contracts
+	url = https://github.com/notional-finance/contracts.git
+[submodule "contracts/machine_auditable_faults/id_71/patched_version/contracts"]
+	path = contracts/machine_auditable_faults/id_71/patched_version/contracts
+	url = https://github.com/notional-finance/contracts.git
+[submodule "contracts/machine_auditable_faults/id_72/buggy_version/idex-contracts-whistler"]
+	path = contracts/machine_auditable_faults/id_72/buggy_version/idex-contracts-whistler
+	url = https://github.com/idexio/idex-contracts-whistler.git
+[submodule "contracts/machine_auditable_faults/id_72/patched_version/idex-contracts-whistler"]
+	path = contracts/machine_auditable_faults/id_72/patched_version/idex-contracts-whistler
+	url = https://github.com/idexio/idex-contracts-whistler.git
+[submodule "contracts/machine_auditable_faults/id_73/buggy_version/idex-contracts-whistler"]
+	path = contracts/machine_auditable_faults/id_73/buggy_version/idex-contracts-whistler
+	url = https://github.com/idexio/idex-contracts-whistler.git
+[submodule "contracts/machine_auditable_faults/id_73/patched_version/idex-contracts-whistler"]
+	path = contracts/machine_auditable_faults/id_73/patched_version/idex-contracts-whistler
+	url = https://github.com/idexio/idex-contracts-whistler.git
+[submodule "contracts/machine_auditable_faults/id_74/buggy_version/idex-contracts-whistler"]
+	path = contracts/machine_auditable_faults/id_74/buggy_version/idex-contracts-whistler
+	url = https://github.com/idexio/idex-contracts-whistler.git
+[submodule "contracts/machine_auditable_faults/id_74/patched_version/idex-contracts-whistler"]
+	path = contracts/machine_auditable_faults/id_74/patched_version/idex-contracts-whistler
+	url = https://github.com/idexio/idex-contracts-whistler.git
+[submodule "contracts/machine_auditable_faults/id_75/buggy_version/contracts"]
+	path = contracts/machine_auditable_faults/id_75/buggy_version/contracts
+	url = https://github.com/ToucanProtocol/contracts.git
+[submodule "contracts/machine_auditable_faults/id_75/patched_version/contracts"]
+	path = contracts/machine_auditable_faults/id_75/patched_version/contracts
+	url = https://github.com/ToucanProtocol/contracts.git
+[submodule "contracts/machine_auditable_faults/id_76/buggy_version/chronologic"]
+	path = contracts/machine_auditable_faults/id_76/buggy_version/chronologic
+	url = https://github.com/chronologic/chronologic.git
+[submodule "contracts/machine_auditable_faults/id_76/patched_version/chronologic"]
+	path = contracts/machine_auditable_faults/id_76/patched_version/chronologic
+	url = https://github.com/chronologic/chronologic.git
+[submodule "contracts/machine_auditable_faults/id_77/buggy_version/govblocks-protocol"]
+	path = contracts/machine_auditable_faults/id_77/buggy_version/govblocks-protocol
+	url = https://github.com/somish/govblocks-protocol.git
+[submodule "contracts/machine_auditable_faults/id_77/patched_version/govblocks-protocol"]
+	path = contracts/machine_auditable_faults/id_77/patched_version/govblocks-protocol
+	url = https://github.com/somish/govblocks-protocol.git
+[submodule "contracts/machine_auditable_faults/id_78/buggy_version/govblocks-protocol"]
+	path = contracts/machine_auditable_faults/id_78/buggy_version/govblocks-protocol
+	url = https://github.com/somish/govblocks-protocol.git
+[submodule "contracts/machine_auditable_faults/id_78/patched_version/govblocks-protocol"]
+	path = contracts/machine_auditable_faults/id_78/patched_version/govblocks-protocol
+	url = https://github.com/somish/govblocks-protocol.git
+[submodule "contracts/machine_auditable_faults/id_79/buggy_version/govblocks-protocol"]
+	path = contracts/machine_auditable_faults/id_79/buggy_version/govblocks-protocol
+	url = https://github.com/somish/govblocks-protocol.git
+[submodule "contracts/machine_auditable_faults/id_79/patched_version/govblocks-protocol"]
+	path = contracts/machine_auditable_faults/id_79/patched_version/govblocks-protocol
+	url = https://github.com/somish/govblocks-protocol.git
+[submodule "contracts/machine_auditable_faults/id_80/buggy_version/govblocks-protocol"]
+	path = contracts/machine_auditable_faults/id_80/buggy_version/govblocks-protocol
+	url = https://github.com/somish/govblocks-protocol.git
+[submodule "contracts/machine_auditable_faults/id_80/patched_version/govblocks-protocol"]
+	path = contracts/machine_auditable_faults/id_80/patched_version/govblocks-protocol
+	url = https://github.com/somish/govblocks-protocol.git
+[submodule "contracts/machine_auditable_faults/id_81/buggy_version/milkman"]
+	path = contracts/machine_auditable_faults/id_81/buggy_version/milkman
+	url = https://github.com/charlesndalton/milkman.git
+[submodule "contracts/machine_auditable_faults/id_81/patched_version/milkman"]
+	path = contracts/machine_auditable_faults/id_81/patched_version/milkman
+	url = https://github.com/charlesndalton/milkman.git
+[submodule "contracts/machine_auditable_faults/id_82/buggy_version/milkman"]
+	path = contracts/machine_auditable_faults/id_82/buggy_version/milkman
+	url = https://github.com/charlesndalton/milkman.git
+[submodule "contracts/machine_auditable_faults/id_82/patched_version/milkman"]
+	path = contracts/machine_auditable_faults/id_82/patched_version/milkman
+	url = https://github.com/charlesndalton/milkman.git
+[submodule "contracts/machine_auditable_faults/id_83/buggy_version/Contracts"]
+	path = contracts/machine_auditable_faults/id_83/buggy_version/Contracts
+	url = https://github.com/Popsicle-Finance/Contracts.git
+[submodule "contracts/machine_auditable_faults/id_83/patched_version/Contracts"]
+	path = contracts/machine_auditable_faults/id_83/patched_version/Contracts
+	url = https://github.com/Popsicle-Finance/Contracts.git
+[submodule "contracts/machine_auditable_faults/id_84/buggy_version/Contracts"]
+	path = contracts/machine_auditable_faults/id_84/buggy_version/Contracts
+	url = https://github.com/Popsicle-Finance/Contracts.git
+[submodule "contracts/machine_auditable_faults/id_84/patched_version/Contracts"]
+	path = contracts/machine_auditable_faults/id_84/patched_version/Contracts
+	url = https://github.com/Popsicle-Finance/Contracts.git
+[submodule "contracts/machine_auditable_faults/id_85/buggy_version/Contracts"]
+	path = contracts/machine_auditable_faults/id_85/buggy_version/Contracts
+	url = https://github.com/Popsicle-Finance/Contracts.git
+[submodule "contracts/machine_auditable_faults/id_85/patched_version/Contracts"]
+	path = contracts/machine_auditable_faults/id_85/patched_version/Contracts
+	url = https://github.com/Popsicle-Finance/Contracts.git
+[submodule "contracts/machine_auditable_faults/id_86/buggy_version/Contracts"]
+	path = contracts/machine_auditable_faults/id_86/buggy_version/Contracts
+	url = https://github.com/Popsicle-Finance/Contracts.git
+[submodule "contracts/machine_auditable_faults/id_86/patched_version/Contracts"]
+	path = contracts/machine_auditable_faults/id_86/patched_version/Contracts
+	url = https://github.com/Popsicle-Finance/Contracts.git
+[submodule "contracts/machine_auditable_faults/id_87/buggy_version/Contracts"]
+	path = contracts/machine_auditable_faults/id_87/buggy_version/Contracts
+	url = https://github.com/Popsicle-Finance/Contracts.git
+[submodule "contracts/machine_auditable_faults/id_87/patched_version/Contracts"]
+	path = contracts/machine_auditable_faults/id_87/patched_version/Contracts
+	url = https://github.com/Popsicle-Finance/Contracts.git
+[submodule "contracts/machine_auditable_faults/id_88/buggy_version/opium-contracts"]
+	path = contracts/machine_auditable_faults/id_88/buggy_version/opium-contracts
+	url = https://github.com/OpiumProtocol/opium-contracts.git
+[submodule "contracts/machine_auditable_faults/id_88/patched_version/opium-contracts"]
+	path = contracts/machine_auditable_faults/id_88/patched_version/opium-contracts
+	url = https://github.com/OpiumProtocol/opium-contracts.git
+[submodule "contracts/machine_auditable_faults/id_89/buggy_version/opium-contracts"]
+	path = contracts/machine_auditable_faults/id_89/buggy_version/opium-contracts
+	url = https://github.com/OpiumProtocol/opium-contracts.git
+[submodule "contracts/machine_auditable_faults/id_89/patched_version/opium-contracts"]
+	path = contracts/machine_auditable_faults/id_89/patched_version/opium-contracts
+	url = https://github.com/OpiumProtocol/opium-contracts.git
+[submodule "contracts/machine_auditable_faults/id_90/buggy_version/opium-contracts"]
+	path = contracts/machine_auditable_faults/id_90/buggy_version/opium-contracts
+	url = https://github.com/OpiumProtocol/opium-contracts.git
+[submodule "contracts/machine_auditable_faults/id_90/patched_version/opium-contracts"]
+	path = contracts/machine_auditable_faults/id_90/patched_version/opium-contracts
+	url = https://github.com/OpiumProtocol/opium-contracts.git
+[submodule "contracts/machine_auditable_faults/id_91/buggy_version/mangrove-core"]
+	path = contracts/machine_auditable_faults/id_91/buggy_version/mangrove-core
+	url = https://github.com/mangrovedao/mangrove-core.git
+[submodule "contracts/machine_auditable_faults/id_91/patched_version/mangrove-core"]
+	path = contracts/machine_auditable_faults/id_91/patched_version/mangrove-core
+	url = https://github.com/mangrovedao/mangrove-core.git
+[submodule "contracts/machine_auditable_faults/id_92/buggy_version/mangrove-core"]
+	path = contracts/machine_auditable_faults/id_92/buggy_version/mangrove-core
+	url = https://github.com/mangrovedao/mangrove-core.git
+[submodule "contracts/machine_auditable_faults/id_92/patched_version/mangrove-core"]
+	path = contracts/machine_auditable_faults/id_92/patched_version/mangrove-core
+	url = https://github.com/mangrovedao/mangrove-core.git
+[submodule "contracts/machine_auditable_faults/id_93/buggy_version/mangrove-core"]
+	path = contracts/machine_auditable_faults/id_93/buggy_version/mangrove-core
+	url = https://github.com/mangrovedao/mangrove-core.git
+[submodule "contracts/machine_auditable_faults/id_93/patched_version/mangrove-core"]
+	path = contracts/machine_auditable_faults/id_93/patched_version/mangrove-core
+	url = https://github.com/mangrovedao/mangrove-core.git
+[submodule "contracts/machine_auditable_faults/id_94/buggy_version/InstaContract"]
+	path = contracts/machine_auditable_faults/id_94/buggy_version/InstaContract
+	url = https://github.com/Instadapp/InstaContract.git
+[submodule "contracts/machine_auditable_faults/id_94/patched_version/InstaContract"]
+	path = contracts/machine_auditable_faults/id_94/patched_version/InstaContract
+	url = https://github.com/Instadapp/InstaContract.git
+[submodule "contracts/machine_auditable_faults/id_95/buggy_version/contracts"]
+	path = contracts/machine_auditable_faults/id_95/buggy_version/contracts
+	url = https://github.com/hermeznetwork/contracts.git
+[submodule "contracts/machine_auditable_faults/id_95/patched_version/contracts"]
+	path = contracts/machine_auditable_faults/id_95/patched_version/contracts
+	url = https://github.com/hermeznetwork/contracts.git
+[submodule "contracts/machine_auditable_faults/id_96/buggy_version/contracts"]
+	path = contracts/machine_auditable_faults/id_96/buggy_version/contracts
+	url = https://github.com/hermeznetwork/contracts.git
+[submodule "contracts/machine_auditable_faults/id_96/patched_version/contracts"]
+	path = contracts/machine_auditable_faults/id_96/patched_version/contracts
+	url = https://github.com/hermeznetwork/contracts.git
+[submodule "contracts/machine_auditable_faults/id_97/buggy_version/etherOrcs-contracts"]
+	path = contracts/machine_auditable_faults/id_97/buggy_version/etherOrcs-contracts
+	url = https://github.com/EtherOrcsOfficial/etherOrcs-contracts.git
+[submodule "contracts/machine_auditable_faults/id_97/patched_version/etherOrcs-contracts"]
+	path = contracts/machine_auditable_faults/id_97/patched_version/etherOrcs-contracts
+	url = https://github.com/EtherOrcsOfficial/etherOrcs-contracts.git
+[submodule "contracts/machine_auditable_faults/id_98/buggy_version/etherOrcs-contracts"]
+	path = contracts/machine_auditable_faults/id_98/buggy_version/etherOrcs-contracts
+	url = https://github.com/EtherOrcsOfficial/etherOrcs-contracts.git
+[submodule "contracts/machine_auditable_faults/id_98/patched_version/etherOrcs-contracts"]
+	path = contracts/machine_auditable_faults/id_98/patched_version/etherOrcs-contracts
+	url = https://github.com/EtherOrcsOfficial/etherOrcs-contracts.git
+[submodule "contracts/machine_auditable_faults/id_99/buggy_version/etherOrcs-contracts"]
+	path = contracts/machine_auditable_faults/id_99/buggy_version/etherOrcs-contracts
+	url = https://github.com/EtherOrcsOfficial/etherOrcs-contracts.git
+[submodule "contracts/machine_auditable_faults/id_99/patched_version/etherOrcs-contracts"]
+	path = contracts/machine_auditable_faults/id_99/patched_version/etherOrcs-contracts
+	url = https://github.com/EtherOrcsOfficial/etherOrcs-contracts.git
+[submodule "contracts/machine_auditable_faults/id_100/buggy_version/etherOrcs-contracts"]
+	path = contracts/machine_auditable_faults/id_100/buggy_version/etherOrcs-contracts
+	url = https://github.com/EtherOrcsOfficial/etherOrcs-contracts.git
+[submodule "contracts/machine_auditable_faults/id_100/patched_version/etherOrcs-contracts"]
+	path = contracts/machine_auditable_faults/id_100/patched_version/etherOrcs-contracts
+	url = https://github.com/EtherOrcsOfficial/etherOrcs-contracts.git
+[submodule "contracts/machine_auditable_faults/id_101/buggy_version/etherOrcs-contracts"]
+	path = contracts/machine_auditable_faults/id_101/buggy_version/etherOrcs-contracts
+	url = https://github.com/EtherOrcsOfficial/etherOrcs-contracts.git
+[submodule "contracts/machine_auditable_faults/id_101/patched_version/etherOrcs-contracts"]
+	path = contracts/machine_auditable_faults/id_101/patched_version/etherOrcs-contracts
+	url = https://github.com/EtherOrcsOfficial/etherOrcs-contracts.git
+[submodule "contracts/machine_auditable_faults/id_102/buggy_version/panoptic-v1-core"]
+	path = contracts/machine_auditable_faults/id_102/buggy_version/panoptic-v1-core
+	url = https://github.com/panoptic-labs/panoptic-v1-core.git
+[submodule "contracts/machine_auditable_faults/id_102/patched_version/panoptic-v1-core"]
+	path = contracts/machine_auditable_faults/id_102/patched_version/panoptic-v1-core
+	url = https://github.com/panoptic-labs/panoptic-v1-core.git
+[submodule "contracts/machine_auditable_faults/id_103/buggy_version/platform-contracts"]
+	path = contracts/machine_auditable_faults/id_103/buggy_version/platform-contracts
+	url = https://github.com/Neufund/platform-contracts.git
+[submodule "contracts/machine_auditable_faults/id_103/patched_version/platform-contracts"]
+	path = contracts/machine_auditable_faults/id_103/patched_version/platform-contracts
+	url = https://github.com/Neufund/platform-contracts.git
+[submodule "contracts/machine_auditable_faults/id_104/buggy_version/Launchpad-smart-contract"]
+	path = contracts/machine_auditable_faults/id_104/buggy_version/Launchpad-smart-contract
+	url = https://github.com/Seedifyfund/Launchpad-smart-contract.git
+[submodule "contracts/machine_auditable_faults/id_104/patched_version/Launchpad-smart-contract"]
+	path = contracts/machine_auditable_faults/id_104/patched_version/Launchpad-smart-contract
+	url = https://github.com/Seedifyfund/Launchpad-smart-contract.git
+[submodule "contracts/machine_auditable_faults/id_105/buggy_version/Launchpad-smart-contract"]
+	path = contracts/machine_auditable_faults/id_105/buggy_version/Launchpad-smart-contract
+	url = https://github.com/Seedifyfund/Launchpad-smart-contract.git
+[submodule "contracts/machine_auditable_faults/id_105/patched_version/Launchpad-smart-contract"]
+	path = contracts/machine_auditable_faults/id_105/patched_version/Launchpad-smart-contract
+	url = https://github.com/Seedifyfund/Launchpad-smart-contract.git
+[submodule "contracts/machine_auditable_faults/id_106/buggy_version/ssv-network"]
+	path = contracts/machine_auditable_faults/id_106/buggy_version/ssv-network
+	url = https://github.com/bloxapp/ssv-network.git
+[submodule "contracts/machine_auditable_faults/id_106/patched_version/ssv-network"]
+	path = contracts/machine_auditable_faults/id_106/patched_version/ssv-network
+	url = https://github.com/bloxapp/ssv-network.git
+[submodule "contracts/machine_auditable_faults/id_107/buggy_version/drex_smartcontracts"]
+	path = contracts/machine_auditable_faults/id_107/buggy_version/drex_smartcontracts
+	url = https://github.com/pedrosgmagalhaes/drex_smartcontracts.git
+[submodule "contracts/machine_auditable_faults/id_107/patched_version/drex_smartcontracts"]
+	path = contracts/machine_auditable_faults/id_107/patched_version/drex_smartcontracts
+	url = https://github.com/pedrosgmagalhaes/drex_smartcontracts.git
+[submodule "contracts/machine_auditable_faults/id_108/buggy_version/dapp-bin"]
+	path = contracts/machine_auditable_faults/id_108/buggy_version/dapp-bin
+	url = https://github.com/ethereum/dapp-bin.git
+[submodule "contracts/machine_auditable_faults/id_108/patched_version/dapp-bin"]
+	path = contracts/machine_auditable_faults/id_108/patched_version/dapp-bin
+	url = https://github.com/ethereum/dapp-bin.git
+[submodule "contracts/machine_auditable_faults/id_109/buggy_version/nft-dapp-starter-kit"]
+	path = contracts/machine_auditable_faults/id_109/buggy_version/nft-dapp-starter-kit
+	url = https://github.com/coinbase/nft-dapp-starter-kit.git
+[submodule "contracts/machine_auditable_faults/id_109/patched_version/nft-dapp-starter-kit"]
+	path = contracts/machine_auditable_faults/id_109/patched_version/nft-dapp-starter-kit
+	url = https://github.com/coinbase/nft-dapp-starter-kit.git
+[submodule "contracts/machine_auditable_faults/id_110/buggy_version/HealthCare-Insurance-Ethereum"]
+	path = contracts/machine_auditable_faults/id_110/buggy_version/HealthCare-Insurance-Ethereum
+	url = https://github.com/Rishabh42/HealthCare-Insurance-Ethereum.git
+[submodule "contracts/machine_auditable_faults/id_110/patched_version/HealthCare-Insurance-Ethereum"]
+	path = contracts/machine_auditable_faults/id_110/patched_version/HealthCare-Insurance-Ethereum
+	url = https://github.com/Rishabh42/HealthCare-Insurance-Ethereum.git
+[submodule "contracts/machine_auditable_faults/id_111/buggy_version/0x-monorepo"]
+	path = contracts/machine_auditable_faults/id_111/buggy_version/0x-monorepo
+	url = https://github.com/0xProject/0x-monorepo.git
+[submodule "contracts/machine_auditable_faults/id_111/patched_version/0x-monorepo"]
+	path = contracts/machine_auditable_faults/id_111/patched_version/0x-monorepo
+	url = https://github.com/0xProject/0x-monorepo.git
+[submodule "contracts/machine_auditable_faults/id_112/buggy_version/0x-monorepo"]
+	path = contracts/machine_auditable_faults/id_112/buggy_version/0x-monorepo
+	url = https://github.com/0xProject/0x-monorepo.git
+[submodule "contracts/machine_auditable_faults/id_112/patched_version/0x-monorepo"]
+	path = contracts/machine_auditable_faults/id_112/patched_version/0x-monorepo
+	url = https://github.com/0xProject/0x-monorepo.git
+[submodule "contracts/machine_auditable_faults/id_113/buggy_version/0x-monorepo"]
+	path = contracts/machine_auditable_faults/id_113/buggy_version/0x-monorepo
+	url = https://github.com/0xProject/0x-monorepo.git
+[submodule "contracts/machine_auditable_faults/id_113/patched_version/0x-monorepo"]
+	path = contracts/machine_auditable_faults/id_113/patched_version/0x-monorepo
+	url = https://github.com/0xProject/0x-monorepo.git
+[submodule "contracts/machine_auditable_faults/id_114/buggy_version/0x-monorepo"]
+	path = contracts/machine_auditable_faults/id_114/buggy_version/0x-monorepo
+	url = https://github.com/0xProject/0x-monorepo.git
+[submodule "contracts/machine_auditable_faults/id_114/patched_version/0x-monorepo"]
+	path = contracts/machine_auditable_faults/id_114/patched_version/0x-monorepo
+	url = https://github.com/0xProject/0x-monorepo.git
+[submodule "contracts/machine_auditable_faults/id_115/buggy_version/0x-monorepo"]
+	path = contracts/machine_auditable_faults/id_115/buggy_version/0x-monorepo
+	url = https://github.com/0xProject/0x-monorepo.git
+[submodule "contracts/machine_auditable_faults/id_115/patched_version/0x-monorepo"]
+	path = contracts/machine_auditable_faults/id_115/patched_version/0x-monorepo
+	url = https://github.com/0xProject/0x-monorepo.git
+[submodule "contracts/machine_auditable_faults/id_116/buggy_version/0x-monorepo"]
+	path = contracts/machine_auditable_faults/id_116/buggy_version/0x-monorepo
+	url = https://github.com/0xProject/0x-monorepo.git
+[submodule "contracts/machine_auditable_faults/id_116/patched_version/0x-monorepo"]
+	path = contracts/machine_auditable_faults/id_116/patched_version/0x-monorepo
+	url = https://github.com/0xProject/0x-monorepo.git
+[submodule "contracts/machine_auditable_faults/id_117/buggy_version/0x-monorepo"]
+	path = contracts/machine_auditable_faults/id_117/buggy_version/0x-monorepo
+	url = https://github.com/0xProject/0x-monorepo.git
+[submodule "contracts/machine_auditable_faults/id_117/patched_version/0x-monorepo"]
+	path = contracts/machine_auditable_faults/id_117/patched_version/0x-monorepo
+	url = https://github.com/0xProject/0x-monorepo.git
+[submodule "contracts/machine_auditable_faults/id_118/buggy_version/0x-monorepo"]
+	path = contracts/machine_auditable_faults/id_118/buggy_version/0x-monorepo
+	url = https://github.com/0xProject/0x-monorepo.git
+[submodule "contracts/machine_auditable_faults/id_118/patched_version/0x-monorepo"]
+	path = contracts/machine_auditable_faults/id_118/patched_version/0x-monorepo
+	url = https://github.com/0xProject/0x-monorepo.git
+[submodule "contracts/machine_auditable_faults/id_119/buggy_version/AdChainRegistry"]
+	path = contracts/machine_auditable_faults/id_119/buggy_version/AdChainRegistry
+	url = https://github.com/AdChain/AdChainRegistry.git
+[submodule "contracts/machine_auditable_faults/id_119/patched_version/AdChainRegistry"]
+	path = contracts/machine_auditable_faults/id_119/patched_version/AdChainRegistry
+	url = https://github.com/AdChain/AdChainRegistry.git
+[submodule "contracts/machine_auditable_faults/id_120/buggy_version/alpaca-stablecoin"]
+	path = contracts/machine_auditable_faults/id_120/buggy_version/alpaca-stablecoin
+	url = https://github.com/alpaca-finance/alpaca-stablecoin.git
+[submodule "contracts/machine_auditable_faults/id_120/patched_version/alpaca-stablecoin"]
+	path = contracts/machine_auditable_faults/id_120/patched_version/alpaca-stablecoin
+	url = https://github.com/alpaca-finance/alpaca-stablecoin.git
+[submodule "contracts/machine_auditable_faults/id_121/buggy_version/alpaca-stablecoin"]
+	path = contracts/machine_auditable_faults/id_121/buggy_version/alpaca-stablecoin
+	url = https://github.com/alpaca-finance/alpaca-stablecoin.git
+[submodule "contracts/machine_auditable_faults/id_121/patched_version/alpaca-stablecoin"]
+	path = contracts/machine_auditable_faults/id_121/patched_version/alpaca-stablecoin
+	url = https://github.com/alpaca-finance/alpaca-stablecoin.git
+[submodule "contracts/machine_auditable_faults/id_122/buggy_version/alpaca-stablecoin"]
+	path = contracts/machine_auditable_faults/id_122/buggy_version/alpaca-stablecoin
+	url = https://github.com/alpaca-finance/alpaca-stablecoin.git
+[submodule "contracts/machine_auditable_faults/id_122/patched_version/alpaca-stablecoin"]
+	path = contracts/machine_auditable_faults/id_122/patched_version/alpaca-stablecoin
+	url = https://github.com/alpaca-finance/alpaca-stablecoin.git
+[submodule "contracts/machine_auditable_faults/id_123/buggy_version/alpaca-stablecoin"]
+	path = contracts/machine_auditable_faults/id_123/buggy_version/alpaca-stablecoin
+	url = https://github.com/alpaca-finance/alpaca-stablecoin.git
+[submodule "contracts/machine_auditable_faults/id_123/patched_version/alpaca-stablecoin"]
+	path = contracts/machine_auditable_faults/id_123/patched_version/alpaca-stablecoin
+	url = https://github.com/alpaca-finance/alpaca-stablecoin.git
+[submodule "contracts/machine_auditable_faults/id_124/buggy_version/ampleforth-contracts"]
+	path = contracts/machine_auditable_faults/id_124/buggy_version/ampleforth-contracts
+	url = https://github.com/ampleforth/ampleforth-contracts.git
+[submodule "contracts/machine_auditable_faults/id_124/patched_version/ampleforth-contracts"]
+	path = contracts/machine_auditable_faults/id_124/patched_version/ampleforth-contracts
+	url = https://github.com/ampleforth/ampleforth-contracts.git
+[submodule "contracts/machine_auditable_faults/id_125/buggy_version/argent-contracts"]
+	path = contracts/machine_auditable_faults/id_125/buggy_version/argent-contracts
+	url = https://github.com/argentlabs/argent-contracts.git
+[submodule "contracts/machine_auditable_faults/id_125/patched_version/argent-contracts"]
+	path = contracts/machine_auditable_faults/id_125/patched_version/argent-contracts
+	url = https://github.com/argentlabs/argent-contracts.git
+[submodule "contracts/machine_auditable_faults/id_126/buggy_version/argent-contracts"]
+	path = contracts/machine_auditable_faults/id_126/buggy_version/argent-contracts
+	url = https://github.com/argentlabs/argent-contracts.git
+[submodule "contracts/machine_auditable_faults/id_126/patched_version/argent-contracts"]
+	path = contracts/machine_auditable_faults/id_126/patched_version/argent-contracts
+	url = https://github.com/argentlabs/argent-contracts.git
+[submodule "contracts/machine_auditable_faults/id_127/buggy_version/augur-core"]
+	path = contracts/machine_auditable_faults/id_127/buggy_version/augur-core
+	url = https://github.com/AugurProject/augur-core.git
+[submodule "contracts/machine_auditable_faults/id_127/patched_version/augur-core"]
+	path = contracts/machine_auditable_faults/id_127/patched_version/augur-core
+	url = https://github.com/AugurProject/augur-core.git
+[submodule "contracts/machine_auditable_faults/id_128/buggy_version/augur-core"]
+	path = contracts/machine_auditable_faults/id_128/buggy_version/augur-core
+	url = https://github.com/AugurProject/augur-core.git
+[submodule "contracts/machine_auditable_faults/id_128/patched_version/augur-core"]
+	path = contracts/machine_auditable_faults/id_128/patched_version/augur-core
+	url = https://github.com/AugurProject/augur-core.git
+[submodule "contracts/machine_auditable_faults/id_129/buggy_version/credit-protocol"]
+	path = contracts/machine_auditable_faults/id_129/buggy_version/credit-protocol
+	url = https://github.com/blockmason/credit-protocol.git
+[submodule "contracts/machine_auditable_faults/id_129/patched_version/credit-protocol"]
+	path = contracts/machine_auditable_faults/id_129/patched_version/credit-protocol
+	url = https://github.com/blockmason/credit-protocol.git
+[submodule "contracts/machine_auditable_faults/id_130/buggy_version/bsc-genesis-contract"]
+	path = contracts/machine_auditable_faults/id_130/buggy_version/bsc-genesis-contract
+	url = https://github.com/bnb-chain/bsc-genesis-contract.git
+[submodule "contracts/machine_auditable_faults/id_130/patched_version/bsc-genesis-contract"]
+	path = contracts/machine_auditable_faults/id_130/patched_version/bsc-genesis-contract
+	url = https://github.com/bnb-chain/bsc-genesis-contract.git
+[submodule "contracts/machine_auditable_faults/id_131/buggy_version/bsc-genesis-contract"]
+	path = contracts/machine_auditable_faults/id_131/buggy_version/bsc-genesis-contract
+	url = https://github.com/bnb-chain/bsc-genesis-contract.git
+[submodule "contracts/machine_auditable_faults/id_131/patched_version/bsc-genesis-contract"]
+	path = contracts/machine_auditable_faults/id_131/patched_version/bsc-genesis-contract
+	url = https://github.com/bnb-chain/bsc-genesis-contract.git
+[submodule "contracts/machine_auditable_faults/id_132/buggy_version/CoFiX"]
+	path = contracts/machine_auditable_faults/id_132/buggy_version/CoFiX
+	url = https://github.com/Computable-Finance/CoFiX.git
+[submodule "contracts/machine_auditable_faults/id_132/patched_version/CoFiX"]
+	path = contracts/machine_auditable_faults/id_132/patched_version/CoFiX
+	url = https://github.com/Computable-Finance/CoFiX.git
+[submodule "contracts/machine_auditable_faults/id_133/buggy_version/milky-way"]
+	path = contracts/machine_auditable_faults/id_133/buggy_version/milky-way
+	url = https://github.com/convergentcx/milky-way.git
+[submodule "contracts/machine_auditable_faults/id_133/patched_version/milky-way"]
+	path = contracts/machine_auditable_faults/id_133/patched_version/milky-way
+	url = https://github.com/convergentcx/milky-way.git
+[submodule "contracts/machine_auditable_faults/id_134/buggy_version/not-so-smart-contracts"]
+	path = contracts/machine_auditable_faults/id_134/buggy_version/not-so-smart-contracts
+	url = https://github.com/crytic/not-so-smart-contracts.git
+[submodule "contracts/machine_auditable_faults/id_134/patched_version/not-so-smart-contracts"]
+	path = contracts/machine_auditable_faults/id_134/patched_version/not-so-smart-contracts
+	url = https://github.com/crytic/not-so-smart-contracts.git
+[submodule "contracts/machine_auditable_faults/id_135/buggy_version/dawn-erc20-erc777"]
+	path = contracts/machine_auditable_faults/id_135/buggy_version/dawn-erc20-erc777
+	url = https://github.com/Dawn-Protocol/dawn-erc20-erc777.git
+[submodule "contracts/machine_auditable_faults/id_135/patched_version/dawn-erc20-erc777"]
+	path = contracts/machine_auditable_faults/id_135/patched_version/dawn-erc20-erc777
+	url = https://github.com/Dawn-Protocol/dawn-erc20-erc777.git
+[submodule "contracts/machine_auditable_faults/id_136/buggy_version/DeFiOptions-core"]
+	path = contracts/machine_auditable_faults/id_136/buggy_version/DeFiOptions-core
+	url = https://github.com/DeFiOptions/DeFiOptions-core.git
+[submodule "contracts/machine_auditable_faults/id_136/patched_version/DeFiOptions-core"]
+	path = contracts/machine_auditable_faults/id_136/patched_version/DeFiOptions-core
+	url = https://github.com/DeFiOptions/DeFiOptions-core.git
+[submodule "contracts/machine_auditable_faults/id_137/buggy_version/contractV2"]
+	path = contracts/machine_auditable_faults/id_137/buggy_version/contractV2
+	url = https://github.com/DODOEX/contractV2.git
+[submodule "contracts/machine_auditable_faults/id_137/patched_version/contractV2"]
+	path = contracts/machine_auditable_faults/id_137/patched_version/contractV2
+	url = https://github.com/DODOEX/contractV2.git
+[submodule "contracts/machine_auditable_faults/id_138/buggy_version/contractV2"]
+	path = contracts/machine_auditable_faults/id_138/buggy_version/contractV2
+	url = https://github.com/DODOEX/contractV2.git
+[submodule "contracts/machine_auditable_faults/id_138/patched_version/contractV2"]
+	path = contracts/machine_auditable_faults/id_138/patched_version/contractV2
+	url = https://github.com/DODOEX/contractV2.git
+[submodule "contracts/machine_auditable_faults/id_139/buggy_version/contractV2"]
+	path = contracts/machine_auditable_faults/id_139/buggy_version/contractV2
+	url = https://github.com/DODOEX/contractV2.git
+[submodule "contracts/machine_auditable_faults/id_139/patched_version/contractV2"]
+	path = contracts/machine_auditable_faults/id_139/patched_version/contractV2
+	url = https://github.com/DODOEX/contractV2.git
+[submodule "contracts/machine_auditable_faults/id_140/buggy_version/contractV2"]
+	path = contracts/machine_auditable_faults/id_140/buggy_version/contractV2
+	url = https://github.com/DODOEX/contractV2.git
+[submodule "contracts/machine_auditable_faults/id_140/patched_version/contractV2"]
+	path = contracts/machine_auditable_faults/id_140/patched_version/contractV2
+	url = https://github.com/DODOEX/contractV2.git
+[submodule "contracts/machine_auditable_faults/id_141/buggy_version/contractV2"]
+	path = contracts/machine_auditable_faults/id_141/buggy_version/contractV2
+	url = https://github.com/DODOEX/contractV2.git
+[submodule "contracts/machine_auditable_faults/id_141/patched_version/contractV2"]
+	path = contracts/machine_auditable_faults/id_141/patched_version/contractV2
+	url = https://github.com/DODOEX/contractV2.git
+[submodule "contracts/machine_auditable_faults/id_142/buggy_version/contractV2"]
+	path = contracts/machine_auditable_faults/id_142/buggy_version/contractV2
+	url = https://github.com/DODOEX/contractV2.git
+[submodule "contracts/machine_auditable_faults/id_142/patched_version/contractV2"]
+	path = contracts/machine_auditable_faults/id_142/patched_version/contractV2
+	url = https://github.com/DODOEX/contractV2.git
+[submodule "contracts/machine_auditable_faults/id_143/buggy_version/contractV2"]
+	path = contracts/machine_auditable_faults/id_143/buggy_version/contractV2
+	url = https://github.com/DODOEX/contractV2.git
+[submodule "contracts/machine_auditable_faults/id_143/patched_version/contractV2"]
+	path = contracts/machine_auditable_faults/id_143/patched_version/contractV2
+	url = https://github.com/DODOEX/contractV2.git
+[submodule "contracts/machine_auditable_faults/id_144/buggy_version/contractV2"]
+	path = contracts/machine_auditable_faults/id_144/buggy_version/contractV2
+	url = https://github.com/DODOEX/contractV2.git
+[submodule "contracts/machine_auditable_faults/id_144/patched_version/contractV2"]
+	path = contracts/machine_auditable_faults/id_144/patched_version/contractV2
+	url = https://github.com/DODOEX/contractV2.git
+[submodule "contracts/machine_auditable_faults/id_145/buggy_version/council"]
+	path = contracts/machine_auditable_faults/id_145/buggy_version/council
+	url = https://github.com/element-fi/council.git
+[submodule "contracts/machine_auditable_faults/id_145/patched_version/council"]
+	path = contracts/machine_auditable_faults/id_145/patched_version/council
+	url = https://github.com/element-fi/council.git
+[submodule "contracts/machine_auditable_faults/id_146/buggy_version/council"]
+	path = contracts/machine_auditable_faults/id_146/buggy_version/council
+	url = https://github.com/element-fi/council.git
+[submodule "contracts/machine_auditable_faults/id_146/patched_version/council"]
+	path = contracts/machine_auditable_faults/id_146/patched_version/council
+	url = https://github.com/element-fi/council.git
+[submodule "contracts/machine_auditable_faults/id_147/buggy_version/NMR"]
+	path = contracts/machine_auditable_faults/id_147/buggy_version/NMR
+	url = https://github.com/erasureprotocol/NMR.git
+[submodule "contracts/machine_auditable_faults/id_147/patched_version/NMR"]
+	path = contracts/machine_auditable_faults/id_147/patched_version/NMR
+	url = https://github.com/erasureprotocol/NMR.git
+[submodule "contracts/machine_auditable_faults/id_148/buggy_version/ICO_SmartContract"]
+	path = contracts/machine_auditable_faults/id_148/buggy_version/ICO_SmartContract
+	url = https://github.com/ETHLend/ICO_SmartContract.git
+[submodule "contracts/machine_auditable_faults/id_148/patched_version/ICO_SmartContract"]
+	path = contracts/machine_auditable_faults/id_148/patched_version/ICO_SmartContract
+	url = https://github.com/ETHLend/ICO_SmartContract.git
+[submodule "contracts/machine_auditable_faults/id_149/buggy_version/c-org"]
+	path = contracts/machine_auditable_faults/id_149/buggy_version/c-org
+	url = https://github.com/Fairmint/c-org.git
+[submodule "contracts/machine_auditable_faults/id_149/patched_version/c-org"]
+	path = contracts/machine_auditable_faults/id_149/patched_version/c-org
+	url = https://github.com/Fairmint/c-org.git
+[submodule "contracts/machine_auditable_faults/id_150/buggy_version/fei-protocol-core"]
+	path = contracts/machine_auditable_faults/id_150/buggy_version/fei-protocol-core
+	url = https://github.com/fei-protocol/fei-protocol-core.git
+[submodule "contracts/machine_auditable_faults/id_150/patched_version/fei-protocol-core"]
+	path = contracts/machine_auditable_faults/id_150/patched_version/fei-protocol-core
+	url = https://github.com/fei-protocol/fei-protocol-core.git
+[submodule "contracts/machine_auditable_faults/id_151/buggy_version/fei-protocol-core"]
+	path = contracts/machine_auditable_faults/id_151/buggy_version/fei-protocol-core
+	url = https://github.com/fei-protocol/fei-protocol-core.git
+[submodule "contracts/machine_auditable_faults/id_151/patched_version/fei-protocol-core"]
+	path = contracts/machine_auditable_faults/id_151/patched_version/fei-protocol-core
+	url = https://github.com/fei-protocol/fei-protocol-core.git
+[submodule "contracts/machine_auditable_faults/id_152/buggy_version/fei-protocol-core"]
+	path = contracts/machine_auditable_faults/id_152/buggy_version/fei-protocol-core
+	url = https://github.com/fei-protocol/fei-protocol-core.git
+[submodule "contracts/machine_auditable_faults/id_152/patched_version/fei-protocol-core"]
+	path = contracts/machine_auditable_faults/id_152/patched_version/fei-protocol-core
+	url = https://github.com/fei-protocol/fei-protocol-core.git
+[submodule "contracts/machine_auditable_faults/id_153/buggy_version/conditional-tokens-contracts"]
+	path = contracts/machine_auditable_faults/id_153/buggy_version/conditional-tokens-contracts
+	url = https://github.com/gnosis/conditional-tokens-contracts.git
+[submodule "contracts/machine_auditable_faults/id_153/patched_version/conditional-tokens-contracts"]
+	path = contracts/machine_auditable_faults/id_153/patched_version/conditional-tokens-contracts
+	url = https://github.com/gnosis/conditional-tokens-contracts.git
+[submodule "contracts/machine_auditable_faults/id_154/buggy_version/dx-contracts"]
+	path = contracts/machine_auditable_faults/id_154/buggy_version/dx-contracts
+	url = https://github.com/gnosis/dx-contracts.git
+[submodule "contracts/machine_auditable_faults/id_154/patched_version/dx-contracts"]
+	path = contracts/machine_auditable_faults/id_154/patched_version/dx-contracts
+	url = https://github.com/gnosis/dx-contracts.git
+[submodule "contracts/machine_auditable_faults/id_155/buggy_version/dx-contracts"]
+	path = contracts/machine_auditable_faults/id_155/buggy_version/dx-contracts
+	url = https://github.com/gnosis/dx-contracts.git
+[submodule "contracts/machine_auditable_faults/id_155/patched_version/dx-contracts"]
+	path = contracts/machine_auditable_faults/id_155/patched_version/dx-contracts
+	url = https://github.com/gnosis/dx-contracts.git
+[submodule "contracts/machine_auditable_faults/id_156/buggy_version/dx-contracts"]
+	path = contracts/machine_auditable_faults/id_156/buggy_version/dx-contracts
+	url = https://github.com/gnosis/dx-contracts.git
+[submodule "contracts/machine_auditable_faults/id_156/patched_version/dx-contracts"]
+	path = contracts/machine_auditable_faults/id_156/patched_version/dx-contracts
+	url = https://github.com/gnosis/dx-contracts.git
+[submodule "contracts/machine_auditable_faults/id_157/buggy_version/dx-contracts"]
+	path = contracts/machine_auditable_faults/id_157/buggy_version/dx-contracts
+	url = https://github.com/gnosis/dx-contracts.git
+[submodule "contracts/machine_auditable_faults/id_157/patched_version/dx-contracts"]
+	path = contracts/machine_auditable_faults/id_157/patched_version/dx-contracts
+	url = https://github.com/gnosis/dx-contracts.git
+[submodule "contracts/machine_auditable_faults/id_158/buggy_version/pm-contracts"]
+	path = contracts/machine_auditable_faults/id_158/buggy_version/pm-contracts
+	url = https://github.com/gnosis/pm-contracts.git
+[submodule "contracts/machine_auditable_faults/id_158/patched_version/pm-contracts"]
+	path = contracts/machine_auditable_faults/id_158/patched_version/pm-contracts
+	url = https://github.com/gnosis/pm-contracts.git
+[submodule "contracts/machine_auditable_faults/id_159/buggy_version/goodghosting-protocol-v0"]
+	path = contracts/machine_auditable_faults/id_159/buggy_version/goodghosting-protocol-v0
+	url = https://github.com/Good-Ghosting/goodghosting-protocol-v0.git
+[submodule "contracts/machine_auditable_faults/id_159/patched_version/goodghosting-protocol-v0"]
+	path = contracts/machine_auditable_faults/id_159/patched_version/goodghosting-protocol-v0
+	url = https://github.com/Good-Ghosting/goodghosting-protocol-v0.git
+[submodule "contracts/machine_auditable_faults/id_160/buggy_version/idex-contracts-whistler"]
+	path = contracts/machine_auditable_faults/id_160/buggy_version/idex-contracts-whistler
+	url = https://github.com/idexio/idex-contracts-whistler.git
+[submodule "contracts/machine_auditable_faults/id_160/patched_version/idex-contracts-whistler"]
+	path = contracts/machine_auditable_faults/id_160/patched_version/idex-contracts-whistler
+	url = https://github.com/idexio/idex-contracts-whistler.git
+[submodule "contracts/machine_auditable_faults/id_166/buggy_version/keep-core"]
+	path = contracts/machine_auditable_faults/id_166/buggy_version/keep-core
+	url = https://github.com/keep-network/keep-core.git
+[submodule "contracts/machine_auditable_faults/id_166/patched_version/keep-core"]
+	path = contracts/machine_auditable_faults/id_166/patched_version/keep-core
+	url = https://github.com/keep-network/keep-core.git
+[submodule "contracts/machine_auditable_faults/id_167/buggy_version/keep-ecdsa"]
+	path = contracts/machine_auditable_faults/id_167/buggy_version/keep-ecdsa
+	url = https://github.com/keep-network/keep-ecdsa.git
+[submodule "contracts/machine_auditable_faults/id_167/patched_version/keep-ecdsa"]
+	path = contracts/machine_auditable_faults/id_167/patched_version/keep-ecdsa
+	url = https://github.com/keep-network/keep-ecdsa.git
+[submodule "contracts/machine_auditable_faults/id_168/buggy_version/kleros"]
+	path = contracts/machine_auditable_faults/id_168/buggy_version/kleros
+	url = https://github.com/kleros/kleros.git
+[submodule "contracts/machine_auditable_faults/id_168/patched_version/kleros"]
+	path = contracts/machine_auditable_faults/id_168/patched_version/kleros
+	url = https://github.com/kleros/kleros.git
+[submodule "contracts/machine_auditable_faults/id_169/buggy_version/kleros"]
+	path = contracts/machine_auditable_faults/id_169/buggy_version/kleros
+	url = https://github.com/kleros/kleros.git
+[submodule "contracts/machine_auditable_faults/id_169/patched_version/kleros"]
+	path = contracts/machine_auditable_faults/id_169/patched_version/kleros
+	url = https://github.com/kleros/kleros.git
+[submodule "contracts/machine_auditable_faults/id_170/buggy_version/kleros"]
+	path = contracts/machine_auditable_faults/id_170/buggy_version/kleros
+	url = https://github.com/kleros/kleros.git
+[submodule "contracts/machine_auditable_faults/id_170/patched_version/kleros"]
+	path = contracts/machine_auditable_faults/id_170/patched_version/kleros
+	url = https://github.com/kleros/kleros.git
+[submodule "contracts/machine_auditable_faults/id_171/buggy_version/lsp-smart-contracts"]
+	path = contracts/machine_auditable_faults/id_171/buggy_version/lsp-smart-contracts
+	url = https://github.com/lukso-network/lsp-smart-contracts.git
+[submodule "contracts/machine_auditable_faults/id_171/patched_version/lsp-smart-contracts"]
+	path = contracts/machine_auditable_faults/id_171/patched_version/lsp-smart-contracts
+	url = https://github.com/lukso-network/lsp-smart-contracts.git
+[submodule "contracts/machine_auditable_faults/id_172/buggy_version/dss-deploy"]
+	path = contracts/machine_auditable_faults/id_172/buggy_version/dss-deploy
+	url = https://github.com/makerdao/dss-deploy.git
+[submodule "contracts/machine_auditable_faults/id_172/patched_version/dss-deploy"]
+	path = contracts/machine_auditable_faults/id_172/patched_version/dss-deploy
+	url = https://github.com/makerdao/dss-deploy.git
+[submodule "contracts/machine_auditable_faults/id_173/buggy_version/tokenbridge-contracts"]
+	path = contracts/machine_auditable_faults/id_173/buggy_version/tokenbridge-contracts
+	url = https://github.com/poanetwork/tokenbridge-contracts.git
+[submodule "contracts/machine_auditable_faults/id_173/patched_version/tokenbridge-contracts"]
+	path = contracts/machine_auditable_faults/id_173/patched_version/tokenbridge-contracts
+	url = https://github.com/poanetwork/tokenbridge-contracts.git
+[submodule "contracts/machine_auditable_faults/id_174/buggy_version/polymath-core-deprecated"]
+	path = contracts/machine_auditable_faults/id_174/buggy_version/polymath-core-deprecated
+	url = https://github.com/PolymathNetwork/polymath-core-deprecated.git
+[submodule "contracts/machine_auditable_faults/id_174/patched_version/polymath-core-deprecated"]
+	path = contracts/machine_auditable_faults/id_174/patched_version/polymath-core-deprecated
+	url = https://github.com/PolymathNetwork/polymath-core-deprecated.git
+[submodule "contracts/machine_auditable_faults/id_175/buggy_version/pooltogether-pool-contracts"]
+	path = contracts/machine_auditable_faults/id_175/buggy_version/pooltogether-pool-contracts
+	url = https://github.com/pooltogether/pooltogether-pool-contracts.git
+[submodule "contracts/machine_auditable_faults/id_175/patched_version/pooltogether-pool-contracts"]
+	path = contracts/machine_auditable_faults/id_175/patched_version/pooltogether-pool-contracts
+	url = https://github.com/pooltogether/pooltogether-pool-contracts.git
+[submodule "contracts/machine_auditable_faults/id_176/buggy_version/raiden-contracts"]
+	path = contracts/machine_auditable_faults/id_176/buggy_version/raiden-contracts
+	url = https://github.com/raiden-network/raiden-contracts.git
+[submodule "contracts/machine_auditable_faults/id_176/patched_version/raiden-contracts"]
+	path = contracts/machine_auditable_faults/id_176/patched_version/raiden-contracts
+	url = https://github.com/raiden-network/raiden-contracts.git
+[submodule "contracts/machine_auditable_faults/id_177/buggy_version/geb"]
+	path = contracts/machine_auditable_faults/id_177/buggy_version/geb
+	url = https://github.com/reflexer-labs/geb.git
+[submodule "contracts/machine_auditable_faults/id_177/patched_version/geb"]
+	path = contracts/machine_auditable_faults/id_177/patched_version/geb
+	url = https://github.com/reflexer-labs/geb.git
+[submodule "contracts/machine_auditable_faults/id_179/buggy_version/SWC-registry"]
+	path = contracts/machine_auditable_faults/id_179/buggy_version/SWC-registry
+	url = https://github.com/SmartContractSecurity/SWC-registry.git
+[submodule "contracts/machine_auditable_faults/id_179/patched_version/SWC-registry"]
+	path = contracts/machine_auditable_faults/id_179/patched_version/SWC-registry
+	url = https://github.com/SmartContractSecurity/SWC-registry.git
+[submodule "contracts/machine_auditable_faults/id_180/buggy_version/solidstate-solidity"]
+	path = contracts/machine_auditable_faults/id_180/buggy_version/solidstate-solidity
+	url = https://github.com/solidstate-network/solidstate-solidity.git
+[submodule "contracts/machine_auditable_faults/id_180/patched_version/solidstate-solidity"]
+	path = contracts/machine_auditable_faults/id_180/patched_version/solidstate-solidity
+	url = https://github.com/solidstate-network/solidstate-solidity.git
+[submodule "contracts/machine_auditable_faults/id_181/buggy_version/NexusMutual"]
+	path = contracts/machine_auditable_faults/id_181/buggy_version/NexusMutual
+	url = https://github.com/somish/NexusMutual.git
+[submodule "contracts/machine_auditable_faults/id_181/patched_version/NexusMutual"]
+	path = contracts/machine_auditable_faults/id_181/patched_version/NexusMutual
+	url = https://github.com/somish/NexusMutual.git
+[submodule "contracts/machine_auditable_faults/id_182/buggy_version/spartanswap-contracts"]
+	path = contracts/machine_auditable_faults/id_182/buggy_version/spartanswap-contracts
+	url = https://github.com/spartan-protocol/spartanswap-contracts.git
+[submodule "contracts/machine_auditable_faults/id_182/patched_version/spartanswap-contracts"]
+	path = contracts/machine_auditable_faults/id_182/patched_version/spartanswap-contracts
+	url = https://github.com/spartan-protocol/spartanswap-contracts.git
+[submodule "contracts/machine_auditable_faults/id_183/buggy_version/sushiswap"]
+	path = contracts/machine_auditable_faults/id_183/buggy_version/sushiswap
+	url = https://github.com/sushiswap/sushiswap.git
+[submodule "contracts/machine_auditable_faults/id_183/patched_version/sushiswap"]
+	path = contracts/machine_auditable_faults/id_183/patched_version/sushiswap
+	url = https://github.com/sushiswap/sushiswap.git
+[submodule "contracts/machine_auditable_faults/id_184/buggy_version/synthetix"]
+	path = contracts/machine_auditable_faults/id_184/buggy_version/synthetix
+	url = https://github.com/Synthetixio/synthetix.git
+[submodule "contracts/machine_auditable_faults/id_184/patched_version/synthetix"]
+	path = contracts/machine_auditable_faults/id_184/patched_version/synthetix
+	url = https://github.com/Synthetixio/synthetix.git
+[submodule "contracts/machine_auditable_faults/id_185/buggy_version/tokemak-smart-contracts-public"]
+	path = contracts/machine_auditable_faults/id_185/buggy_version/tokemak-smart-contracts-public
+	url = https://github.com/Tokemak/tokemak-smart-contracts-public.git
+[submodule "contracts/machine_auditable_faults/id_185/patched_version/tokemak-smart-contracts-public"]
+	path = contracts/machine_auditable_faults/id_185/patched_version/tokemak-smart-contracts-public
+	url = https://github.com/Tokemak/tokemak-smart-contracts-public.git
+[submodule "contracts/machine_auditable_faults/id_186/buggy_version/v3-core"]
+	path = contracts/machine_auditable_faults/id_186/buggy_version/v3-core
+	url = https://github.com/Uniswap/v3-core.git
+[submodule "contracts/machine_auditable_faults/id_186/patched_version/v3-core"]
+	path = contracts/machine_auditable_faults/id_186/patched_version/v3-core
+	url = https://github.com/Uniswap/v3-core.git
+[submodule "contracts/machine_auditable_faults/id_187/buggy_version/yearn-vaults"]
+	path = contracts/machine_auditable_faults/id_187/buggy_version/yearn-vaults
+	url = https://github.com/yearn/yearn-vaults.git
+[submodule "contracts/machine_auditable_faults/id_187/patched_version/yearn-vaults"]
+	path = contracts/machine_auditable_faults/id_187/patched_version/yearn-vaults
+	url = https://github.com/yearn/yearn-vaults.git
+[submodule "contracts/machine_auditable_faults/id_188/buggy_version/contracts"]
+	path = contracts/machine_auditable_faults/id_188/buggy_version/contracts
+	url = https://github.com/maticnetwork/contracts.git
+[submodule "contracts/machine_auditable_faults/id_188/patched_version/contracts"]
+	path = contracts/machine_auditable_faults/id_188/patched_version/contracts
+	url = https://github.com/maticnetwork/contracts.git
+[submodule "contracts/machine_auditable_faults/id_189/buggy_version/contracts"]
+	path = contracts/machine_auditable_faults/id_189/buggy_version/contracts
+	url = https://github.com/maticnetwork/contracts.git
+[submodule "contracts/machine_auditable_faults/id_189/patched_version/contracts"]
+	path = contracts/machine_auditable_faults/id_189/patched_version/contracts
+	url = https://github.com/maticnetwork/contracts.git
+[submodule "contracts/machine_auditable_faults/id_190/buggy_version/pos-portal"]
+	path = contracts/machine_auditable_faults/id_190/buggy_version/pos-portal
+	url = https://github.com/maticnetwork/pos-portal.git
+[submodule "contracts/machine_auditable_faults/id_190/patched_version/pos-portal"]
+	path = contracts/machine_auditable_faults/id_190/patched_version/pos-portal
+	url = https://github.com/maticnetwork/pos-portal.git
+[submodule "contracts/machine_auditable_faults/id_191/buggy_version/metatx-standard"]
+	path = contracts/machine_auditable_faults/id_191/buggy_version/metatx-standard
+	url = https://github.com/bcnmy/metatx-standard.git
+[submodule "contracts/machine_auditable_faults/id_191/patched_version/metatx-standard"]
+	path = contracts/machine_auditable_faults/id_191/patched_version/metatx-standard
+	url = https://github.com/bcnmy/metatx-standard.git
+[submodule "contracts/machine_auditable_faults/id_192/buggy_version/saddle-contract"]
+	path = contracts/machine_auditable_faults/id_192/buggy_version/saddle-contract
+	url = https://github.com/saddle-finance/saddle-contract.git
+[submodule "contracts/machine_auditable_faults/id_192/patched_version/saddle-contract"]
+	path = contracts/machine_auditable_faults/id_192/patched_version/saddle-contract
+	url = https://github.com/saddle-finance/saddle-contract.git
+[submodule "contracts/machine_auditable_faults/id_193/buggy_version/Artion-Contracts"]
+	path = contracts/machine_auditable_faults/id_193/buggy_version/Artion-Contracts
+	url = https://github.com/Fantom-foundation/Artion-Contracts.git
+[submodule "contracts/machine_auditable_faults/id_193/patched_version/Artion-Contracts"]
+	path = contracts/machine_auditable_faults/id_193/patched_version/Artion-Contracts
+	url = https://github.com/Fantom-foundation/Artion-Contracts.git
+[submodule "contracts/machine_auditable_faults/id_194/buggy_version/T-REX"]
+	path = contracts/machine_auditable_faults/id_194/buggy_version/T-REX
+	url = https://github.com/TokenySolutions/T-REX.git
+[submodule "contracts/machine_auditable_faults/id_194/patched_version/T-REX"]
+	path = contracts/machine_auditable_faults/id_194/patched_version/T-REX
+	url = https://github.com/TokenySolutions/T-REX.git
+[submodule "contracts/machine_auditable_faults/id_195/buggy_version/security-oracle-smart-contracts"]
+	path = contracts/machine_auditable_faults/id_195/buggy_version/security-oracle-smart-contracts
+	url = https://github.com/shentufoundation/security-oracle-smart-contracts.git
+[submodule "contracts/machine_auditable_faults/id_195/patched_version/security-oracle-smart-contracts"]
+	path = contracts/machine_auditable_faults/id_195/patched_version/security-oracle-smart-contracts
+	url = https://github.com/shentufoundation/security-oracle-smart-contracts.git
+[submodule "contracts/machine_auditable_faults/id_196/buggy_version/council"]
+	path = contracts/machine_auditable_faults/id_196/buggy_version/council
+	url = https://github.com/delvtech/council.git
+[submodule "contracts/machine_auditable_faults/id_196/patched_version/council"]
+	path = contracts/machine_auditable_faults/id_196/patched_version/council
+	url = https://github.com/delvtech/council.git
+[submodule "contracts/machine_auditable_faults/id_197/buggy_version/council"]
+	path = contracts/machine_auditable_faults/id_197/buggy_version/council
+	url = https://github.com/delvtech/council.git
+[submodule "contracts/machine_auditable_faults/id_197/patched_version/council"]
+	path = contracts/machine_auditable_faults/id_197/patched_version/council
+	url = https://github.com/delvtech/council.git
+[submodule "contracts/machine_auditable_faults/id_198/buggy_version/angle-core"]
+	path = contracts/machine_auditable_faults/id_198/buggy_version/angle-core
+	url = https://github.com/AngleProtocol/angle-core.git
+[submodule "contracts/machine_auditable_faults/id_198/patched_version/angle-core"]
+	path = contracts/machine_auditable_faults/id_198/patched_version/angle-core
+	url = https://github.com/AngleProtocol/angle-core.git
+[submodule "contracts/machine_auditable_faults/id_199/buggy_version/creator-core-extensions-solidity"]
+	path = contracts/machine_auditable_faults/id_199/buggy_version/creator-core-extensions-solidity
+	url = https://github.com/manifoldxyz/creator-core-extensions-solidity.git
+[submodule "contracts/machine_auditable_faults/id_199/patched_version/creator-core-extensions-solidity"]
+	path = contracts/machine_auditable_faults/id_199/patched_version/creator-core-extensions-solidity
+	url = https://github.com/manifoldxyz/creator-core-extensions-solidity.git
+[submodule "contracts/machine_auditable_faults/id_200/buggy_version/OB_ReturnCabin"]
+	path = contracts/machine_auditable_faults/id_200/buggy_version/OB_ReturnCabin
+	url = https://github.com/Orbiter-Finance/OB_ReturnCabin.git
+[submodule "contracts/machine_auditable_faults/id_200/patched_version/OB_ReturnCabin"]
+	path = contracts/machine_auditable_faults/id_200/patched_version/OB_ReturnCabin
+	url = https://github.com/Orbiter-Finance/OB_ReturnCabin.git
+[submodule "contracts/machine_auditable_faults/id_201/buggy_version/OB_ReturnCabin"]
+	path = contracts/machine_auditable_faults/id_201/buggy_version/OB_ReturnCabin
+	url = https://github.com/Orbiter-Finance/OB_ReturnCabin.git
+[submodule "contracts/machine_auditable_faults/id_201/patched_version/OB_ReturnCabin"]
+	path = contracts/machine_auditable_faults/id_201/patched_version/OB_ReturnCabin
+	url = https://github.com/Orbiter-Finance/OB_ReturnCabin.git
+[submodule "contracts/machine_auditable_faults/id_202/buggy_version/smartcontract"]
+	path = contracts/machine_auditable_faults/id_202/buggy_version/smartcontract
+	url = https://github.com/Etheremon/smartcontract.git
+[submodule "contracts/machine_auditable_faults/id_202/patched_version/smartcontract"]
+	path = contracts/machine_auditable_faults/id_202/patched_version/smartcontract
+	url = https://github.com/Etheremon/smartcontract.git
+[submodule "contracts/machine_auditable_faults/id_203/buggy_version/dss-deploy"]
+	path = contracts/machine_auditable_faults/id_203/buggy_version/dss-deploy
+	url = https://github.com/makerdao/dss-deploy.git
+[submodule "contracts/machine_auditable_faults/id_203/patched_version/dss-deploy"]
+	path = contracts/machine_auditable_faults/id_203/patched_version/dss-deploy
+	url = https://github.com/makerdao/dss-deploy.git
+[submodule "contracts/machine_auditable_faults/id_204/buggy_version/solidity"]
+	path = contracts/machine_auditable_faults/id_204/buggy_version/solidity
+	url = https://github.com/onchain-id/solidity.git
+[submodule "contracts/machine_auditable_faults/id_204/patched_version/solidity"]
+	path = contracts/machine_auditable_faults/id_204/patched_version/solidity
+	url = https://github.com/onchain-id/solidity.git
+[submodule "contracts/machine_auditable_faults/id_205/buggy_version/solidity"]
+	path = contracts/machine_auditable_faults/id_205/buggy_version/solidity
+	url = https://github.com/onchain-id/solidity.git
+[submodule "contracts/machine_auditable_faults/id_205/patched_version/solidity"]
+	path = contracts/machine_auditable_faults/id_205/patched_version/solidity
+	url = https://github.com/onchain-id/solidity.git
+[submodule "contracts/machine_auditable_faults/id_206/buggy_version/smart-contracts"]
+	path = contracts/machine_auditable_faults/id_206/buggy_version/smart-contracts
+	url = https://github.com/tatumio/smart-contracts.git
+[submodule "contracts/machine_auditable_faults/id_206/patched_version/smart-contracts"]
+	path = contracts/machine_auditable_faults/id_206/patched_version/smart-contracts
+	url = https://github.com/tatumio/smart-contracts.git
+[submodule "contracts/machine_auditable_faults/id_207/buggy_version/smart-contracts"]
+	path = contracts/machine_auditable_faults/id_207/buggy_version/smart-contracts
+	url = https://github.com/tatumio/smart-contracts.git
+[submodule "contracts/machine_auditable_faults/id_207/patched_version/smart-contracts"]
+	path = contracts/machine_auditable_faults/id_207/patched_version/smart-contracts
+	url = https://github.com/tatumio/smart-contracts.git
+[submodule "contracts/machine_auditable_faults/id_208/buggy_version/solidity"]
+	path = contracts/machine_auditable_faults/id_208/buggy_version/solidity
+	url = https://github.com/hanzoai/solidity.git
+[submodule "contracts/machine_auditable_faults/id_208/patched_version/solidity"]
+	path = contracts/machine_auditable_faults/id_208/patched_version/solidity
+	url = https://github.com/hanzoai/solidity.git
+[submodule "contracts/machine_auditable_faults/id_209/buggy_version/solidity"]
+	path = contracts/machine_auditable_faults/id_209/buggy_version/solidity
+	url = https://github.com/hanzoai/solidity.git
+[submodule "contracts/machine_auditable_faults/id_209/patched_version/solidity"]
+	path = contracts/machine_auditable_faults/id_209/patched_version/solidity
+	url = https://github.com/hanzoai/solidity.git
+[submodule "contracts/machine_auditable_faults/id_210/buggy_version/solidity"]
+	path = contracts/machine_auditable_faults/id_210/buggy_version/solidity
+	url = https://github.com/hanzoai/solidity.git
+[submodule "contracts/machine_auditable_faults/id_210/patched_version/solidity"]
+	path = contracts/machine_auditable_faults/id_210/patched_version/solidity
+	url = https://github.com/hanzoai/solidity.git
+[submodule "contracts/machine_auditable_faults/id_211/buggy_version/solidity"]
+	path = contracts/machine_auditable_faults/id_211/buggy_version/solidity
+	url = https://github.com/hanzoai/solidity.git
+[submodule "contracts/machine_auditable_faults/id_211/patched_version/solidity"]
+	path = contracts/machine_auditable_faults/id_211/patched_version/solidity
+	url = https://github.com/hanzoai/solidity.git
+[submodule "contracts/machine_auditable_faults/id_212/buggy_version/solidity"]
+	path = contracts/machine_auditable_faults/id_212/buggy_version/solidity
+	url = https://github.com/hanzoai/solidity.git
+[submodule "contracts/machine_auditable_faults/id_212/patched_version/solidity"]
+	path = contracts/machine_auditable_faults/id_212/patched_version/solidity
+	url = https://github.com/hanzoai/solidity.git
+[submodule "contracts/machine_auditable_faults/id_213/buggy_version/idex-contracts-whistler"]
+	path = contracts/machine_auditable_faults/id_213/buggy_version/idex-contracts-whistler
+	url = https://github.com/idexio/idex-contracts-whistler.git
+[submodule "contracts/machine_auditable_faults/id_213/patched_version/idex-contracts-whistler"]
+	path = contracts/machine_auditable_faults/id_213/patched_version/idex-contracts-whistler
+	url = https://github.com/idexio/idex-contracts-whistler.git
+[submodule "contracts/machine_auditable_faults/id_214/buggy_version/InstaContract"]
+	path = contracts/machine_auditable_faults/id_214/buggy_version/InstaContract
+	url = https://github.com/Instadapp/InstaContract.git
+[submodule "contracts/machine_auditable_faults/id_214/patched_version/InstaContract"]
+	path = contracts/machine_auditable_faults/id_214/patched_version/InstaContract
+	url = https://github.com/Instadapp/InstaContract.git
+[submodule "contracts/machine_auditable_faults/id_215/buggy_version/contracts"]
+	path = contracts/machine_auditable_faults/id_215/buggy_version/contracts
+	url = https://github.com/TotlePlatform/contracts.git
+[submodule "contracts/machine_auditable_faults/id_215/patched_version/contracts"]
+	path = contracts/machine_auditable_faults/id_215/patched_version/contracts
+	url = https://github.com/TotlePlatform/contracts.git
+[submodule "contracts/machine_auditable_faults/id_216/buggy_version/Launchpad-smart-contract"]
+	path = contracts/machine_auditable_faults/id_216/buggy_version/Launchpad-smart-contract
+	url = https://github.com/Seedifyfund/Launchpad-smart-contract.git
+[submodule "contracts/machine_auditable_faults/id_216/patched_version/Launchpad-smart-contract"]
+	path = contracts/machine_auditable_faults/id_216/patched_version/Launchpad-smart-contract
+	url = https://github.com/Seedifyfund/Launchpad-smart-contract.git
+[submodule "contracts/machine_auditable_faults/id_217/buggy_version/Launchpad-smart-contract"]
+	path = contracts/machine_auditable_faults/id_217/buggy_version/Launchpad-smart-contract
+	url = https://github.com/Seedifyfund/Launchpad-smart-contract.git
+[submodule "contracts/machine_auditable_faults/id_217/patched_version/Launchpad-smart-contract"]
+	path = contracts/machine_auditable_faults/id_217/patched_version/Launchpad-smart-contract
+	url = https://github.com/Seedifyfund/Launchpad-smart-contract.git
+[submodule "contracts/machine_auditable_faults/id_218/buggy_version/contracts"]
+	path = contracts/machine_auditable_faults/id_218/buggy_version/contracts
+	url = https://github.com/stakewise/contracts.git
+[submodule "contracts/machine_auditable_faults/id_218/patched_version/contracts"]
+	path = contracts/machine_auditable_faults/id_218/patched_version/contracts
+	url = https://github.com/stakewise/contracts.git
+[submodule "contracts/machine_auditable_faults/id_219/buggy_version/contracts"]
+	path = contracts/machine_auditable_faults/id_219/buggy_version/contracts
+	url = https://github.com/stakewise/contracts.git
+[submodule "contracts/machine_auditable_faults/id_219/patched_version/contracts"]
+	path = contracts/machine_auditable_faults/id_219/patched_version/contracts
+	url = https://github.com/stakewise/contracts.git
+[submodule "contracts/machine_auditable_faults/id_220/buggy_version/heiswap-dapp"]
+	path = contracts/machine_auditable_faults/id_220/buggy_version/heiswap-dapp
+	url = https://github.com/kendricktan/heiswap-dapp.git
+[submodule "contracts/machine_auditable_faults/id_220/patched_version/heiswap-dapp"]
+	path = contracts/machine_auditable_faults/id_220/patched_version/heiswap-dapp
+	url = https://github.com/kendricktan/heiswap-dapp.git
+[submodule "contracts/machine_auditable_faults/id_221/buggy_version/contracts"]
+	path = contracts/machine_auditable_faults/id_221/buggy_version/contracts
+	url = https://github.com/stakewise/contracts.git
+[submodule "contracts/machine_auditable_faults/id_221/patched_version/contracts"]
+	path = contracts/machine_auditable_faults/id_221/patched_version/contracts
+	url = https://github.com/stakewise/contracts.git
+[submodule "contracts/machine_auditable_faults/id_222/buggy_version/contracts"]
+	path = contracts/machine_auditable_faults/id_222/buggy_version/contracts
+	url = https://github.com/stakewise/contracts.git
+[submodule "contracts/machine_auditable_faults/id_222/patched_version/contracts"]
+	path = contracts/machine_auditable_faults/id_222/patched_version/contracts
+	url = https://github.com/stakewise/contracts.git
+[submodule "contracts/machine_auditable_faults/id_223/buggy_version/contracts"]
+	path = contracts/machine_auditable_faults/id_223/buggy_version/contracts
+	url = https://github.com/stakewise/contracts.git
+[submodule "contracts/machine_auditable_faults/id_223/patched_version/contracts"]
+	path = contracts/machine_auditable_faults/id_223/patched_version/contracts
+	url = https://github.com/stakewise/contracts.git
+[submodule "contracts/machine_auditable_faults/id_224/buggy_version/real-digital-smart-contracts"]
+	path = contracts/machine_auditable_faults/id_224/buggy_version/real-digital-smart-contracts
+	url = https://github.com/wireshape/real-digital-smart-contracts.git
+[submodule "contracts/machine_auditable_faults/id_224/patched_version/real-digital-smart-contracts"]
+	path = contracts/machine_auditable_faults/id_224/patched_version/real-digital-smart-contracts
+	url = https://github.com/wireshape/real-digital-smart-contracts.git
+[submodule "contracts/machine_unauditable_faults/id_1/buggy_version/contracts"]
+	path = contracts/machine_unauditable_faults/id_1/buggy_version/contracts
+	url = https://github.com/maticnetwork/contracts.git
+[submodule "contracts/machine_unauditable_faults/id_1/patched_version/contracts"]
+	path = contracts/machine_unauditable_faults/id_1/patched_version/contracts
+	url = https://github.com/maticnetwork/contracts.git
+[submodule "contracts/machine_unauditable_faults/id_2/buggy_version/tokenbridge-contracts"]
+	path = contracts/machine_unauditable_faults/id_2/buggy_version/tokenbridge-contracts
+	url = https://github.com/omni/tokenbridge-contracts.git
+[submodule "contracts/machine_unauditable_faults/id_2/patched_version/tokenbridge-contracts"]
+	path = contracts/machine_unauditable_faults/id_2/patched_version/tokenbridge-contracts
+	url = https://github.com/omni/tokenbridge-contracts.git
+[submodule "contracts/machine_unauditable_faults/id_3/buggy_version/era-contracts"]
+	path = contracts/machine_unauditable_faults/id_3/buggy_version/era-contracts
+	url = https://github.com/matter-labs/era-contracts.git
+[submodule "contracts/machine_unauditable_faults/id_3/patched_version/era-contracts"]
+	path = contracts/machine_unauditable_faults/id_3/patched_version/era-contracts
+	url = https://github.com/matter-labs/era-contracts.git
+[submodule "contracts/machine_unauditable_faults/id_4/buggy_version/era-contracts"]
+	path = contracts/machine_unauditable_faults/id_4/buggy_version/era-contracts
+	url = https://github.com/matter-labs/era-contracts.git
+[submodule "contracts/machine_unauditable_faults/id_4/patched_version/era-contracts"]
+	path = contracts/machine_unauditable_faults/id_4/patched_version/era-contracts
+	url = https://github.com/matter-labs/era-contracts.git
+[submodule "contracts/machine_unauditable_faults/id_5/buggy_version/era-contracts"]
+	path = contracts/machine_unauditable_faults/id_5/buggy_version/era-contracts
+	url = https://github.com/matter-labs/era-contracts.git
+[submodule "contracts/machine_unauditable_faults/id_5/patched_version/era-contracts"]
+	path = contracts/machine_unauditable_faults/id_5/patched_version/era-contracts
+	url = https://github.com/matter-labs/era-contracts.git
+[submodule "contracts/machine_unauditable_faults/id_6/buggy_version/T-REX"]
+	path = contracts/machine_unauditable_faults/id_6/buggy_version/T-REX
+	url = https://github.com/TokenySolutions/T-REX.git
+[submodule "contracts/machine_unauditable_faults/id_6/patched_version/T-REX"]
+	path = contracts/machine_unauditable_faults/id_6/patched_version/T-REX
+	url = https://github.com/TokenySolutions/T-REX.git
+[submodule "contracts/machine_unauditable_faults/id_7/buggy_version/elf-contracts"]
+	path = contracts/machine_unauditable_faults/id_7/buggy_version/elf-contracts
+	url = https://github.com/delvtech/elf-contracts.git
+[submodule "contracts/machine_unauditable_faults/id_7/patched_version/elf-contracts"]
+	path = contracts/machine_unauditable_faults/id_7/patched_version/elf-contracts
+	url = https://github.com/delvtech/elf-contracts.git
+[submodule "contracts/machine_unauditable_faults/id_8/buggy_version/Motoro"]
+	path = contracts/machine_unauditable_faults/id_8/buggy_version/Motoro
+	url = https://github.com/blockchain-IoT/Motoro.git
+[submodule "contracts/machine_unauditable_faults/id_8/patched_version/Motoro"]
+	path = contracts/machine_unauditable_faults/id_8/patched_version/Motoro
+	url = https://github.com/blockchain-IoT/Motoro.git
+[submodule "contracts/machine_unauditable_faults/id_9/buggy_version/factory"]
+	path = contracts/machine_unauditable_faults/id_9/buggy_version/factory
+	url = https://github.com/oncyberio/factory.git
+[submodule "contracts/machine_unauditable_faults/id_9/patched_version/factory"]
+	path = contracts/machine_unauditable_faults/id_9/patched_version/factory
+	url = https://github.com/oncyberio/factory.git
+[submodule "contracts/machine_unauditable_faults/id_10/buggy_version/contracts"]
+	path = contracts/machine_unauditable_faults/id_10/buggy_version/contracts
+	url = https://github.com/ethereum-optimism/contracts.git
+[submodule "contracts/machine_unauditable_faults/id_10/patched_version/contracts"]
+	path = contracts/machine_unauditable_faults/id_10/patched_version/contracts
+	url = https://github.com/ethereum-optimism/contracts.git
+[submodule "contracts/machine_unauditable_faults/id_11/buggy_version/council"]
+	path = contracts/machine_unauditable_faults/id_11/buggy_version/council
+	url = https://github.com/delvtech/council.git
+[submodule "contracts/machine_unauditable_faults/id_11/patched_version/council"]
+	path = contracts/machine_unauditable_faults/id_11/patched_version/council
+	url = https://github.com/delvtech/council.git
+[submodule "contracts/machine_unauditable_faults/id_12/buggy_version/council"]
+	path = contracts/machine_unauditable_faults/id_12/buggy_version/council
+	url = https://github.com/delvtech/council.git
+[submodule "contracts/machine_unauditable_faults/id_12/patched_version/council"]
+	path = contracts/machine_unauditable_faults/id_12/patched_version/council
+	url = https://github.com/delvtech/council.git
+[submodule "contracts/machine_unauditable_faults/id_13/buggy_version/council"]
+	path = contracts/machine_unauditable_faults/id_13/buggy_version/council
+	url = https://github.com/delvtech/council.git
+[submodule "contracts/machine_unauditable_faults/id_13/patched_version/council"]
+	path = contracts/machine_unauditable_faults/id_13/patched_version/council
+	url = https://github.com/delvtech/council.git
+[submodule "contracts/machine_unauditable_faults/id_14/buggy_version/council"]
+	path = contracts/machine_unauditable_faults/id_14/buggy_version/council
+	url = https://github.com/delvtech/council.git
+[submodule "contracts/machine_unauditable_faults/id_14/patched_version/council"]
+	path = contracts/machine_unauditable_faults/id_14/patched_version/council
+	url = https://github.com/delvtech/council.git
+[submodule "contracts/machine_unauditable_faults/id_15/buggy_version/scw-contracts"]
+	path = contracts/machine_unauditable_faults/id_15/buggy_version/scw-contracts
+	url = https://github.com/bcnmy/scw-contracts.git
+[submodule "contracts/machine_unauditable_faults/id_15/patched_version/scw-contracts"]
+	path = contracts/machine_unauditable_faults/id_15/patched_version/scw-contracts
+	url = https://github.com/bcnmy/scw-contracts.git
+[submodule "contracts/machine_unauditable_faults/id_16/buggy_version/scw-contracts"]
+	path = contracts/machine_unauditable_faults/id_16/buggy_version/scw-contracts
+	url = https://github.com/bcnmy/scw-contracts.git
+[submodule "contracts/machine_unauditable_faults/id_16/patched_version/scw-contracts"]
+	path = contracts/machine_unauditable_faults/id_16/patched_version/scw-contracts
+	url = https://github.com/bcnmy/scw-contracts.git
+[submodule "contracts/machine_unauditable_faults/id_17/buggy_version/angle-core"]
+	path = contracts/machine_unauditable_faults/id_17/buggy_version/angle-core
+	url = https://github.com/AngleProtocol/angle-core.git
+[submodule "contracts/machine_unauditable_faults/id_17/patched_version/angle-core"]
+	path = contracts/machine_unauditable_faults/id_17/patched_version/angle-core
+	url = https://github.com/AngleProtocol/angle-core.git
+[submodule "contracts/machine_unauditable_faults/id_18/buggy_version/angle-core"]
+	path = contracts/machine_unauditable_faults/id_18/buggy_version/angle-core
+	url = https://github.com/AngleProtocol/angle-core.git
+[submodule "contracts/machine_unauditable_faults/id_18/patched_version/angle-core"]
+	path = contracts/machine_unauditable_faults/id_18/patched_version/angle-core
+	url = https://github.com/AngleProtocol/angle-core.git
+[submodule "contracts/machine_unauditable_faults/id_19/buggy_version/angle-core"]
+	path = contracts/machine_unauditable_faults/id_19/buggy_version/angle-core
+	url = https://github.com/AngleProtocol/angle-core.git
+[submodule "contracts/machine_unauditable_faults/id_19/patched_version/angle-core"]
+	path = contracts/machine_unauditable_faults/id_19/patched_version/angle-core
+	url = https://github.com/AngleProtocol/angle-core.git
+[submodule "contracts/machine_unauditable_faults/id_20/buggy_version/contracts"]
+	path = contracts/machine_unauditable_faults/id_20/buggy_version/contracts
+	url = https://github.com/oceanprotocol/contracts.git
+[submodule "contracts/machine_unauditable_faults/id_20/patched_version/contracts"]
+	path = contracts/machine_unauditable_faults/id_20/patched_version/contracts
+	url = https://github.com/oceanprotocol/contracts.git
+[submodule "contracts/machine_unauditable_faults/id_21/buggy_version/contracts"]
+	path = contracts/machine_unauditable_faults/id_21/buggy_version/contracts
+	url = https://github.com/oceanprotocol/contracts.git
+[submodule "contracts/machine_unauditable_faults/id_21/patched_version/contracts"]
+	path = contracts/machine_unauditable_faults/id_21/patched_version/contracts
+	url = https://github.com/oceanprotocol/contracts.git
+[submodule "contracts/machine_unauditable_faults/id_22/buggy_version/smartcontract"]
+	path = contracts/machine_unauditable_faults/id_22/buggy_version/smartcontract
+	url = https://github.com/Etheremon/smartcontract.git
+[submodule "contracts/machine_unauditable_faults/id_22/patched_version/smartcontract"]
+	path = contracts/machine_unauditable_faults/id_22/patched_version/smartcontract
+	url = https://github.com/Etheremon/smartcontract.git
+[submodule "contracts/machine_unauditable_faults/id_23/buggy_version/smart-contract"]
+	path = contracts/machine_unauditable_faults/id_23/buggy_version/smart-contract
+	url = https://github.com/Instadapp/smart-contract.git
+[submodule "contracts/machine_unauditable_faults/id_23/patched_version/smart-contract"]
+	path = contracts/machine_unauditable_faults/id_23/patched_version/smart-contract
+	url = https://github.com/Instadapp/smart-contract.git
+[submodule "contracts/machine_unauditable_faults/id_24/buggy_version/smart-contract"]
+	path = contracts/machine_unauditable_faults/id_24/buggy_version/smart-contract
+	url = https://github.com/Instadapp/smart-contract.git
+[submodule "contracts/machine_unauditable_faults/id_24/patched_version/smart-contract"]
+	path = contracts/machine_unauditable_faults/id_24/patched_version/smart-contract
+	url = https://github.com/Instadapp/smart-contract.git
+[submodule "contracts/machine_unauditable_faults/id_25/buggy_version/referral-solidity"]
+	path = contracts/machine_unauditable_faults/id_25/buggy_version/referral-solidity
+	url = https://github.com/thundercore/referral-solidity.git
+[submodule "contracts/machine_unauditable_faults/id_25/patched_version/referral-solidity"]
+	path = contracts/machine_unauditable_faults/id_25/patched_version/referral-solidity
+	url = https://github.com/thundercore/referral-solidity.git
+[submodule "contracts/machine_unauditable_faults/id_26/buggy_version/referral-solidity"]
+	path = contracts/machine_unauditable_faults/id_26/buggy_version/referral-solidity
+	url = https://github.com/thundercore/referral-solidity.git
+[submodule "contracts/machine_unauditable_faults/id_26/patched_version/referral-solidity"]
+	path = contracts/machine_unauditable_faults/id_26/patched_version/referral-solidity
+	url = https://github.com/thundercore/referral-solidity.git
+[submodule "contracts/machine_unauditable_faults/id_27/buggy_version/CandideWalletContracts"]
+	path = contracts/machine_unauditable_faults/id_27/buggy_version/CandideWalletContracts
+	url = https://github.com/candidelabs/CandideWalletContracts.git
+[submodule "contracts/machine_unauditable_faults/id_27/patched_version/CandideWalletContracts"]
+	path = contracts/machine_unauditable_faults/id_27/patched_version/CandideWalletContracts
+	url = https://github.com/candidelabs/CandideWalletContracts.git
+[submodule "contracts/machine_unauditable_faults/id_28/buggy_version/ethereum-games"]
+	path = contracts/machine_unauditable_faults/id_28/buggy_version/ethereum-games
+	url = https://github.com/k26dr/ethereum-games.git
+[submodule "contracts/machine_unauditable_faults/id_28/patched_version/ethereum-games"]
+	path = contracts/machine_unauditable_faults/id_28/patched_version/ethereum-games
+	url = https://github.com/k26dr/ethereum-games.git
+[submodule "contracts/machine_unauditable_faults/id_29/buggy_version/ethereum-games"]
+	path = contracts/machine_unauditable_faults/id_29/buggy_version/ethereum-games
+	url = https://github.com/k26dr/ethereum-games.git
+[submodule "contracts/machine_unauditable_faults/id_29/patched_version/ethereum-games"]
+	path = contracts/machine_unauditable_faults/id_29/patched_version/ethereum-games
+	url = https://github.com/k26dr/ethereum-games.git
+[submodule "contracts/machine_unauditable_faults/id_30/buggy_version/crypto-wars-solidity"]
+	path = contracts/machine_unauditable_faults/id_30/buggy_version/crypto-wars-solidity
+	url = https://github.com/e11-io/crypto-wars-solidity.git
+[submodule "contracts/machine_unauditable_faults/id_30/patched_version/crypto-wars-solidity"]
+	path = contracts/machine_unauditable_faults/id_30/patched_version/crypto-wars-solidity
+	url = https://github.com/e11-io/crypto-wars-solidity.git
+[submodule "contracts/machine_unauditable_faults/id_31/buggy_version/beefy-protocol"]
+	path = contracts/machine_unauditable_faults/id_31/buggy_version/beefy-protocol
+	url = https://github.com/beefyfinance/beefy-protocol.git
+[submodule "contracts/machine_unauditable_faults/id_31/patched_version/beefy-protocol"]
+	path = contracts/machine_unauditable_faults/id_31/patched_version/beefy-protocol
+	url = https://github.com/beefyfinance/beefy-protocol.git
+[submodule "contracts/machine_unauditable_faults/id_32/buggy_version/beefy-protocol"]
+	path = contracts/machine_unauditable_faults/id_32/buggy_version/beefy-protocol
+	url = https://github.com/beefyfinance/beefy-protocol.git
+[submodule "contracts/machine_unauditable_faults/id_32/patched_version/beefy-protocol"]
+	path = contracts/machine_unauditable_faults/id_32/patched_version/beefy-protocol
+	url = https://github.com/beefyfinance/beefy-protocol.git
+[submodule "contracts/machine_unauditable_faults/id_33/buggy_version/solidity"]
+	path = contracts/machine_unauditable_faults/id_33/buggy_version/solidity
+	url = https://github.com/onchain-id/solidity.git
+[submodule "contracts/machine_unauditable_faults/id_33/patched_version/solidity"]
+	path = contracts/machine_unauditable_faults/id_33/patched_version/solidity
+	url = https://github.com/onchain-id/solidity.git
+[submodule "contracts/machine_unauditable_faults/id_34/buggy_version/ipfs-eth-database"]
+	path = contracts/machine_unauditable_faults/id_34/buggy_version/ipfs-eth-database
+	url = https://github.com/tooploox/ipfs-eth-database.git
+[submodule "contracts/machine_unauditable_faults/id_34/patched_version/ipfs-eth-database"]
+	path = contracts/machine_unauditable_faults/id_34/patched_version/ipfs-eth-database
+	url = https://github.com/tooploox/ipfs-eth-database.git
+[submodule "contracts/machine_unauditable_faults/id_35/buggy_version/SmartBillions"]
+	path = contracts/machine_unauditable_faults/id_35/buggy_version/SmartBillions
+	url = https://github.com/SmartBillions/SmartBillions.git
+[submodule "contracts/machine_unauditable_faults/id_35/patched_version/SmartBillions"]
+	path = contracts/machine_unauditable_faults/id_35/patched_version/SmartBillions
+	url = https://github.com/SmartBillions/SmartBillions.git
+[submodule "contracts/machine_unauditable_faults/id_36/buggy_version/smart-contract-challenges"]
+	path = contracts/machine_unauditable_faults/id_36/buggy_version/smart-contract-challenges
+	url = https://github.com/morpho-labs/smart-contract-challenges.git
+[submodule "contracts/machine_unauditable_faults/id_36/patched_version/smart-contract-challenges"]
+	path = contracts/machine_unauditable_faults/id_36/patched_version/smart-contract-challenges
+	url = https://github.com/morpho-labs/smart-contract-challenges.git
+[submodule "contracts/machine_unauditable_faults/id_37/buggy_version/crowdsale-smart-contract"]
+	path = contracts/machine_unauditable_faults/id_37/buggy_version/crowdsale-smart-contract
+	url = https://github.com/sirin-labs/crowdsale-smart-contract.git
+[submodule "contracts/machine_unauditable_faults/id_37/patched_version/crowdsale-smart-contract"]
+	path = contracts/machine_unauditable_faults/id_37/patched_version/crowdsale-smart-contract
+	url = https://github.com/sirin-labs/crowdsale-smart-contract.git
+[submodule "contracts/machine_unauditable_faults/id_38/buggy_version/lottery-smart-contract"]
+	path = contracts/machine_unauditable_faults/id_38/buggy_version/lottery-smart-contract
+	url = https://github.com/sonnysangha/lottery-smart-contract.git
+[submodule "contracts/machine_unauditable_faults/id_38/patched_version/lottery-smart-contract"]
+	path = contracts/machine_unauditable_faults/id_38/patched_version/lottery-smart-contract
+	url = https://github.com/sonnysangha/lottery-smart-contract.git
+[submodule "contracts/machine_unauditable_faults/id_39/buggy_version/equalizer-smart-contracts-v1"]
+	path = contracts/machine_unauditable_faults/id_39/buggy_version/equalizer-smart-contracts-v1
+	url = https://github.com/Equalizer-Finance/equalizer-smart-contracts-v1.git
+[submodule "contracts/machine_unauditable_faults/id_39/patched_version/equalizer-smart-contracts-v1"]
+	path = contracts/machine_unauditable_faults/id_39/patched_version/equalizer-smart-contracts-v1
+	url = https://github.com/Equalizer-Finance/equalizer-smart-contracts-v1.git
+[submodule "contracts/machine_unauditable_faults/id_40/buggy_version/equalizer-smart-contracts-v1"]
+	path = contracts/machine_unauditable_faults/id_40/buggy_version/equalizer-smart-contracts-v1
+	url = https://github.com/Equalizer-Finance/equalizer-smart-contracts-v1.git
+[submodule "contracts/machine_unauditable_faults/id_40/patched_version/equalizer-smart-contracts-v1"]
+	path = contracts/machine_unauditable_faults/id_40/patched_version/equalizer-smart-contracts-v1
+	url = https://github.com/Equalizer-Finance/equalizer-smart-contracts-v1.git
+[submodule "contracts/machine_unauditable_faults/id_41/buggy_version/equalizer-smart-contracts-v1"]
+	path = contracts/machine_unauditable_faults/id_41/buggy_version/equalizer-smart-contracts-v1
+	url = https://github.com/Equalizer-Finance/equalizer-smart-contracts-v1.git
+[submodule "contracts/machine_unauditable_faults/id_41/patched_version/equalizer-smart-contracts-v1"]
+	path = contracts/machine_unauditable_faults/id_41/patched_version/equalizer-smart-contracts-v1
+	url = https://github.com/Equalizer-Finance/equalizer-smart-contracts-v1.git
+[submodule "contracts/machine_unauditable_faults/id_42/buggy_version/equalizer-smart-contracts-v1"]
+	path = contracts/machine_unauditable_faults/id_42/buggy_version/equalizer-smart-contracts-v1
+	url = https://github.com/Equalizer-Finance/equalizer-smart-contracts-v1.git
+[submodule "contracts/machine_unauditable_faults/id_42/patched_version/equalizer-smart-contracts-v1"]
+	path = contracts/machine_unauditable_faults/id_42/patched_version/equalizer-smart-contracts-v1
+	url = https://github.com/Equalizer-Finance/equalizer-smart-contracts-v1.git
+[submodule "contracts/machine_unauditable_faults/id_43/buggy_version/equalizer-smart-contracts-v1"]
+	path = contracts/machine_unauditable_faults/id_43/buggy_version/equalizer-smart-contracts-v1
+	url = https://github.com/Equalizer-Finance/equalizer-smart-contracts-v1.git
+[submodule "contracts/machine_unauditable_faults/id_43/patched_version/equalizer-smart-contracts-v1"]
+	path = contracts/machine_unauditable_faults/id_43/patched_version/equalizer-smart-contracts-v1
+	url = https://github.com/Equalizer-Finance/equalizer-smart-contracts-v1.git
+[submodule "contracts/machine_unauditable_faults/id_44/buggy_version/equalizer-smart-contracts-v1"]
+	path = contracts/machine_unauditable_faults/id_44/buggy_version/equalizer-smart-contracts-v1
+	url = https://github.com/Equalizer-Finance/equalizer-smart-contracts-v1.git
+[submodule "contracts/machine_unauditable_faults/id_44/patched_version/equalizer-smart-contracts-v1"]
+	path = contracts/machine_unauditable_faults/id_44/patched_version/equalizer-smart-contracts-v1
+	url = https://github.com/Equalizer-Finance/equalizer-smart-contracts-v1.git
+[submodule "contracts/machine_unauditable_faults/id_45/buggy_version/idex-contracts-whistler"]
+	path = contracts/machine_unauditable_faults/id_45/buggy_version/idex-contracts-whistler
+	url = https://github.com/idexio/idex-contracts-whistler.git
+[submodule "contracts/machine_unauditable_faults/id_45/patched_version/idex-contracts-whistler"]
+	path = contracts/machine_unauditable_faults/id_45/patched_version/idex-contracts-whistler
+	url = https://github.com/idexio/idex-contracts-whistler.git
+[submodule "contracts/machine_unauditable_faults/id_46/buggy_version/idex-contracts-whistler"]
+	path = contracts/machine_unauditable_faults/id_46/buggy_version/idex-contracts-whistler
+	url = https://github.com/idexio/idex-contracts-whistler.git
+[submodule "contracts/machine_unauditable_faults/id_46/patched_version/idex-contracts-whistler"]
+	path = contracts/machine_unauditable_faults/id_46/patched_version/idex-contracts-whistler
+	url = https://github.com/idexio/idex-contracts-whistler.git
+[submodule "contracts/machine_unauditable_faults/id_47/buggy_version/idex-contracts-whistler"]
+	path = contracts/machine_unauditable_faults/id_47/buggy_version/idex-contracts-whistler
+	url = https://github.com/idexio/idex-contracts-whistler.git
+[submodule "contracts/machine_unauditable_faults/id_47/patched_version/idex-contracts-whistler"]
+	path = contracts/machine_unauditable_faults/id_47/patched_version/idex-contracts-whistler
+	url = https://github.com/idexio/idex-contracts-whistler.git
+[submodule "contracts/machine_unauditable_faults/id_48/buggy_version/idex-contracts-whistler"]
+	path = contracts/machine_unauditable_faults/id_48/buggy_version/idex-contracts-whistler
+	url = https://github.com/idexio/idex-contracts-whistler.git
+[submodule "contracts/machine_unauditable_faults/id_48/patched_version/idex-contracts-whistler"]
+	path = contracts/machine_unauditable_faults/id_48/patched_version/idex-contracts-whistler
+	url = https://github.com/idexio/idex-contracts-whistler.git
+[submodule "contracts/machine_unauditable_faults/id_49/buggy_version/InstaContract"]
+	path = contracts/machine_unauditable_faults/id_49/buggy_version/InstaContract
+	url = https://github.com/Instadapp/InstaContract.git
+[submodule "contracts/machine_unauditable_faults/id_49/patched_version/InstaContract"]
+	path = contracts/machine_unauditable_faults/id_49/patched_version/InstaContract
+	url = https://github.com/Instadapp/InstaContract.git
+[submodule "contracts/machine_unauditable_faults/id_50/buggy_version/simple-staking-smart-contract"]
+	path = contracts/machine_unauditable_faults/id_50/buggy_version/simple-staking-smart-contract
+	url = https://github.com/ParaState/simple-staking-smart-contract.git
+[submodule "contracts/machine_unauditable_faults/id_50/patched_version/simple-staking-smart-contract"]
+	path = contracts/machine_unauditable_faults/id_50/patched_version/simple-staking-smart-contract
+	url = https://github.com/ParaState/simple-staking-smart-contract.git
+[submodule "contracts/machine_unauditable_faults/id_51/buggy_version/nft-dapp-starter-kit"]
+	path = contracts/machine_unauditable_faults/id_51/buggy_version/nft-dapp-starter-kit
+	url = https://github.com/coinbase/nft-dapp-starter-kit.git
+[submodule "contracts/machine_unauditable_faults/id_51/patched_version/nft-dapp-starter-kit"]
+	path = contracts/machine_unauditable_faults/id_51/patched_version/nft-dapp-starter-kit
+	url = https://github.com/coinbase/nft-dapp-starter-kit.git
+[submodule "contracts/machine_unauditable_faults/id_52/buggy_version/contracts-pre22"]
+	path = contracts/machine_unauditable_faults/id_52/buggy_version/contracts-pre22
+	url = https://github.com/trusttoken/contracts-pre22.git
+[submodule "contracts/machine_unauditable_faults/id_52/patched_version/contracts-pre22"]
+	path = contracts/machine_unauditable_faults/id_52/patched_version/contracts-pre22
+	url = https://github.com/trusttoken/contracts-pre22.git
+[submodule "contracts/machine_unauditable_faults/id_53/buggy_version/perpetual-protocol"]
+	path = contracts/machine_unauditable_faults/id_53/buggy_version/perpetual-protocol
+	url = https://github.com/perpetual-protocol/perpetual-protocol.git
+[submodule "contracts/machine_unauditable_faults/id_53/patched_version/perpetual-protocol"]
+	path = contracts/machine_unauditable_faults/id_53/patched_version/perpetual-protocol
+	url = https://github.com/perpetual-protocol/perpetual-protocol.git
+[submodule "contracts/machine_unauditable_faults/id_54/buggy_version/tinlake"]
+	path = contracts/machine_unauditable_faults/id_54/buggy_version/tinlake
+	url = https://github.com/centrifuge/tinlake.git
+[submodule "contracts/machine_unauditable_faults/id_54/patched_version/tinlake"]
+	path = contracts/machine_unauditable_faults/id_54/patched_version/tinlake
+	url = https://github.com/centrifuge/tinlake.git
+[submodule "contracts/machine_unauditable_faults/id_55/buggy_version/index-coop-smart-contracts"]
+	path = contracts/machine_unauditable_faults/id_55/buggy_version/index-coop-smart-contracts
+	url = https://github.com/IndexCoop/index-coop-smart-contracts.git
+[submodule "contracts/machine_unauditable_faults/id_55/patched_version/index-coop-smart-contracts"]
+	path = contracts/machine_unauditable_faults/id_55/patched_version/index-coop-smart-contracts
+	url = https://github.com/IndexCoop/index-coop-smart-contracts.git
+[submodule "contracts/machine_unauditable_faults/id_56/buggy_version/angle-core"]
+	path = contracts/machine_unauditable_faults/id_56/buggy_version/angle-core
+	url = https://github.com/AngleProtocol/angle-core.git
+[submodule "contracts/machine_unauditable_faults/id_56/patched_version/angle-core"]
+	path = contracts/machine_unauditable_faults/id_56/patched_version/angle-core
+	url = https://github.com/AngleProtocol/angle-core.git
+[submodule "contracts/machine_unauditable_faults/id_57/buggy_version/bitcoincom-solidity-swap"]
+	path = contracts/machine_unauditable_faults/id_57/buggy_version/bitcoincom-solidity-swap
+	url = https://github.com/bitcoin-portal/bitcoincom-solidity-swap.git
+[submodule "contracts/machine_unauditable_faults/id_57/patched_version/bitcoincom-solidity-swap"]
+	path = contracts/machine_unauditable_faults/id_57/patched_version/bitcoincom-solidity-swap
+	url = https://github.com/bitcoin-portal/bitcoincom-solidity-swap.git
+[submodule "contracts/machine_unauditable_faults/id_58/buggy_version/smart-contracts"]
+	path = contracts/machine_unauditable_faults/id_58/buggy_version/smart-contracts
+	url = https://github.com/HydroBlockchain/smart-contracts.git
+[submodule "contracts/machine_unauditable_faults/id_58/patched_version/smart-contracts"]
+	path = contracts/machine_unauditable_faults/id_58/patched_version/smart-contracts
+	url = https://github.com/HydroBlockchain/smart-contracts.git
+[submodule "contracts/machine_unauditable_faults/id_59/buggy_version/smart-contracts"]
+	path = contracts/machine_unauditable_faults/id_59/buggy_version/smart-contracts
+	url = https://github.com/HydroBlockchain/smart-contracts.git
+[submodule "contracts/machine_unauditable_faults/id_59/patched_version/smart-contracts"]
+	path = contracts/machine_unauditable_faults/id_59/patched_version/smart-contracts
+	url = https://github.com/HydroBlockchain/smart-contracts.git
+[submodule "contracts/machine_unauditable_faults/id_60/buggy_version/smart-contracts"]
+	path = contracts/machine_unauditable_faults/id_60/buggy_version/smart-contracts
+	url = https://github.com/HydroBlockchain/smart-contracts.git
+[submodule "contracts/machine_unauditable_faults/id_60/patched_version/smart-contracts"]
+	path = contracts/machine_unauditable_faults/id_60/patched_version/smart-contracts
+	url = https://github.com/HydroBlockchain/smart-contracts.git
+[submodule "contracts/machine_unauditable_faults/id_61/buggy_version/c-org"]
+	path = contracts/machine_unauditable_faults/id_61/buggy_version/c-org
+	url = https://github.com/Fairmint/c-org.git
+[submodule "contracts/machine_unauditable_faults/id_61/patched_version/c-org"]
+	path = contracts/machine_unauditable_faults/id_61/patched_version/c-org
+	url = https://github.com/Fairmint/c-org.git
+[submodule "contracts/machine_unauditable_faults/id_62/buggy_version/contracts"]
+	path = contracts/machine_unauditable_faults/id_62/buggy_version/contracts
+	url = https://github.com/authereum/contracts.git
+[submodule "contracts/machine_unauditable_faults/id_62/patched_version/contracts"]
+	path = contracts/machine_unauditable_faults/id_62/patched_version/contracts
+	url = https://github.com/authereum/contracts.git
+[submodule "contracts/machine_unauditable_faults/id_63/buggy_version/contracts"]
+	path = contracts/machine_unauditable_faults/id_63/buggy_version/contracts
+	url = https://github.com/authereum/contracts.git
+[submodule "contracts/machine_unauditable_faults/id_63/patched_version/contracts"]
+	path = contracts/machine_unauditable_faults/id_63/patched_version/contracts
+	url = https://github.com/authereum/contracts.git
+[submodule "contracts/machine_unauditable_faults/id_64/buggy_version/autofarm-v2-contracts"]
+	path = contracts/machine_unauditable_faults/id_64/buggy_version/autofarm-v2-contracts
+	url = https://github.com/autofarmnetwork/autofarm-v2-contracts.git
+[submodule "contracts/machine_unauditable_faults/id_64/patched_version/autofarm-v2-contracts"]
+	path = contracts/machine_unauditable_faults/id_64/patched_version/autofarm-v2-contracts
+	url = https://github.com/autofarmnetwork/autofarm-v2-contracts.git
+[submodule "contracts/machine_unauditable_faults/id_65/buggy_version/equalizer-smart-contracts-v1"]
+	path = contracts/machine_unauditable_faults/id_65/buggy_version/equalizer-smart-contracts-v1
+	url = https://github.com/Equalizer-Finance/equalizer-smart-contracts-v1.git
+[submodule "contracts/machine_unauditable_faults/id_65/patched_version/equalizer-smart-contracts-v1"]
+	path = contracts/machine_unauditable_faults/id_65/patched_version/equalizer-smart-contracts-v1
+	url = https://github.com/Equalizer-Finance/equalizer-smart-contracts-v1.git
+[submodule "contracts/machine_unauditable_faults/id_66/buggy_version/Skyweaver-contracts"]
+	path = contracts/machine_unauditable_faults/id_66/buggy_version/Skyweaver-contracts
+	url = https://github.com/horizon-games/Skyweaver-contracts.git
+[submodule "contracts/machine_unauditable_faults/id_66/patched_version/Skyweaver-contracts"]
+	path = contracts/machine_unauditable_faults/id_66/patched_version/Skyweaver-contracts
+	url = https://github.com/horizon-games/Skyweaver-contracts.git
+[submodule "contracts/machine_unauditable_faults/id_67/buggy_version/opium-contracts"]
+	path = contracts/machine_unauditable_faults/id_67/buggy_version/opium-contracts
+	url = https://github.com/OpiumProtocol/opium-contracts.git
+[submodule "contracts/machine_unauditable_faults/id_67/patched_version/opium-contracts"]
+	path = contracts/machine_unauditable_faults/id_67/patched_version/opium-contracts
+	url = https://github.com/OpiumProtocol/opium-contracts.git
+[submodule "contracts/machine_unauditable_faults/id_68/buggy_version/opium-contracts"]
+	path = contracts/machine_unauditable_faults/id_68/buggy_version/opium-contracts
+	url = https://github.com/OpiumProtocol/opium-contracts.git
+[submodule "contracts/machine_unauditable_faults/id_68/patched_version/opium-contracts"]
+	path = contracts/machine_unauditable_faults/id_68/patched_version/opium-contracts
+	url = https://github.com/OpiumProtocol/opium-contracts.git
+[submodule "contracts/machine_unauditable_faults/id_69/buggy_version/opium-contracts"]
+	path = contracts/machine_unauditable_faults/id_69/buggy_version/opium-contracts
+	url = https://github.com/OpiumProtocol/opium-contracts.git
+[submodule "contracts/machine_unauditable_faults/id_69/patched_version/opium-contracts"]
+	path = contracts/machine_unauditable_faults/id_69/patched_version/opium-contracts
+	url = https://github.com/OpiumProtocol/opium-contracts.git
+[submodule "contracts/machine_unauditable_faults/id_70/buggy_version/opium-contracts"]
+	path = contracts/machine_unauditable_faults/id_70/buggy_version/opium-contracts
+	url = https://github.com/OpiumProtocol/opium-contracts.git
+[submodule "contracts/machine_unauditable_faults/id_70/patched_version/opium-contracts"]
+	path = contracts/machine_unauditable_faults/id_70/patched_version/opium-contracts
+	url = https://github.com/OpiumProtocol/opium-contracts.git
+[submodule "contracts/machine_unauditable_faults/id_71/buggy_version/opium-contracts"]
+	path = contracts/machine_unauditable_faults/id_71/buggy_version/opium-contracts
+	url = https://github.com/OpiumProtocol/opium-contracts.git
+[submodule "contracts/machine_unauditable_faults/id_71/patched_version/opium-contracts"]
+	path = contracts/machine_unauditable_faults/id_71/patched_version/opium-contracts
+	url = https://github.com/OpiumProtocol/opium-contracts.git
+[submodule "contracts/machine_unauditable_faults/id_72/buggy_version/opium-contracts"]
+	path = contracts/machine_unauditable_faults/id_72/buggy_version/opium-contracts
+	url = https://github.com/OpiumProtocol/opium-contracts.git
+[submodule "contracts/machine_unauditable_faults/id_72/patched_version/opium-contracts"]
+	path = contracts/machine_unauditable_faults/id_72/patched_version/opium-contracts
+	url = https://github.com/OpiumProtocol/opium-contracts.git
+[submodule "contracts/machine_unauditable_faults/id_73/buggy_version/mangrove-core"]
+	path = contracts/machine_unauditable_faults/id_73/buggy_version/mangrove-core
+	url = https://github.com/mangrovedao/mangrove-core.git
+[submodule "contracts/machine_unauditable_faults/id_73/patched_version/mangrove-core"]
+	path = contracts/machine_unauditable_faults/id_73/patched_version/mangrove-core
+	url = https://github.com/mangrovedao/mangrove-core.git
+[submodule "contracts/machine_unauditable_faults/id_74/buggy_version/contracts"]
+	path = contracts/machine_unauditable_faults/id_74/buggy_version/contracts
+	url = https://github.com/Dexalot/contracts.git
+[submodule "contracts/machine_unauditable_faults/id_74/patched_version/contracts"]
+	path = contracts/machine_unauditable_faults/id_74/patched_version/contracts
+	url = https://github.com/Dexalot/contracts.git
+[submodule "contracts/machine_unauditable_faults/id_75/buggy_version/rICO-smart-contracts"]
+	path = contracts/machine_unauditable_faults/id_75/buggy_version/rICO-smart-contracts
+	url = https://github.com/lukso-network/rICO-smart-contracts.git
+[submodule "contracts/machine_unauditable_faults/id_75/patched_version/rICO-smart-contracts"]
+	path = contracts/machine_unauditable_faults/id_75/patched_version/rICO-smart-contracts
+	url = https://github.com/lukso-network/rICO-smart-contracts.git
+[submodule "contracts/machine_unauditable_faults/id_76/buggy_version/defidollar-core"]
+	path = contracts/machine_unauditable_faults/id_76/buggy_version/defidollar-core
+	url = https://github.com/defidollar/defidollar-core.git
+[submodule "contracts/machine_unauditable_faults/id_76/patched_version/defidollar-core"]
+	path = contracts/machine_unauditable_faults/id_76/patched_version/defidollar-core
+	url = https://github.com/defidollar/defidollar-core.git
+[submodule "contracts/machine_unauditable_faults/id_77/buggy_version/idex-contracts-whistler"]
+	path = contracts/machine_unauditable_faults/id_77/buggy_version/idex-contracts-whistler
+	url = https://github.com/idexio/idex-contracts-whistler.git
+[submodule "contracts/machine_unauditable_faults/id_77/patched_version/idex-contracts-whistler"]
+	path = contracts/machine_unauditable_faults/id_77/patched_version/idex-contracts-whistler
+	url = https://github.com/idexio/idex-contracts-whistler.git
