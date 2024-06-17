@@ -1,4 +1,6 @@
 # Understanding Transaction-Reverting Faults in Smart Contracts
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.11889080.svg)](https://doi.org/10.5281/zenodo.11889080)
+
 This project aims to provide a benchmark for smart contract developers and researchers to enhance their understanding of transaction-reverting faults (TR faults) in smart contracts.
 The project is associated with a paper titled <b>Understanding Transaction-Reverting Faults in Smart Contracts</b>.
 
@@ -16,6 +18,8 @@ The dataset is structured into four distinct sections within the `/contracts` di
 + [/machine_unauditable_faults](/contracts/machine_unauditable_faults): includes the buggy and patched version of the 77 machine unauditable faults.
 + [/machine_auditable_faults.csv](/contracts/machine_auditable_faults.csv): contains the detailed information of each machine auditable fault, including the commit URL, category, and project type.
 + [/machine_unauditable_faults.csv](/contracts/machine_unauditable_faults.csv): contains the detailed information of each machine unauditable fault, including the commit URL, category, and project type.
+
+Due to the upload size limit, we have solely included submodule links for accessing individual Github projects within our dataset. If you want to obtain the complete dataset, please refer to the Zenodo repository.
 
 
 ## Security Analysis Tool Evaluation
