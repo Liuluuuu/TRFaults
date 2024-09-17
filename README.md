@@ -21,54 +21,61 @@ The dataset is structured into four distinct sections within the `/contracts` di
 
 Due to the upload size limit, we have solely included submodule links for accessing individual Github projects within our dataset. If you want to obtain the complete dataset, please refer to the Zenodo repository.
 
+## Code Example
+We list all the example code snippets for each machine-unauditable fault type in the `/code_example directory`. 
+For each type, we include a real-world example (both buggy and patched versions), along with a detailed explanation of the fault type and the fixing strategy.
+
+## Preliminary Study on Code4rera
+To evaluate the potential usefulness of the identified fault types and fixing strategies in mitigating real-world security risks, we conduct a preliminary manual analysis of audit reports from [Code4rena](https://code4rena.com).
+The result is presented in the `/Code4rena_study`.
+
 
 ## Security Analysis Tool Evaluation
 ### Tools
 We select ten representive stat-of-the art security analysis tools for experiments. The ten tools are listed below:
-* [ContractFuzzer](https://github.com/gongbell/ContractFuzzer)
 * [sFuzz](https://github.com/duytai/sFuzz)
 * [SmarTian](https://github.com/SoftSec-KAIST/Smartian)
 * [Oyente](https://github.com/enzymefinance/oyente)
 * [Mythril](https://github.com/ConsenSys/mythril)
-* [Securify](https://github.com/eth-sri/securify)
-* [Maian](https://github.com/ivicanikolicsg/MAIAN)
 * [Manticore](https://github.com/trailofbits/manticore)
+* [Securify2](https://github.com/eth-sri/securify2)
 * [Slither](https://github.com/crytic/slither)
-* [VeriSmart](https://github.com/kupl/VeriSmart-public)
+* [SmartCheck](https://github.com/smartdec/smartcheck)
+* [eTainter](https://github.com/DependableSystemsLab/eTainter)
+* [MadMax](https://github.com/nevillegrech/MadMax)
 
 ### Experiment Setting
  
 **The default setting of runtime parameters of each tool:**
 |                | Trials | Timeout | Depth Limit |
 |----------------|--------|---------|-------------|
-| ContractFuzzer | 1      | 80h     | -           |
 | sFuzz          | 3      | 2m      | -           |
-| SmarTian       | 5      | 1h      | -          |
+| SmarTian       | 5      | 1h      | -           |
 | Oyente         | -      | 30m     | 1,024       |
 | Mythril        | -      | 24h     | 22          |
-| Securify       | -      | -       | -           |
-| Maian          | -      | 300s    | 60          |
 | Manticore      | -      | 90m     | -           |
+| Securify2      | -      | -       | -           |
 | Slither        | -      | 2m      | -           |
-| VeriSmart      | -      | 30m     | -           |
+| SmartCheck     | -      | -       | -           |
+| eTainter       | -      | 5m      | -           |
+| MadMax         | -      | 20s     | -           |
 
 
 ### Experiment Result
 The execution result for the ten tools are presented in `/results` folder.
 
 **Summary of tool execution results:**
-| **Tool**       | **Underflow/ Overflow** | **Unprotected Ether  Withdrawal** | **Unchecked Call  Return Value** | **Missing Zero  Address Check** | **Reentrancy** | **Vulnerability Detection Rate (VDR)** | **False Positive Rate (FPR)** |
-|----------------|:-----------------------:|:---------------------------------:|:---------------------------------:|:-------------------------------:|:--------------:|:--------------------------------------:|:-----------------------------:|
-| ContractFuzzer |            -            |                 -                 |                 -                 |                -                |        0       |              0/27（0.0%）              |           0/27(0.0%)          |
-| sFuzz          |            0            |                 -                 |                 -                 |                -                |        0       |              0/94（0.0%）              |           0/94(0.0%)          |
-| SmarTian       |            3            |                 2                 |                 -                 |                -                |        0       |              5/153（3.3%)              |          0/153(0.0%)          |
-| Oyente         |            -            |                 -                 |                 -                 |                -                |        0       |               0/27(0.0%)               |           0/27(0.0%)          |
-| Mythril        |            0            |                 0                 |                 0                 |                -                |        0       |               0/191(0/0%)              |          0/191(0.0%)          |
-| Securify       |            -            |                 0                 |                 0                 |                -                |        -       |               0/97(0.0%)               |           0/97(0.0%)          |
-| Maian          |            -            |                 0                 |                 -                 |                -                |        -       |               0/59(0.0%)               |           0/59(0.0%)          |
-| Manticore      |            0            |                 0                 |                 0                 |                -                |        0       |               0/191(0.0%)              |          0/191(0.0%)          |
-| Slither        |            -            |                 6                 |                 5                 |                5                |        8       |              24/157(15.3%)             |          4/157(2.5%)          |
-| VeriSmart      |            0            |                 0                 |                 -                 |                -                |        -       |               0/126(0.0%)              |          0/126(0.0%)          |
-| **Total**      |           3/67          |                8/59               |                5/38               |               5/33              |      8/27      |              29/224(12.9%)             |          4/224(1.8%)          |
-
+| **Tool**   | **Integer Underflow/Overflow** | **Unprotected Ether Withdrawal** | **Unchecked Call Return Value** | **Missing Zero Address Check** | **Reentrancy** | **Insufficient Gas Validation** | **# False Positive** | Vulnerability Detection Rate | **False Positive Rate** |
+|------------|:------------------------------:|:--------------------------------:|:-------------------------------:|:------------------------------:|:--------------:|:-------------------------------:|:--------------------:|:----------------------------:|:-----------------------:|
+| sFuzz      |                0               |                 -                |                -                |                -               |        0       |                -                |           0          |             0.0%             |           0.0%          |
+| SmarTian   |                3               |                 2                |                -                |                -               |        0       |                -                |           0          |             3.3%             |           0.0%          |
+| Oyente     |                0               |                 0                |                -                |                -               |        0       |                -                |           0          |             0.0%             |           0.0%          |
+| Mythril    |                0               |                 0                |                0                |                -               |        0       |                -                |           0          |             0.0%             |           0.0%          |
+| Manticore  |                0               |                 0                |                0                |                -               |        0       |                -                |           0          |             0.0%             |           0.0%          |
+| Securify2  |                0               |                 0                |                0                |                -               |        0       |                -                |           0          |             0.0%             |           0.0%          |
+| Slither    |                -               |                 6                |                5                |                5               |        8       |                -                |           4          |             15.3%            |           2.5%          |
+| SmartCheck |                0               |                 0                |                7                |                -               |        0       |                -                |           0          |             3.7%             |           0.0%          |
+| eTianter   |                -               |                 -                |                -                |                -               |        -       |                0                |           0          |             0.0%             |           0.0%          |
+| MadMax     |                -               |                 -                |                -                |                -               |        -       |                0                |           0          |             0.0%             |           0.0%          |
+| **Total**  |              3/67              |               8/59               |              11/38              |              5/33              |      8/27      |               0/2               |           4          |             15.5%            |           1.8%          |
 For detailed information and analysis of the execution result of each tool, please refer to our paper. 
