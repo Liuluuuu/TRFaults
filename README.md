@@ -1,8 +1,8 @@
-# Understanding Transaction-Reverting Faults in Smart Contracts
+# Understanding State-Reverting Faults in Smart Contracts
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.11889080.svg)](https://doi.org/10.5281/zenodo.11889080)
 
-This project aims to provide a benchmark for smart contract developers and researchers to enhance their understanding of transaction-reverting faults (TR faults) in smart contracts.
-The project is associated with a paper titled <b>Understanding Transaction-Reverting Faults in Smart Contracts</b>.
+This project aims to provide a benchmark for smart contract developers and researchers to enhance their understanding of state-reverting faults (TR faults) in smart contracts.
+The project is associated with a paper titled <b>Understanding State-Reverting Faults in Smart Contracts</b>.
 
 (🌟<i>The paper is currently undergoing review and will be released in the near future</i>.)
 
