@@ -22,7 +22,7 @@ The dataset is structured into four distinct sections within the `/contracts` di
 Due to the upload size limit, we have solely included submodule links for accessing individual Github projects within our dataset. If you want to obtain the complete dataset, please refer to the Zenodo repository.
 
 ## Code Example
-We list all the example code snippets for each machine-unauditable fault type in the `/code_example directory`. 
+We list all the example code snippets for each machine-unauditable fault type in the `/code_example` directory. 
 For each type, we include a real-world example (both buggy and patched versions), along with a detailed explanation of the fault type and the fixing strategy.
 
 ## Preliminary Study on Code4rera
