@@ -60,8 +60,6 @@ https://github.com/HydroBlockchain/smart-contracts/commit/1545da0937d7e7f0005695
 https://github.com/HydroBlockchain/smart-contracts/commit/a5c7f96e16631f3bc28600afe7007b6e5b28bafa,snowflake/contracts/Snowflake.sol,Others,Hydro,Services
 https://github.com/HydroBlockchain/smart-contracts/commit/d7a47d73f394eb4f8ca2ac2caa719923e0128c80,snowflake/contracts/resolvers/ClientRaindrop/ClientRaindrop.sol,Consistencyv Violation,Hydro,Services
 https://github.com/Fairmint/c-org/commit/0861378fb2f3f744e69b499a44db3175c5d2625f,contracts/Whitelist.sol,Others,Fairmint ,Services
-https://github.com/authereum/contracts/commit/a6b5c2409250aae6511d43b8f842ec1ad94f7b0f,contracts/account/BaseAccount.sol,Insufficient Gas Validation,Authereum,blockchain
-https://github.com/authereum/contracts/commit/4a778540362efe6cec4d501ff5ed36c5327131fb,contracts/account/BaseAccount.sol,Insufficient Gas Validation,Authereum,blockchain
 https://github.com/autofarmnetwork/autofarm-v2-contracts/commit/6b278f750671cc5d27b055943194cc4076411d87,StratX2.sol,Others,Autofarm,Dexes
 https://github.com/Equalizer-Finance/equalizer-smart-contracts-v1/commit/10a9fcf30f13ac2bdeb7dfaf87665426844128d4,contracts/Vault.sol,Excessive Slippage,Equalizer,Lending
 https://github.com/horizon-games/Skyweaver-contracts/commit/279b51e04d278afce1645323c28c2661169efdd5,src/contracts/factories/BoundingCurveFactory.sol,Others,Skyweaver Card,Dexes
