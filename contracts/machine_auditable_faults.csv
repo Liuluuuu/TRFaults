@@ -223,3 +223,6 @@ https://github.com/stakewise/contracts/commit/29022d7c4628420efe5fed0560e5269db0
 https://github.com/stakewise/contracts/commit/29022d7c4628420efe5fed0560e5269db07d9892,contracts/tokens/StakedEthToken.sol,Unprotected Ether Withdrawal,StakeWise,Liquid staking
 https://github.com/stakewise/contracts/commit/29022d7c4628420efe5fed0560e5269db07d9892,contracts/tokens/StakedEthToken.sol,Unprotected Ether Withdrawal,StakeWise,Liquid staking
 https://github.com/wireshape/real-digital-smart-contracts/commit/9d3322a992fac6053953a1d2b84bf420a562f825,RealDigitalEnableAccount.sol,Unprotected Ether Withdrawal,/,/
+https://github.com/authereum/contracts/commit/a6b5c2409250aae6511d43b8f842ec1ad94f7b0f,contracts/account/BaseAccount.sol,Insufficient Gas Validation,Authereum,blockchain
+https://github.com/authereum/contracts/commit/4a778540362efe6cec4d501ff5ed36c5327131fb,contracts/account/BaseAccount.sol,Insufficient Gas Validation,Authereum,blockchain
+
