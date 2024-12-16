@@ -1,0 +1,43 @@
+Fault Type,Severity,Code4rena Link,Fixing Strategy
+Lack of Property Check for External Call ,Medium,https://gist.github.com/code423n4/265e1707379b9a3f89cf18aa0bffcb7c#m02-return-values-of-transfertransferfrom-not-checked,Add external call retyrn value checks
+Excessive Slippage,Medium,https://code4rena.com/reports/2023-11-kelp#m-02-lack-of-slippage-control-on-lrtdepositpooldepositasset,add logical comparison check
+Excessive Slippage,Medium,https://code4rena.com/reports/2023-11-canto#m-01-no-slippage-protection-for-market-functions,add logical comparison check
+ID Uniqueness Violation,Medium,https://github.com/code-423n4/2023-10-opendollar-findings/issues/382,add logical comparison check
+Time Constraint Violation,High,https://github.com/code-423n4/2023-10-nextgen-findings/issues/1323,fix timestamp check
+Time Constraint Violation,Medium,https://github.com/code-423n4/2023-12-ethereumcreditguild-findings/issues/370,fix timestamp check
+Non-asset-related Unauthorized Access,High,https://github.com/code-423n4/2024-01-init-capital-invitational-findings/issues/34,add whitelist address check
+Excessive Slippage,Medium,https://code4rena.com/reports/2023-12-particle#m-15-addliquidity-and-decreaseliquidity-missing-slippage-protection,add logical comparison check
+Excessive Slippage,Medium,https://code4rena.com/reports/2023-12-revolutionprotocol#m-05-since-buytoken-function-has-no-slippage-checking-users-can-get-less-tokens-than-expected-when-they-buy-tokens-directly,add logical comparison check
+Resource Sufficiency Violation,Medium,https://github.com/code-423n4/2024-03-pooltogether-findings/issues/235,add logical comparison check
+Resource Sufficiency Violation,Medium,https://github.com/code-423n4/2024-01-renft-findings/issues/538,add logical comparison check
+Non-asset-related Unauthorized Access,High,https://github.com/code-423n4/2024-01-decent-findings/issues/721,add whitelist address check
+Errornesous Accounting,High,https://github.com/code-423n4/2024-03-pooltogether-findings/issues/59,fix logical comparison check
+Excessive Slippage,Medium,https://code4rena.com/reports/2024-03-pooltogether#m-04-lack-of-slippage-protection-in-withdrawredeem-functions-of-the-vault,add logical comparison check
+Excessive Slippage,Medium,https://code4rena.com/reports/2024-02-hydradx#m-03-no-slippage-check-in-remove_liquidity-function-in-omnipool-can-lead-to-slippage-losses-during-liquidity-withdrawal,add logical comparison check
+Resource Sufficiency Violation,Medium,https://github.com/code-423n4/2024-01-salty-findings/issues/383,add logical comparison check
+Resource Sufficiency Violation,Medium,https://github.com/code-423n4/2024-03-ondo-finance-findings/issues/306,add logical comparison check
+Excessive Slippage,Medium,https://code4rena.com/reports/2024-01-salty#m-26-formpol-lacks-slippage-and-deadline-protection,add logical comparison check
+Excessive Slippage,Medium,https://code4rena.com/reports/2024-03-taiko#m-01-there-is-no-slippage-check-for-the-eth-deposits-processing-in-the-libdepositingprocessdeposits,add logical comparison check
+Number Rounding Error,High,https://github.com/code-423n4/2023-07-amphora-findings/issues/256,add logical comparison check
+Lack of Property Check for External Call ,Medium,https://github.com/code-423n4/2024-02-wise-lending-findings/issues/245,Add external call retyrn value checks
+Errornesous Accounting,Medium,https://github.com/code-423n4/2024-05-bakerfi-findings/issues/29,fix logical comparison check
+Number Rounding Error,Medium,https://github.com/code-423n4/2024-05-bakerfi-findings/issues/11,fix logical comparison check
+Resource Sufficiency Violation,Medium,https://code4rena.com/reports/2024-04-gondi#m-01-invalid-maxtranches-check-can-result-in-maxtranche-cap-to-be-exceeded,fix logical comparison check
+Excessive Slippage,Medium,https://code4rena.com/reports/2024-jul-gemnify-proleague#m-3-lack-of-slippage-protection-for-position-execution-price-after-price-impact,add logical comparison check
+Excessive Slippage,Medium,https://code4rena.com/reports/2024-06-vultisig#m-02-claim-function-lacks-slippage-controls-for-amount0-and-amount1-returned-by-poolburn-function-call,add logical comparison check
+Excessive Slippage,Medium,https://code4rena.com/reports/2024-08-fractality-pro-league#m-4-users-may-experience-losses-due-to-slippage-issues,add logical comparison check
+Resource Sufficiency Violation,Medium,https://code4rena.com/reports/2024-07-benddao#m-06-yieldethstakinglido-lacks-a-limit-on-the-max-stake-amount-which-may-result-in-the-unstake-exceeding-max_steth_withdrawal_amount-resulting-in-the-token-not-being-retrieved,add logical comparison check
+Excessive Slippage,Medium,https://code4rena.com/reports/2024-07-traitforge#m-04-lack-of-slippage-protection-in-dynamic-pricing-mint-function,add logical comparison check
+Excessive Slippage,Medium,https://code4rena.com/reports/2024-07-traitforge#m-16-there-is-no-slippage-check-in-the-nuke-function,add logical comparison check
+Excessive Slippage,High,https://github.com/code-423n4/2024-08-superposition-findings/issues/35,fix logical comparison check
+Consistency Violation,Medium,https://github.com/code-423n4/2024-05-munchables-validation/issues/81,add consistency check
+Consistency Violation,Medium,https://github.com/code-423n4/2024-06-vultisig-validation/issues/143,add consistency check
+Consistency Violation,Medium,https://github.com/code-423n4/2021-04-marginswap-findings/issues/29,add consistency check
+Missing Amount Type Verification,Medium,https://github.com/code-423n4/2024-06-vultisig-validation/issues/138,add address type check
+Resource Sufficiency Violation,Medium,https://github.com/code-423n4/2024-06-vultisig-validation/issues/105,add logical comparison check
+Resource Sufficiency Violation,Medium,https://github.com/code-423n4/2024-06-badger-validation/issues/144,add logical comparison check
+Resource Sufficiency Violation,Medium,https://github.com/code-423n4/2024-05-munchables-validation/issues/327,add logical comparison check
+Excessive Slippage,Medium,https://github.com/code-423n4/2024-06-vultisig-validation/issues/261,add logical comparison check
+Excessive Slippage,Medium,https://github.com/code-423n4/2024-06-vultisig-validation/issues/339,add logical comparison check
+Excessive Slippage,Medium,https://github.com/code-423n4/2024-06-vultisig-validation/issues/181,add logical comparison check
+Excessive Slippage,High,https://github.com/code-423n4/2024-06-vultisig-validation/issues/450,add logical comparison check
