@@ -15,17 +15,18 @@ For detailed information about these SR faults, please refer to the `/GitHub_con
 ### GitHub SR faults
 The GitHub SR fault dataset is structured into two distinct sections within the `/GitHub_contracts` directory:
 + [/SRfaults](/contracts/machine_auditable_faults): includes the buggy and patched version of the 278 SR faults from GitHub.
-+ [/SRfaults_Github.csv](/contracts/machine_auditable_faults.csv): contains the detailed information of each SR fault, including the commit URL, category, and project type.
++ [/SRfaults_Github.csv](/contracts/SRfaults_Github.csv): contains the detailed information of each SR fault, including the commit URL, category, and project type.
 
 Due to the upload size limit, we have solely included submodule links for accessing individual Github projects within our dataset. If you want to obtain the complete dataset, please refer to the Zenodo repository.
 
-## Code Example
-We list all the example code snippets for each SR fault type in the `/code_example` directory. 
-For each type, we include a real-world example (both buggy and patched versions), along with a detailed explanation of the fault type and the fixing strategy.
-
-## Preliminary Study on Code4rera
+### Preliminary Study on Code4rera
 To evaluate the relevance and security impact of the identified fault types and fixing strategies in mitigating real-world security risks, we conduct a preliminary manual analysis of audit reports from [Code4rena](https://code4rena.com).
 The result is presented in the `/Code4rena_study`.
+
+
+### Code Example
+We list all the example code snippets for each SR fault type in the `/code_example` directory. 
+For each type, we include a real-world example (both buggy and patched versions), along with a detailed explanation of the fault type and the fixing strategy.
 
 
 ## Security Analysis Tool Evaluation
